@@ -7,37 +7,6 @@ import numpy as np
 import time 
 import configs.search_configs as search_configs
 
-
-def build_faiss_index(metric, datalake_columns_hytrel):
-    embeddings = []
-    dataset_names = []
-    count = 0
-    for dataset, tensor in datalake_columns_hytrel:
-        for i in range(len(tensor)):
-            embeddings.append(np.array(tensor[i]).astype('float32'))
-            dataset_names.append((dataset,i))
-        count += len(tensor)
-            
-    embeddings = np.array(embeddings)
-    if metric == 'euclidean':
-        start_build = time.time()
-        index = faiss.IndexFlatL2(embeddings.shape[1])
-        index.add(embeddings)
-        end_build = time.time()
-        build_duration = end_build - start_build
-    elif metric == 'cosine':
-        start_build = time.time()
-        faiss.normalize_L2(embeddings)
-        index = faiss.IndexFlatIP(embeddings.shape[1])
-        index.add(embeddings)
-        end_build = time.time()
-        build_duration = end_build - start_build
-    # Add the vectors to the index
-    # faiss.normalize_L2(embeddings)
-    # print(len(embeddings))
-    ttl_cols = len(embeddings)
-    return index, ttl_cols, dataset_names, build_duration
-
 def approximate_unionable_dataset_search(query_columns_hytrel, datalake_columns_hytrel,k,compress_method='max'):
     compressed_query_vectors = []
     query_names = []
