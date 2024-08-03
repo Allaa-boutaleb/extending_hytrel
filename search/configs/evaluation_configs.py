@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 input = {
     "benchmark": "santos",
-    "candidates": ['/home/almutawa/inference/search/santos/clustering/candidate_clusters_811_run_id_0.pkl'],
+    "candidates": ['/home/almutawa/inference/search/santos/faiss/candidates_max_0.pkl'],
     "table_search_task": "union", 
-    "search_method": 'clustering_based',
-    "comparsion":['811_clusters']
+    "search_method": 'faiss',
+    "comparsion":['max_0']
 }
 
 benchmarks = {
@@ -25,5 +25,5 @@ gt_paths = {'santos':'/home/almutawa/starmie/data/santos/santosUnionBenchmark.pi
 }
 
 output = {
-    'path': '/home/almutawa/inference/search/santos/clustering/evaluation/harts_excel',
+    'path': '/home/almutawa/inference/search/santos/faiss/evaluation/charts_excel',
 }
