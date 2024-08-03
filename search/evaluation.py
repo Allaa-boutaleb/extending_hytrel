@@ -65,7 +65,7 @@ def calc_metrics_search_results(max_k, k_range, resultFile, gtPath=None):
         for table in resultFile:
             # t28 tables have less than 60 results. So, skipping them in the analysis.
             # if table.split("____",1)[0] != "t_28dc8f7610402ea7":  ### uncomment for TUS benchmark
-            print(table)
+            # print(table) ##debugging purposes 
             if table in groundtruth:
                 groundtruth_set = set(groundtruth[table])
                 groundtruth_set = {x for x in groundtruth_set}
