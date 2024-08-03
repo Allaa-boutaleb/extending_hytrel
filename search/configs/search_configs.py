@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 
 input = {
-    "datalake": "santos",
+    "datalake": "testbedS",
     "datalake_source": '/home/almutawa/starmie/data/santos/datalake',
-    "embedding_source" : '/home/almutawa/inference/inference/santos/vectors/hytrel_datalake_columns_0.pkl',
-    "embedding_query_source" : '/home/almutawa/inference/inference/santos/vectors/hytrel_query_columns_0.pkl',
-    "downstream_task": "union", ## this dictates the format of the embeddings saved 
-    "method": 'clustering_based'
+    "embedding_source" : '/Users/alaaalmutawa/Documents/Thesis/hytrel/hypergraph-tabular-lm/inference/inference/nextiajd/testbedS/vectors/warpgate/hytrel_datalake_columns_4.pkl',
+    "embedding_query_source" : '/Users/alaaalmutawa/Documents/Thesis/hytrel/hypergraph-tabular-lm/inference/inference/nextiajd/testbedS/vectors/warpgate/hytrel_query_columns_4.pkl',
+    "downstream_task": "join", ## this dictates the format of the embeddings saved 
+    "method": 'faiss'
 }
 clustering = {
     "cluster_assignment": '/home/almutawa/inference/inference/santos/clustering/clustering_811_santos_run_id_0.pkl', ##place the path of the cluster assignment results  
@@ -20,10 +20,14 @@ k = {
     'santos': 10,
     'tus': 60,
     'tusLarge': 60,
-    'pylon': 10
+    'pylon': 10,
+    'testbedS': 10,
+    'testbedM': 10,
+    'webtables': 20
+
 }
 
 output = {
-    'path': '/home/almutawa/inference/search/santos/faiss',
-    'candidates': 'candidates_max_0.pkl'
+    'path': '/Users/alaaalmutawa/Documents/Thesis/hytrel/hypergraph-tabular-lm/inference/inference/nextiajd/testbedS/test',
+    'candidates': 'candidates_4.pkl'
 }

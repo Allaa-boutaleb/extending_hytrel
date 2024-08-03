@@ -160,7 +160,11 @@ def calc_metrics_search_results(max_k, k_range, resultFile, gtPath=None):
 
 def main():
     benchmark = evaluation_configs.input['benchmark']
-    gt = evaluation_configs.gt_paths[benchmark]
+    if benchmark == 'nextiajd_s':
+        set = evaluation_configs.input['query_set']
+        gt = evaluation_configs.gt_paths[benchmark][set]
+    else:
+        gt = evaluation_configs.gt_paths[benchmark]
     max_k = evaluation_configs.k[benchmark]
     chart_path = evaluation_configs.output['path']
     result = evaluation_configs.input['candidates']
