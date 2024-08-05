@@ -102,30 +102,6 @@ def run_lsh_ensemble(datalake_dir,candidate_tables, num_perm=128, threshold=0.8,
 
     return all_res, all_est
 
-def calculate_metrics(gt, res):
-    with open(gt, 'rb') as f:
-        gt = pickle.load(f)
-    precision = 0
-    recall = 0
-    for query_pair in res:
-        gt_tables = gt[query_pair]
-        res_tables = res[query_pair]
-        gt_tables = set(gt_tables)
-        res_tables = set(res_tables)
-        common = gt_tables.intersection(res_tables)
-        if len(res_tables) == 0:
-            continue
-        else: 
-            precision = len(common)/len(res_tables) + precision
-        if len(gt_tables) == 0:
-            continue
-        else:
-            recall = len(common)/len(gt_tables) + recall
-
-    precision = precision/len(gt)
-    recall = recall/len(gt)
-    return precision, recall
-
 def rank_table(est_dict):
     sorted_dict = {k: [item for item in dict(sorted(v.items(), key=lambda item: item[1], reverse=True))] for k, v in est_dict.items()}
     return sorted_dict

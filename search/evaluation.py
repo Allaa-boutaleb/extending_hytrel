@@ -158,7 +158,34 @@ def calc_metrics_search_results(max_k, k_range, resultFile, gtPath=None):
 
     return mean_avg_pr, precision_array, recall_array,r_precision_array,fbeta_array,recall_at_k,precision_at_k,map_array,record_at_k,used_k
 
-def main():
+## for filtering only
+def lshensemble_calculate_metrics(gt, res):
+    with open(gt, 'rb') as f:
+        gt = pickle.load(f)
+    with open(res, 'rb') as f:
+        res = pickle.load(f)
+    precision = 0
+    recall = 0
+    for query_pair in res:
+        gt_tables = gt[query_pair]
+        res_tables = res[query_pair]
+        gt_tables = set(gt_tables)
+        res_tables = set(res_tables)
+        common = gt_tables.intersection(res_tables)
+        if len(res_tables) == 0:
+            continue
+        else: 
+            precision = len(common)/len(res_tables) + precision
+        if len(gt_tables) == 0:
+            continue
+        else:
+            recall = len(common)/len(gt_tables) + recall
+
+    precision = precision/len(gt)
+    recall = recall/len(gt)
+    return precision, recall
+
+def evaluate_general():
     benchmark = evaluation_configs.input['benchmark']
     if benchmark == 'nextiajd_s':
         set = evaluation_configs.input['query_set']
@@ -194,6 +221,26 @@ def main():
         distribution_recall.append(recall_at_k)
         distribution_precision.append(precision_at_k)
     save_metrics(used_k,precision_all,recall_all,rp_all, fbeta_all,distribution_recall,distribution_precision,map_all,record_at_k_all,method,chart_path)
+
+def evaluate_filtering():
+    benchmark = evaluation_configs.input['benchmark']
+    res = evaluation_configs.input['candidates']
+    if benchmark == 'nextiajd_s':
+        set = evaluation_configs.input['query_set']
+        gt = evaluation_configs.gt_paths[benchmark][set]
+    else:
+        gt = evaluation_configs.gt_paths[benchmark]
+    
+    for i in range(len(res)):
+        precision, recall = lshensemble_calculate_metrics(gt, res[i])
+        print(f"Precision: {precision}, Recall: {recall}")
+
+def main():
+    if evaluation_configs.input['type'] == 'filtering':
+        evaluate_filtering()
+    else: 
+        evaluate_general()
+    
 
 if __name__ == '__main__':
     main()

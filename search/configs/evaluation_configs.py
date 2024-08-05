@@ -2,10 +2,11 @@
 input = {
     "benchmark": "nextiajd_s",
     "query_set": "set1",
-    "candidates": ['Users/alaaalmutawa/Documents/Thesis/hytrel/hypergraph-tabular-lm/inference/inference/nextiajd/testbedS/test/candidates_4.pkl'],
+    "candidates": ['/Users/alaaalmutawa/Documents/Thesis/hytrel/hypergraph-tabular-lm/inference/inference/nextiajd/testbedS/test/postprocessing/filtered_4.pkl'],
     "table_search_task": "join", 
     "search_method": 'faiss',
-    "comparsion":['faiss_4']
+    "type": "filtering",
+    "comparsion":['rerank_4']
 }
 
 benchmarks = {
@@ -34,5 +35,5 @@ gt_paths = {'santos':'/home/almutawa/starmie/data/santos/santosUnionBenchmark.pi
 }
 
 output = {
-    'path': '/Users/alaaalmutawa/Documents/Thesis/hytrel/hypergraph-tabular-lm/inference/inference/nextiajd/testbedS/faiss/evaluation/set1/charts_excel',
+    'path': '/Users/alaaalmutawa/Documents/Thesis/hytrel/hypergraph-tabular-lm/inference/inference/nextiajd/testbedS/postprocessing/evaluation/set1/charts_excel/rerank',
 }
