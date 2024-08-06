@@ -109,7 +109,7 @@ output = {
 if you are evaluating nextiajd_s benchmark, you need to specify the query_set --> [set1,set2, set3]
 `````
 ##### Filtering evaluation
- - inpu: type has to be set to 'filtering'. 
+ - input: type has to be set to 'filtering'. 
 
 
 
