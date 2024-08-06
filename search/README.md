@@ -42,20 +42,20 @@ output = {
 }
 `````
 ### General 
-- input --> datalake, embedding_query_source
-- output --> path, candidates 
+- input: datalake, embedding_query_source
+- output: path, candidates 
 ### Unionable table search 
 #### Clustering_based 
-- clustering --> clustering_assignment 
+- clustering: clustering_assignment 
 
 #### Faiss
-- input --> datalake, embedding_source
-- union_faiss --> compress_method
+- input: datalake, embedding_source
+- union_faiss: compress_method
 
 
 ### Joinable table search 
 #### Faiss
-- input --> embedding_source
+- input: embedding_source
 
 ## Evaluation module 
 Adjust the parameters of the search in configs.evaluation_configs.py 
@@ -102,14 +102,14 @@ output = {
 
 `````
 #### General
-- input --> benchmark, candidates, comparsion 
-- output --> path
+- input: benchmark, candidates, comparsion 
+- output: path
 
 `````
 if you are evaluating nextiajd_s benchmark, you need to specify the query_set --> [set1,set2, set3]
 `````
 ##### Filtering evaluation
- - input --> type has to be set to 'filtering'. 
+ - inpu: type has to be set to 'filtering'. 
 
 
 
