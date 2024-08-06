@@ -1,12 +1,29 @@
 ## Search module 
 
+Module tp run search task. Below table shows the script to execute per search task. 
+
 | Search task | Script | 
 |----------|----------|
 |   Union - clustering  |   unionable_clustering_based.py |
 |   Union - Faiss  |  unionable_faiss_search.py |  
 |Join |joinable_faiss_search.py|
 
+### General 
 Adjust the parameters of the search in configs.search_configs.py 
+- input: datalake, embedding_query_source
+- output: path, candidates 
+### Unionable table search 
+#### Clustering_based 
+- clustering: clustering_assignment 
+
+#### Faiss
+- input: datalake, embedding_source
+- union_faiss: compress_method
+
+
+### Joinable table search 
+#### Faiss
+- input: embedding_source
 
 `````
 input = {
@@ -41,21 +58,6 @@ output = {
     'candidates': ### name of the file. has to be a pkl file. 
 }
 `````
-### General 
-- input: datalake, embedding_query_source
-- output: path, candidates 
-### Unionable table search 
-#### Clustering_based 
-- clustering: clustering_assignment 
-
-#### Faiss
-- input: datalake, embedding_source
-- union_faiss: compress_method
-
-
-### Joinable table search 
-#### Faiss
-- input: embedding_source
 
 ## Evaluation module 
 Adjust the parameters of the search in configs.evaluation_configs.py 
