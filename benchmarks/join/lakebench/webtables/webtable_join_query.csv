@@ -1,0 +1,5825 @@
+table_name,col_name
+csvData16773977__4.csv,Team
+csvData19238849.csv,Opposition
+csvData19238849.csv,Match Date
+csvData7629607.csv,Player
+csvData7629607.csv,Country
+csvData24633092.csv,Wm Alpha
+csvData24633092.csv,Bust (inches)
+csvData24633092.csv,Waist (inches)
+csvData24633092.csv,Hip (inches)
+csvData20147704.csv,Description
+csvData11719614.csv,Team Name
+csvData11719614.csv,Team
+csvData11719614.csv,Overall
+csvData11719614.csv,Manager(s)
+csvData11719614.csv,Ballpark
+csvData11719614.csv,Best OPS
+csvData11719614.csv,Best WHIP
+csvData18419071.csv,Games
+csvData18419071.csv,City
+csvData18419071.csv,Sport
+csvData18419071.csv,Team
+csvData18419071.csv,NOC
+csvData18419071.csv,Phase
+csvData18419071.csv,Date
+csvData10780753.csv,Games
+csvData10780753.csv,City
+csvData10780753.csv,Sport
+csvData10780753.csv,Team
+csvData10780753.csv,NOC
+csvData10780753.csv,Phase
+csvData10780753.csv,Date
+csvData19377326.csv,Location
+csvData19377326.csv,PrD
+csvData19377326.csv,CrD
+csvData6904853.csv,Ticker
+csvData6904853.csv,Company Name
+csvData6904853.csv,Financial Strength
+csvData6904853.csv,Profitability Rank
+csvData6904853.csv,Market Cap (Mil)
+csvData28087826.csv,Price Difference
+csvData28087826.csv,Installation
+csvData28087826.csv,Rack Folds with
+csvData28087826.csv,Rack Locks to Hitch
+csvData28087826.csv,Locks Bike to Rack
+csvData28087826.csv,Anti-Rattle
+csvData28087826.csv,Bike Frame Contact
+csvData18255008.csv,Marketing Feature Name
+csvData18255008.csv,Release
+csvData18255008.csv,IP/FW/IDS IPSEC 3DES
+csvData18255008.csv,IP PLUS IPSEC 3DES
+csvData18255008.csv,IP/FW/IDS
+csvData18255008.csv,IP/FW/IDS IPSEC 56
+csvData18255008.csv,IP
+csvData18255008.csv,IP IPSEC 56
+csvData18255008.csv,ENTERPRISE/FW/IDS PLUS IPSEC 3DES
+csvData18255008.csv,ENTERPRISE IPSEC 3DES
+csvData18255008.csv,ENTERPRISE/FW/IDS
+csvData18255008.csv,ENTERPRISE/FW/IDS IPSEC 56
+csvData18255008.csv,ENTERPRISE
+csvData18255008.csv,ENTERPRISE IPSEC 56
+csvData29230622__18.csv,TEAM
+csvData11828729.csv,TEAM
+csvData11828729.csv,LEAGUE
+csvData11828729.csv,POSTSEASON
+csvData10308692.csv,Description
+csvData26450347.csv,Time Station
+csvData26450347.csv,Time in
+csvData26450347.csv,Total elapsed
+csvData26450347.csv,Elapsed from last time in
+csvData26450347.csv,Elapsed from last time out
+csvData22276916.csv,Games
+csvData22276916.csv,City
+csvData22276916.csv,Sport
+csvData22276916.csv,Team
+csvData22276916.csv,NOC
+csvData22276916.csv,Phase
+csvData22276916.csv,Date
+csvData12074312.csv,Pitcher
+csvData12074312.csv,Team
+csvData1800845.csv,Name
+csvData3081787.csv,Games
+csvData3081787.csv,City
+csvData3081787.csv,Sport
+csvData3081787.csv,Team
+csvData3081787.csv,NOC
+csvData3081787.csv,Phase
+csvData3081787.csv,Unit
+csvData3081787.csv,Date
+csvData3081787.csv,Result
+csvData9462754.csv,Date
+csvData9462754.csv,Match
+csvData9462754.csv,Result
+csvData9462754.csv,Appearance
+csvData15997586.csv,Date
+csvData15997586.csv,Opponent
+csvData15997586.csv,Score
+csvData15997586.csv,yds
+csvData15997586.csv,ff
+csvData15997586.csv,fr
+csvData15997586.csv,td
+csvData15997586.csv,int
+csvData15997586.csv,brup
+csvData15997586.csv,blk
+csvData15997586.csv,saf
+csvData16592940.csv,Name
+csvData16592940.csv,Age
+csvData16592940.csv,BB
+csvData6552881.csv,POS
+csvData6552881.csv,Player
+csvData6552881.csv,GS
+csvData6552881.csv,SB
+csvData6552881.csv,G
+csvData6552881.csv,SH
+csvData6552881.csv,SG
+csvData6552881.csv,A
+csvData6552881.csv,FC
+csvData6552881.csv,FS
+csvData6552881.csv,YC
+csvData6552881.csv,RC
+csvData13758690.csv,Date
+csvData13758690.csv,Opponent
+csvData13758690.csv,Score
+csvData13758690.csv,sack
+csvData13758690.csv,lost
+csvData13758690.csv,yds
+csvData13758690.csv,ff
+csvData13758690.csv,fr
+csvData13758690.csv,td
+csvData13758690.csv,int
+csvData13758690.csv,brup
+csvData13758690.csv,blk
+csvData13758690.csv,saf
+csvData4293091.csv,SEASON
+csvData4293091.csv,TEAM
+csvData4293091.csv,LEAGUE
+csvData4293091.csv,POSTSEASON
+csvData2363711.csv,Description
+csvData2363711.csv,2011
+csvData2363711.csv,2011 Q4
+csvData9828985.csv,QBrec
+csvData18344823.csv,Date
+csvData18344823.csv,Opponent
+csvData18344823.csv,Score
+csvData18344823.csv,sf
+csvData18344823.csv,hdp
+csvData18344823.csv,go/fo
+csvData4183710.csv,Time (CST)
+csvData4183710.csv,Temp.
+csvData4183710.csv,Windchill
+csvData4183710.csv,Dew Point
+csvData4183710.csv,Humidity
+csvData4183710.csv,Pressure
+csvData4183710.csv,Visibility
+csvData4183710.csv,Wind Dir
+csvData4183710.csv,Wind Speed
+csvData4183710.csv,Gust Speed
+csvData4183710.csv,Conditions
+csvData14312497.csv,Player
+csvData14312497.csv,Span
+csvData23027518.csv,Description
+csvData17418614.csv,Player
+csvData27083080.csv,Date
+csvData27083080.csv,Opponent
+csvData27083080.csv,3b
+csvData27083080.csv,hr
+csvData27083080.csv,cs
+csvData14591855.csv,Player
+csvData14591855.csv,Player Sort
+csvData14591855.csv,Pos
+csvData14591855.csv,Salary
+csvData14591855.csv,Pct
+csvData14591855.csv,$/WARP
+csvData22183324.csv,School
+csvData17891590.csv,Batter
+csvData17891590.csv,Team
+csvData22437439.csv,Date
+csvData22437439.csv,Opponent
+csvData22437439.csv,Score
+csvData22437439.csv,h
+csvData22437439.csv,r
+csvData22437439.csv,er
+csvData22437439.csv,bb
+csvData22437439.csv,k
+csvData22437439.csv,hr
+csvData27358959.csv,Pitcher
+csvData27358959.csv,Team
+csvData15018435.csv,Player
+csvData6622799.csv,Date
+csvData6622799.csv,Opponent
+csvData6622799.csv,Score
+csvData6622799.csv,sack
+csvData6622799.csv,lost
+csvData6622799.csv,yds
+csvData6622799.csv,ff
+csvData6622799.csv,fr
+csvData6622799.csv,td
+csvData6622799.csv,int
+csvData6622799.csv,blk
+csvData6622799.csv,saf
+csvData17993690.csv,Player
+csvData17993690.csv,Team
+csvData17993690.csv,Opp
+csvData21684228.csv,Team
+csvData21684228.csv,Oppo
+csvData21684228.csv,Date
+csvData21684228.csv,Res
+csvData21684228.csv,Appear
+csvData21027924.csv,Weapon
+csvData21027924.csv,Unit
+csvData11808115.csv,School
+csvData11727359.csv,Date
+csvData11727359.csv,Opponent
+csvData11727359.csv,Score
+csvData11727359.csv,sack
+csvData11727359.csv,lost
+csvData11727359.csv,yds
+csvData11727359.csv,ff
+csvData11727359.csv,fr
+csvData11727359.csv,td
+csvData11727359.csv,int
+csvData11727359.csv,brup
+csvData11727359.csv,blk
+csvData11727359.csv,saf
+csvData4930663.csv,Date
+csvData4930663.csv,Opponent
+csvData4930663.csv,Score
+csvData4930663.csv,sack
+csvData4930663.csv,lost
+csvData4930663.csv,yds
+csvData4930663.csv,ff
+csvData4930663.csv,fr
+csvData4930663.csv,td
+csvData4930663.csv,int
+csvData4930663.csv,brup
+csvData4930663.csv,blk
+csvData4930663.csv,saf
+csvData3585381.csv,Player
+csvData7868415.csv,Player
+csvData7868415.csv,Span
+csvData27741561.csv,Name
+csvData15974314.csv,Season
+csvData2301132.csv,Season
+csvData8656982.csv,Date
+csvData8656982.csv,Opponent
+csvData1619291.csv,Date
+csvData1619291.csv,Opponent
+csvData1619291.csv,Score
+csvData1619291.csv,rush
+csvData1619291.csv,rec
+csvData1619291.csv,kr
+csvData1619291.csv,pr
+csvData1619291.csv,int
+csvData1619291.csv,fum
+csvData1619291.csv,xpm
+csvData1619291.csv,fgm
+csvData1619291.csv,saf
+csvData1619291.csv,misc
+csvData1619291.csv,2pt
+csvData26294380.csv,Team
+csvData26294380.csv,Lg
+csvData19160061.csv,Player
+csvData19160061.csv,Pos
+csvData19160061.csv,Ht
+csvData19160061.csv,B-T
+csvData19160061.csv,Born
+csvData19160061.csv,Place
+csvData19160061.csv,Draft Info
+csvData19160061.csv,High Level
+csvData19160061.csv,Current Team
+csvData19160061.csv,Status
+csvData25777886.csv,Pitcher
+csvData25777886.csv,Team
+csvData3871380__0.csv,Date
+csvData13377094.csv,Western Connecticut
+csvData16282202.csv,Team
+csvData16282202.csv,Lg
+csvData5589184__2.csv,1960
+csvData5589184__2.csv,State/Territory
+csvData713976.csv,Date
+csvData713976.csv,Opponent
+csvData713976.csv,Score
+csvData713976.csv,yds
+csvData713976.csv,fr
+csvData713976.csv,td
+csvData713976.csv,int
+csvData713976.csv,brup
+csvData713976.csv,saf
+csvData16482053__4.csv,Team
+csvData4295436.csv,Name
+csvData4295436.csv,min
+csvData27008272__1.csv,Player
+csvData27008272__1.csv,Team
+csvData14435916.csv,Strand %
+csvData14435916.csv,Fastball
+csvData14849461.csv,Season
+csvData14849461.csv,Pen*
+csvData14849461.csv,PIM*
+csvData14849461.csv,PIM/G*
+csvData9675362.csv,Name
+csvData2149206.csv,Batting
+csvData3328799.csv,Name
+csvData3328799.csv,pk
+csvData6366148.csv,Name
+csvData6366148.csv,fg
+csvData6366148.csv,3pt
+csvData6366148.csv,ft
+csvData18119190.csv,Team
+csvData18119190.csv,Oppo
+csvData18119190.csv,Date
+csvData18119190.csv,Comp
+csvData18119190.csv,Res
+csvData18119190.csv,Appear
+csvData9446314.csv,Pitcher
+csvData9446314.csv,Team
+csvData9446314.csv,FIP
+csvData21378767.csv,Name
+csvData27415488.csv,Wm Alpha
+csvData27415488.csv,Bust (inches)
+csvData27415488.csv,Waist (inches)
+csvData27415488.csv,Hip (inches)
+csvData12533725.csv,Player
+csvData12533725.csv,POS
+csvData12533725.csv,PKG/A
+csvData2769416.csv,Team
+csvData2769416.csv,W%
+csvData10228708.csv,Team
+csvData10228708.csv,League
+csvData10228708.csv,TOI
+csvData20819382.csv,Player
+csvData20819382.csv,Team
+csvData20819382.csv,Opp
+csvData25203331.csv,Name
+csvData25203331.csv,Age
+csvData25203331.csv,Team
+csvData7385931.csv,Date
+csvData7385931.csv,Opponent
+csvData7385931.csv,Score
+csvData10467901.csv,Date
+csvData10467901.csv,Opponent
+csvData10467901.csv,2b
+csvData10467901.csv,3b
+csvData10467901.csv,hr
+csvData10467901.csv,bb
+csvData10467901.csv,k
+csvData10467901.csv,sb
+csvData10467901.csv,cs
+csvData2285399__11.csv,TEAM
+csvData2285399__11.csv,NAME
+csvData15497713__6.csv,LG
+csvData29373882__9.csv,TEAM
+csvData4020129.csv,Course Title
+csvData4020129.csv,Years
+csvData4020129.csv,Notes
+csvData12071306.csv,Wm Alpha
+csvData12071306.csv,Bust (inches)
+csvData12071306.csv,Waist (inches)
+csvData12071306.csv,Hip (inches)
+csvData21890276.csv,Pos
+csvData21890276.csv,Player
+csvData21890276.csv,W
+csvData21890276.csv,L
+csvData21890276.csv,OUT
+csvData21890276.csv,HR
+csvData21890276.csv,K
+csvData21890276.csv,SB
+csvData21890276.csv,GIDP
+csvData21890276.csv,HLD
+csvData21890276.csv,ERA
+csvData21890276.csv,K/9
+csvData21890276.csv,H/9
+csvData21890276.csv,BB/9
+csvData21890276.csv,IRA
+csvData21890276.csv,QS
+csvData21890276.csv,NSV
+csvData14387760.csv,Games
+csvData14387760.csv,City
+csvData14387760.csv,Sport
+csvData14387760.csv,Team
+csvData14387760.csv,NOC
+csvData14387760.csv,Phase
+csvData14387760.csv,Unit
+csvData14387760.csv,Date
+csvData7005688.csv,Demographic characteristics
+csvData8165041.csv,Season(s)
+csvData8165041.csv,TOI
+csvData11697798.csv,View
+csvData11697798.csv,Site_Name
+csvData11697798.csv,Ntwk
+csvData11697798.csv,state
+csvData11697798.csv,County
+csvData11697798.csv,Hydrologic_Unit
+csvData21851761.csv,Name
+csvData28856344.csv,Date
+csvData28856344.csv,Opponent
+csvData28856344.csv,2b
+csvData28856344.csv,3b
+csvData28856344.csv,hr
+csvData28856344.csv,bb
+csvData28856344.csv,cs
+csvData10406368.csv,Name
+csvData10406368.csv,min
+csvData4460__3.csv,MP
+csvData4460__3.csv,Age
+csvData4460__3.csv,Tm
+csvData4349847.csv,FNAME
+csvData4349847.csv,LNAME
+csvData4349847.csv,ST
+csvData4349847.csv,GENDER
+csvData4349847.csv,CATEGORY
+csvData4349847.csv,GUN TIME
+csvData4349847.csv,CHIPTIME
+csvData4349847.csv,PACE
+csvData18784108__5.csv,POS
+csvData18784108__5.csv,Player
+csvData3178438__6.csv,Team
+csvData2075494__3.csv,Age
+csvData2075494__3.csv,MP
+csvData15497713__15.csv,LG
+csvData24805223__10.csv,Player
+csvData24805223__10.csv,POS
+csvData11846795__5.csv,Tm
+csvData22597596.csv,Avg Per Game
+csvData525442.csv,Wm Alpha
+csvData525442.csv,Bust (inches)
+csvData525442.csv,Waist (inches)
+csvData525442.csv,Hip (inches)
+csvData8727615.csv,Date
+csvData8727615.csv,Opponent
+csvData8727615.csv,Score
+csvData21300577__8.csv,Player
+csvData29400223.csv,Date
+csvData29400223.csv,Opponent
+csvData29400223.csv,Score
+csvData29400223.csv,sack
+csvData29400223.csv,lost
+csvData29400223.csv,ff
+csvData29400223.csv,fr
+csvData29400223.csv,blk
+csvData29400223.csv,saf
+csvData15649318.csv,Assists
+csvData15649318.csv,TO%
+csvData15649318.csv,AST%
+csvData16764899.csv,Season
+csvData19938544.csv,Name
+csvData19938544.csv,Age
+csvData23219010.csv,Player
+csvData23219010.csv,Club
+csvData23219010.csv,POS
+csvData23219010.csv,PKG/A
+csvData22833725.csv,Name
+csvData22833725.csv,Sector
+csvData22833725.csv,Country
+csvData22833725.csv,Shares
+csvData22833725.csv,Market Value
+csvData22833725.csv,Exchange
+csvData22833725.csv,Currency
+csvData22833725.csv,Market Currency
+csvData22833725.csv,Notional Value
+csvData23094959.csv,Date
+csvData23094959.csv,Opponent
+csvData23094959.csv,Score
+csvData23094959.csv,h
+csvData23094959.csv,r
+csvData23094959.csv,er
+csvData23094959.csv,bb
+csvData23094959.csv,k
+csvData23094959.csv,hr
+csvData29590247.csv,Pitcher
+csvData29590247.csv,Team
+csvData1497386.csv,Season
+csvData19280540.csv,Indicators
+csvData17332072.csv,Batter
+csvData17332072.csv,Team
+csvData13612256.csv,Season
+csvData13612256.csv,Pen*
+csvData13612256.csv,PIM*
+csvData13612256.csv,PIM/G*
+csvData21551055.csv,Name
+csvData24085318.csv,Name
+csvData24085318.csv,Pos
+csvData24085318.csv,Salary
+csvData18436000.csv,Date
+csvData18436000.csv,Opponent
+csvData18436000.csv,Score
+csvData18436000.csv,tack
+csvData18436000.csv,ast
+csvData18436000.csv,tot
+csvData18436000.csv,sack
+csvData18436000.csv,lost
+csvData18436000.csv,tfl
+csvData18436000.csv,yds
+csvData18436000.csv,ff
+csvData18436000.csv,fr
+csvData18436000.csv,td
+csvData18436000.csv,int
+csvData18436000.csv,brup
+csvData18436000.csv,blk
+csvData18436000.csv,saf
+csvData6557637.csv,Name
+csvData29110750.csv,UMass Boston
+csvData9460412.csv,Country or territory[Note 1]
+csvData9460412.csv,<-CIA
+csvData18318821.csv,Season
+csvData22602327.csv,Team
+csvData22602327.csv,Oppo
+csvData22602327.csv,Date
+csvData22602327.csv,Comp
+csvData22602327.csv,Res
+csvData22602327.csv,Appear
+csvData9318592.csv,Date
+csvData9318592.csv,Opponent
+csvData9318592.csv,Score
+csvData9318592.csv,tack
+csvData9318592.csv,ast
+csvData9318592.csv,sack
+csvData9318592.csv,lost
+csvData9318592.csv,yds
+csvData9318592.csv,ff
+csvData9318592.csv,fr
+csvData9318592.csv,td
+csvData9318592.csv,int
+csvData9318592.csv,brup
+csvData9318592.csv,blk
+csvData9318592.csv,saf
+csvData8497240.csv,Ticker
+csvData8497240.csv,Company Name
+csvData8497240.csv,Financial Strength
+csvData8497240.csv,Profitability Rank
+csvData8497240.csv,Market Cap (Mil)
+csvData16168146.csv,Season
+csvData16168146.csv,Faceoff
+csvData16168146.csv,Pen-Min
+csvData29220988.csv,Pitcher
+csvData29220988.csv,Team
+csvData29220988.csv,FIP
+csvData8297198.csv,Description
+csvData25545691.csv,Date
+csvData25545691.csv,Opponent
+csvData25545691.csv,sack
+csvData25545691.csv,lost
+csvData25545691.csv,yds
+csvData25545691.csv,ff
+csvData25545691.csv,fr
+csvData25545691.csv,td
+csvData25545691.csv,int
+csvData25545691.csv,brup
+csvData25545691.csv,blk
+csvData25545691.csv,saf
+csvData3837678.csv,Player
+csvData5591075.csv,Name
+csvData26484311.csv,TEAM
+csvData26484311.csv,LEAGUE
+csvData26484311.csv,POSTSEASON
+csvData3020988.csv,Date
+csvData3020988.csv,Opponent
+csvData3020988.csv,Score
+csvData3020988.csv,rush
+csvData3020988.csv,rec
+csvData3020988.csv,kr
+csvData3020988.csv,pr
+csvData3020988.csv,int
+csvData3020988.csv,fum
+csvData3020988.csv,xpm
+csvData3020988.csv,fgm
+csvData3020988.csv,saf
+csvData3020988.csv,misc
+csvData3020988.csv,2pt
+csvData21029211.csv,Date
+csvData21029211.csv,Opponent
+csvData21029211.csv,Score
+csvData21029211.csv,ff
+csvData21029211.csv,saf
+csvData27762885.csv,Name
+csvData27762885.csv,Age
+csvData21551841.csv,Wm Alpha
+csvData21551841.csv,Bust (inches)
+csvData21551841.csv,Waist (inches)
+csvData21551841.csv,Hip (inches)
+csvData21821213.csv,Date
+csvData21821213.csv,Opponent
+csvData21821213.csv,Score
+csvData66079.csv,TEAM
+csvData66079.csv,Last5
+csvData20886659.csv,Wm Alpha
+csvData20886659.csv,Bust (inches)
+csvData20886659.csv,Waist (inches)
+csvData20886659.csv,Hip (inches)
+csvData23967590.csv,Name
+csvData23967590.csv,Age
+csvData23967590.csv,BB
+csvData6563809.csv,Demographic characteristics
+csvData2607490.csv,Date
+csvData2607490.csv,Opponent
+csvData2607490.csv,Score
+csvData2607490.csv,fo
+csvData23534924.csv,Wm Alpha
+csvData23534924.csv,Bust (inches)
+csvData23534924.csv,Waist (inches)
+csvData23534924.csv,Hip (inches)
+csvData19218046.csv,Name
+csvData16614286.csv,Wm Alpha
+csvData16614286.csv,Bust (inches)
+csvData16614286.csv,Waist (inches)
+csvData16614286.csv,Hip (inches)
+csvData22777345.csv,Pos
+csvData22777345.csv,Player
+csvData28350056.csv,Date
+csvData28350056.csv,Pos
+csvData28350056.csv,Wt
+csvData28350056.csv,Co
+csvData28350056.csv,Dist
+csvData28350056.csv,Going
+csvData28350056.csv,Jockey
+csvData28350056.csv,Trainer
+csvData28350056.csv,Winner
+csvData28350056.csv,Op
+csvData28350056.csv,SP
+csvData569368.csv,Wm Alpha
+csvData569368.csv,Bust (inches)
+csvData569368.csv,Waist (inches)
+csvData569368.csv,Hip (inches)
+csvData16339602.csv,Lg
+csvData16339602.csv,Tm
+csvData16339602.csv,Walk Rate
+csvData16339602.csv,Strikeout Rate
+csvData16339602.csv,Contact Rate
+csvData23229213.csv,Pos
+csvData23229213.csv,Player
+csvData23229213.csv,W
+csvData23229213.csv,L
+csvData23229213.csv,OUT
+csvData23229213.csv,HR
+csvData23229213.csv,K
+csvData23229213.csv,SB
+csvData23229213.csv,GIDP
+csvData23229213.csv,HLD
+csvData23229213.csv,ERA
+csvData23229213.csv,K/9
+csvData23229213.csv,H/9
+csvData23229213.csv,BB/9
+csvData23229213.csv,IRA
+csvData23229213.csv,QS
+csvData23229213.csv,NSV
+csvData26955904.csv,Name
+csvData26955904.csv,Age
+csvData26955904.csv,BB
+csvData15169500.csv,Date
+csvData15169500.csv,Tm
+csvData15169500.csv,Opp
+csvData15169500.csv,Result
+csvData15169500.csv,Type
+csvData15169500.csv,Score Before
+csvData15169500.csv,Score After
+csvData6377959.csv,Description
+csvData617860__1.csv,col18
+csvData617860__1.csv,col14
+csvData617860__1.csv,col9
+csvData18670441.csv,Player
+csvData27384637.csv,Team
+csvData27384637.csv,NOC
+csvData11633263.csv,Season
+csvData8286229.csv,Last Name
+csvData8286229.csv,First Name
+csvData8286229.csv,Rank
+csvData8286229.csv,Regiment
+csvData25590135.csv,Season(s)
+csvData25590135.csv,TOI
+csvData25274800.csv,Date
+csvData25274800.csv,Opponent
+csvData25274800.csv,h
+csvData25274800.csv,r
+csvData25274800.csv,er
+csvData25274800.csv,bb
+csvData25274800.csv,k
+csvData25274800.csv,hr
+csvData24126603.csv,Date
+csvData24126603.csv,Opponent
+csvData24126603.csv,Score
+csvData24126603.csv,yds
+csvData24126603.csv,ff
+csvData24126603.csv,td
+csvData24126603.csv,int
+csvData24126603.csv,brup
+csvData24126603.csv,blk
+csvData24126603.csv,saf
+csvData23968557.csv,Date
+csvData23968557.csv,Opponent
+csvData23968557.csv,tack
+csvData23968557.csv,ast
+csvData23968557.csv,sack
+csvData23968557.csv,lost
+csvData23968557.csv,yds
+csvData23968557.csv,ff
+csvData23968557.csv,fr
+csvData23968557.csv,td
+csvData23968557.csv,int
+csvData23968557.csv,brup
+csvData23968557.csv,blk
+csvData23968557.csv,saf
+csvData1796727.csv,Date
+csvData1796727.csv,Opponent
+csvData1796727.csv,sf
+csvData1796727.csv,sh
+csvData1259835.csv,Date
+csvData1259835.csv,Opponent
+csvData1259835.csv,Score
+csvData1259835.csv,tack
+csvData1259835.csv,ast
+csvData1259835.csv,sack
+csvData1259835.csv,lost
+csvData1259835.csv,yds
+csvData1259835.csv,ff
+csvData1259835.csv,fr
+csvData1259835.csv,td
+csvData1259835.csv,int
+csvData1259835.csv,brup
+csvData1259835.csv,blk
+csvData1259835.csv,saf
+csvData14478786.csv,Date
+csvData14478786.csv,Tm
+csvData14478786.csv,Opp
+csvData14478786.csv,Result
+csvData14478786.csv,Type
+csvData14478786.csv,Score Before
+csvData14478786.csv,Score After
+csvData24139984.csv,Symbol
+csvData24139984.csv,Company
+csvData24139984.csv,Insider
+csvData24139984.csv,Position
+csvData24139984.csv,Date
+csvData24139984.csv,Buy/Sell
+csvData24139984.csv,Shares
+csvData24139984.csv,Trade Price ($)
+csvData24139984.csv,Details
+csvData14726859.csv,Name
+csvData14726859.csv,"Lat, Long"
+csvData14726859.csv,Wave Height
+csvData14726859.csv,Wave Period
+csvData20467503.csv,Season
+csvData24838698.csv,Date
+csvData24838698.csv,Opponent
+csvData24838698.csv,h
+csvData24838698.csv,r
+csvData24838698.csv,er
+csvData24838698.csv,bb
+csvData24838698.csv,k
+csvData24838698.csv,hr
+csvData16824176.csv,Team
+csvData9359013.csv,Date
+csvData9359013.csv,Opponent
+csvData9359013.csv,h
+csvData9359013.csv,r
+csvData9359013.csv,er
+csvData9359013.csv,bb
+csvData9359013.csv,k
+csvData9359013.csv,hr
+csvData11622342.csv,Batting
+csvData26032779.csv,Player
+csvData26032779.csv,faceoff
+csvData26032779.csv,pen-min
+csvData6936177.csv,Season
+csvData6936177.csv,Team
+csvData28941468.csv,Player
+csvData28941468.csv,POS
+csvData28941468.csv,PKG/A
+csvData12209625.csv,Date
+csvData12209625.csv,Score
+csvData12209625.csv,Faceoff
+csvData12209625.csv,Pen-Min
+csvData2836865.csv,Season
+csvData20647879.csv,Season
+csvData20647879.csv,School
+csvData24588724.csv,Pitcher
+csvData24588724.csv,Team
+csvData6064126.csv,Name
+csvData4373697.csv,Date
+csvData4373697.csv,Opponent
+csvData4373697.csv,Score
+csvData4373697.csv,sba
+csvData4373697.csv,rcs
+csvData4373697.csv,rcs%
+csvData4373697.csv,pb
+csvData4373697.csv,ci
+csvData16473425.csv,Name
+csvData16473425.csv,Age
+csvData16473425.csv,Team
+csvData17054209__5.csv,MP
+csvData17054209__5.csv,Tm
+csvData29100071.csv,Type
+csvData10166596.csv,Name
+csvData10166596.csv,Team
+csvData10166596.csv,Pos
+csvData25889880.csv,Date
+csvData25889880.csv,Opponent
+csvData25889880.csv,Score
+csvData22801075.csv,Player Name
+csvData22801075.csv,Tm
+csvData22801075.csv,Pos
+csvData20219984.csv,Player
+csvData23115389.csv,Date
+csvData23115389.csv,Opponent
+csvData23115389.csv,Score
+csvData23115389.csv,tack
+csvData23115389.csv,ast
+csvData23115389.csv,sack
+csvData23115389.csv,lost
+csvData23115389.csv,yds
+csvData23115389.csv,ff
+csvData23115389.csv,fr
+csvData23115389.csv,td
+csvData23115389.csv,int
+csvData23115389.csv,brup
+csvData23115389.csv,blk
+csvData23115389.csv,saf
+csvData15435807.csv,Date
+csvData15435807.csv,Opponent
+csvData15435807.csv,Score
+csvData15435807.csv,tack
+csvData15435807.csv,ast
+csvData15435807.csv,sack
+csvData15435807.csv,lost
+csvData15435807.csv,yds
+csvData15435807.csv,ff
+csvData15435807.csv,fr
+csvData15435807.csv,td
+csvData15435807.csv,int
+csvData15435807.csv,brup
+csvData15435807.csv,blk
+csvData15435807.csv,saf
+csvData15060079.csv,Player
+csvData15060079.csv,Pos
+csvData15060079.csv,HT
+csvData7405969.csv,Name
+csvData7405969.csv,Pos
+csvData7405969.csv,Location
+csvData7405969.csv,Ht
+csvData7405969.csv,Stars
+csvData7405969.csv,Committed
+csvData2499906.csv,Season
+csvData3383853__1.csv,Team
+csvData3383853__1.csv,POS
+csvData21827975.csv,SEASON
+csvData21827975.csv,TEAM
+csvData21827975.csv,LEAGUE
+csvData21827975.csv,POSTSEASON
+csvData27008272__0.csv,Player
+csvData27008272__0.csv,Team
+csvData2027927.csv,Player
+csvData2027927.csv,POS
+csvData2027927.csv,PKG/A
+csvData22670132.csv,Name
+csvData22670132.csv,Pos
+csvData22670132.csv,Location
+csvData22670132.csv,Ht
+csvData22670132.csv,Stars
+csvData22670132.csv,Committed
+csvData20212075.csv,Walk Rate
+csvData20212075.csv,Strikeout Rate
+csvData20212075.csv,Contact Rate
+csvData11945851.csv,Scoring
+csvData28718713.csv,Date
+csvData28718713.csv,Opponent
+csvData28718713.csv,Score
+csvData28718713.csv,sack
+csvData28718713.csv,lost
+csvData28718713.csv,yds
+csvData28718713.csv,ff
+csvData28718713.csv,fr
+csvData28718713.csv,td
+csvData28718713.csv,int
+csvData28718713.csv,blk
+csvData28718713.csv,saf
+csvData17215281__3.csv,Result
+csvData17215281__3.csv,Notes
+csvData17215281__3.csv,Player
+csvData23175634.csv,Name
+csvData23175634.csv,GP/GS
+csvData23175634.csv,Min.-Avg.
+csvData23175634.csv,FG-FGA
+csvData23175634.csv,3FG-FGA
+csvData23175634.csv,FT-FTA
+csvData23175634.csv,Reb.-Avg.
+csvData23175634.csv,PF-FO
+csvData23175634.csv,Pts.-Avg.
+csvData16556590.csv,Player
+csvData16601060.csv,Location
+csvData16601060.csv,PrD
+csvData16601060.csv,CrD
+csvData10642868.csv,Team
+csvData16298308.csv,Team Name
+csvData16298308.csv,Team
+csvData16298308.csv,Manager(s)
+csvData16298308.csv,Ballpark
+csvData16298308.csv,Payroll
+csvData16298308.csv,Attendance
+csvData16298308.csv,Best OPS
+csvData16298308.csv,Best WHIP
+csvData18494127.csv,Date
+csvData18494127.csv,Opponent
+csvData18494127.csv,Score
+csvData18494127.csv,sack
+csvData18494127.csv,lost
+csvData18494127.csv,yds
+csvData18494127.csv,ff
+csvData18494127.csv,fr
+csvData18494127.csv,td
+csvData18494127.csv,int
+csvData18494127.csv,brup
+csvData18494127.csv,blk
+csvData18494127.csv,saf
+csvData4169242.csv,Cart Icon
+csvData4169242.csv,Activity
+csvData4169242.csv,Description
+csvData4169242.csv,Dates
+csvData4169242.csv,Time
+csvData4169242.csv,Days
+csvData4169242.csv,Location
+csvData4169242.csv,Fees
+csvData4169242.csv,Ages
+csvData4169242.csv,Status
+csvData4169242.csv,Single Icon
+csvData4169242.csv,Fee Icon
+csvData4169242.csv,Location Icon
+csvData4169242.csv,Enrollment Count Icon
+csvData4169242.csv,Details Icon
+csvData4169242.csv,Wishlist
+csvData4169242.csv,Gender
+csvData21432423.csv,B.C. Northwest
+csvData21432423.csv,Home
+csvData21432423.csv,Away
+csvData21432423.csv,Division
+csvData21432423.csv,1-Run
+csvData21432423.csv,Xtra
+csvData12455059.csv,Games
+csvData12455059.csv,City
+csvData12455059.csv,Sport
+csvData12455059.csv,Team
+csvData12455059.csv,NOC
+csvData12455059.csv,Phase
+csvData12455059.csv,Unit
+csvData12455059.csv,Date
+csvData12455059.csv,Result
+csvData7104405__17.csv,Player
+csvData5673310.csv,Date
+csvData5673310.csv,Opponent
+csvData5673310.csv,h
+csvData5673310.csv,r
+csvData5673310.csv,er
+csvData5673310.csv,bb
+csvData5673310.csv,k
+csvData5673310.csv,hr
+csvData8145807.csv,Name
+csvData8145807.csv,min
+csvData8861224.csv,Tm
+csvData8861224.csv,Pos
+csvData8861224.csv,College/Univ
+csvData18894032.csv,Age
+csvData18894032.csv,Size
+csvData18894032.csv,Hit Dice (hp)
+csvData18894032.csv,Base Attack/ Grapple
+csvData18894032.csv,Breath Weapon (DC)
+csvData9661346.csv,Name
+csvData9661346.csv,Age
+csvData9661346.csv,BB
+csvData10088067__12.csv,Player Name
+csvData20647913.csv,West
+csvData20647913.csv,Home
+csvData20647913.csv,Away
+csvData20647913.csv,Division
+csvData20647913.csv,1-Run
+csvData20647913.csv,Xtra
+csvData8116970.csv,Wm Alpha
+csvData8116970.csv,Bust (inches)
+csvData8116970.csv,Waist (inches)
+csvData8116970.csv,Hip (inches)
+csvData22682949.csv,Name
+csvData25417922__3.csv,MP
+csvData25417922__3.csv,Date
+csvData25417922__3.csv,Tm
+csvData24108736__0.csv,Player
+csvData19553885__8.csv,Player
+csvData4870858.csv,Name
+csvData4870858.csv,Age
+csvData7470046__1.csv,MP
+csvData7470046__1.csv,Opp
+csvData6433811__5.csv,POS
+csvData2952024.csv,Name
+csvData2952024.csv,Pos
+csvData2952024.csv,Location
+csvData2952024.csv,Ht
+csvData2952024.csv,Stars
+csvData2952024.csv,Committed
+csvData2952024.csv,Recruited By
+csvData5691740.csv,Team
+csvData5691740.csv,Result
+csvData5691740.csv,Opposition
+csvData5691740.csv,Ground
+csvData5691740.csv,Date
+csvData5691740.csv,Match
+csvData18784108__0.csv,POS
+csvData18784108__0.csv,Player
+csvData29274791.csv,Date
+csvData29274791.csv,@Bat
+csvData29274791.csv,Pitcher
+csvData29274791.csv,Score
+csvData29274791.csv,Inn
+csvData29274791.csv,RoB
+csvData29274791.csv,Pit(cnt)Sequence
+csvData29274791.csv,bWE
+csvData29274791.csv,Play Description
+csvData17302070__14.csv,POS
+csvData17302070__14.csv,Team
+csvData3003680.csv,Games
+csvData3003680.csv,City
+csvData3003680.csv,Sport
+csvData3003680.csv,Team
+csvData3003680.csv,NOC
+csvData3003680.csv,Phase
+csvData3003680.csv,Unit
+csvData3003680.csv,Date
+csvData3003680.csv,Result
+csvData24330409.csv,Strand %
+csvData24330409.csv,Fastball
+csvData10508770__4.csv,Player
+csvData10024254.csv,Bidder
+csvData10024254.csv,Type of Transaction
+csvData10024254.csv,Deposit Premium/(Discount) %
+csvData10024254.csv,Asset Premium/(Discount) $(000 ) / %
+csvData10024254.csv,SF Loss Share Tranche 1
+csvData10024254.csv,SF Loss Share Tranche 2
+csvData10024254.csv,Commercial Loss Share Tranche 1
+csvData10024254.csv,Commercial Loss Share Tranche 2
+csvData10024254.csv,Value Appreciation Instrument
+csvData10024254.csv,Conforming Bid
+csvData10024254.csv,Linked
+csvData11778543.csv,Team
+csvData10671971.csv,Last Name
+csvData10671971.csv,First Name
+csvData10671971.csv,Rank
+csvData10671971.csv,Regiment
+csvData25140563.csv,Ticker
+csvData25140563.csv,Company Name
+csvData25140563.csv,Financial Strength
+csvData25140563.csv,Profitability Rank
+csvData25140563.csv,Market Cap (Mil)
+csvData4711681.csv,Games
+csvData4711681.csv,City
+csvData4711681.csv,Sport
+csvData4711681.csv,Team
+csvData4711681.csv,NOC
+csvData4711681.csv,Phase
+csvData4711681.csv,Unit
+csvData4711681.csv,Date
+csvData4711681.csv,Result
+csvData16382327__3.csv,Opp
+csvData16382327__3.csv,MP
+csvData16948558.csv,Inn
+csvData16948558.csv,Score
+csvData16948558.csv,Pit(cnt)Sequence
+csvData16948558.csv,@Bat
+csvData16948558.csv,Batter
+csvData16948558.csv,Pitcher
+csvData16948558.csv,wWPA
+csvData16948558.csv,wWE
+csvData16948558.csv,Play Description
+csvData28675422__8.csv,Opp
+csvData24341501__12.csv,NAME
+csvData24341501__12.csv,LG
+csvData10027553__1.csv,POS
+csvData13638124__5.csv,Team
+csvData16000106__2.csv,Player
+csvData2590167__18.csv,Team
+csvData2590167__18.csv,Player
+csvData14512292__2.csv,POS
+csvData11387111__4.csv,Date
+csvData11387111__4.csv,Age
+csvData11387111__4.csv,MP
+csvData1744478__2.csv,Tm
+csvData9739809__19.csv,POS
+csvData19674028__3.csv,MP
+csvData19674028__3.csv,Age
+csvData1102081__12.csv,POS
+csvData24131822__11.csv,NAME
+csvData24131822__11.csv,TEAM
+csvData14780613__2.csv,Date
+csvData20402274__2.csv,Name
+csvData25322806__2.csv,Age
+csvData25322806__2.csv,Opp
+csvData25322806__2.csv,Date
+csvData25322806__2.csv,MP
+csvData3284798__4.csv,Split
+csvData4108293__0.csv,MP
+csvData4108293__0.csv,Opp
+csvData2832935__2.csv,Date
+csvData11331104__1.csv,Date
+csvData15101973__4.csv,Age
+csvData15101973__4.csv,Date
+csvData26853929__2.csv,Pos
+csvData26162088__1.csv,Opp
+csvData26162088__1.csv,MP
+csvData7320164__4.csv,Team
+csvData7320164__4.csv,POS
+csvData1444875__9.csv,POS
+csvData17656539.csv,Wm Alpha
+csvData17656539.csv,Bust (inches)
+csvData17656539.csv,Waist (inches)
+csvData17656539.csv,Hip (inches)
+csvData8683917.csv,Wm Alpha
+csvData8683917.csv,Bust (inches)
+csvData8683917.csv,Waist (inches)
+csvData8683917.csv,Hip (inches)
+csvData18394434.csv,Wm Alpha
+csvData18394434.csv,Bust (inches)
+csvData18394434.csv,Waist (inches)
+csvData18394434.csv,Hip (inches)
+csvData8495372.csv,çæ¬
+csvData8495372.csv,engine
+csvData8495372.csv,backend
+csvData8495372.csv,register
+csvData8495372.csv,ledger
+csvData8495372.csv,motif
+csvData8495372.csv,gnome
+csvData8495372.csv,å¶å®åºç¨
+csvData8495372.csv,import-export
+csvData8495372.csv,reports
+csvData8495372.csv,scheme
+csvData8495372.csv,business
+csvData8495372.csv,test
+csvData8495372.csv,docs
+csvData8495372.csv,åé¨ææ¬æä»¶
+csvData8495372.csv,åè®¡
+csvData16512991.csv,Wm Alpha
+csvData16512991.csv,Bust (inches)
+csvData16512991.csv,Waist (inches)
+csvData16512991.csv,Hip (inches)
+csvData17333285.csv,Player
+csvData17333285.csv,Span
+csvData17333285.csv,BBI
+csvData17333285.csv,BBM
+csvData5238094.csv,Wm Alpha
+csvData5238094.csv,Bust (inches)
+csvData5238094.csv,Waist (inches)
+csvData5238094.csv,Hip (inches)
+csvData16511536.csv,Team
+csvData16511536.csv,Oppo
+csvData16511536.csv,Date
+csvData16511536.csv,Comp
+csvData16511536.csv,Res
+csvData16511536.csv,Appear
+csvData29100934.csv,Wm Alpha
+csvData29100934.csv,Bust (inches)
+csvData29100934.csv,Waist (inches)
+csvData29100934.csv,Hip (inches)
+csvData3556303.csv,Wm Alpha
+csvData3556303.csv,Bust (inches)
+csvData3556303.csv,Waist (inches)
+csvData3556303.csv,Hip (inches)
+csvData8001964.csv,Wm Alpha
+csvData8001964.csv,Bust (inches)
+csvData8001964.csv,Waist (inches)
+csvData8001964.csv,Hip (inches)
+csvData9111278.csv,Wm Alpha
+csvData9111278.csv,Bust (inches)
+csvData9111278.csv,Waist (inches)
+csvData9111278.csv,Hip (inches)
+csvData12682098.csv,Wm Alpha
+csvData12682098.csv,Bust (inches)
+csvData12682098.csv,Waist (inches)
+csvData12682098.csv,Hip (inches)
+csvData22741096.csv,Wm Alpha
+csvData22741096.csv,Bust (inches)
+csvData22741096.csv,Waist (inches)
+csvData22741096.csv,Hip (inches)
+csvData22643836.csv,Emission
+csvData22643836.csv,Class
+csvData22643836.csv,City
+csvData22643836.csv,County
+csvData22643836.csv,State
+csvData22361593.csv,TEAM
+csvData22361593.csv,LEAGUE
+csvData22361593.csv,POSTSEASON
+csvData25428592.csv,Wm Alpha
+csvData25428592.csv,Bust (inches)
+csvData25428592.csv,Waist (inches)
+csvData25428592.csv,Hip (inches)
+csvData10786096.csv,Wm Alpha
+csvData10786096.csv,Bust (inches)
+csvData10786096.csv,Waist (inches)
+csvData10786096.csv,Hip (inches)
+csvData3078100.csv,Name
+csvData3078100.csv,min
+csvData3757747.csv,Wm Alpha
+csvData3757747.csv,Bust (inches)
+csvData3757747.csv,Waist (inches)
+csvData3757747.csv,Hip (inches)
+csvData22315651.csv,Date
+csvData22315651.csv,Tm
+csvData22315651.csv,Opp
+csvData22315651.csv,Result
+csvData22315651.csv,Type
+csvData22315651.csv,Score Before
+csvData22315651.csv,Score After
+csvData14749814.csv,FN
+csvData14749814.csv,LN
+csvData14749814.csv,DIVISION
+csvData14749814.csv,CITY
+csvData14749814.csv,STATE
+csvData14749814.csv,ChipTime
+csvData14749814.csv,Total Pace
+csvData14749814.csv,TIME
+csvData20748815.csv,Wm Alpha
+csvData20748815.csv,Bust (inches)
+csvData20748815.csv,Waist (inches)
+csvData20748815.csv,Hip (inches)
+csvData18929791.csv,Wm Alpha
+csvData18929791.csv,Bust (inches)
+csvData18929791.csv,Waist (inches)
+csvData18929791.csv,Hip (inches)
+csvData12838504.csv,Wm Alpha
+csvData12838504.csv,Bust (inches)
+csvData12838504.csv,Waist (inches)
+csvData12838504.csv,Hip (inches)
+csvData4962774.csv,Date
+csvData4962774.csv,Tm
+csvData4962774.csv,Opp
+csvData4962774.csv,Result
+csvData4962774.csv,Type
+csvData4962774.csv,Score Before
+csvData4962774.csv,Score After
+csvData12184415.csv,Trk
+csvData12184415.csv,Code
+csvData12184415.csv,Station Name
+csvData12184415.csv,Elev
+csvData12184415.csv,Zone
+csvData12184415.csv,Address
+csvData11128235.csv,Wm Alpha
+csvData11128235.csv,Bust (inches)
+csvData11128235.csv,Waist (inches)
+csvData11128235.csv,Hip (inches)
+csvData1520119.csv,Team
+csvData1520119.csv,Oppo
+csvData1520119.csv,Date
+csvData1520119.csv,Comp
+csvData1520119.csv,Res
+csvData1520119.csv,Appear
+csvData19551568.csv,Wm Alpha
+csvData19551568.csv,Bust (inches)
+csvData19551568.csv,Waist (inches)
+csvData19551568.csv,Hip (inches)
+csvData9654118.csv,Team
+csvData14570200.csv,Emission
+csvData14570200.csv,Class
+csvData16336412.csv,Title
+csvData16336412.csv,Audience Emphasis
+csvData16336412.csv,Writing Emphasis
+csvData16336412.csv,Spoken Emphasis
+csvData16336412.csv,Audio
+csvData16336412.csv,Workbook
+csvData16336412.csv,Reputation
+csvData28274974.csv,Name
+csvData27778084.csv,Wm Alpha
+csvData27778084.csv,Bust (inches)
+csvData27778084.csv,Waist (inches)
+csvData27778084.csv,Hip (inches)
+csvData19220560.csv,Wm Alpha
+csvData19220560.csv,Bust (inches)
+csvData19220560.csv,Waist (inches)
+csvData19220560.csv,Hip (inches)
+csvData16391561.csv,Use
+csvData6945228.csv,Version
+csvData6945228.csv,engine
+csvData6945228.csv,backend
+csvData6945228.csv,register
+csvData6945228.csv,ledger
+csvData6945228.csv,motif
+csvData6945228.csv,gnome
+csvData6945228.csv,misc app
+csvData6945228.csv,import-export
+csvData6945228.csv,reports
+csvData6945228.csv,scheme
+csvData6945228.csv,business
+csvData6945228.csv,test
+csvData6945228.csv,docs
+csvData6945228.csv,internal txt
+csvData6945228.csv,Total
+csvData301609.csv,Wm Alpha
+csvData301609.csv,Bust (inches)
+csvData301609.csv,Waist (inches)
+csvData301609.csv,Hip (inches)
+csvData28284538.csv,Opposition
+csvData28284538.csv,Match Date
+csvData25851073.csv,Wm Alpha
+csvData25851073.csv,Bust (inches)
+csvData25851073.csv,Waist (inches)
+csvData25851073.csv,Hip (inches)
+csvData6263320.csv,Wm Alpha
+csvData6263320.csv,Bust (inches)
+csvData6263320.csv,Waist (inches)
+csvData6263320.csv,Hip (inches)
+csvData18432412.csv,Wm Alpha
+csvData18432412.csv,Bust (inches)
+csvData18432412.csv,Waist (inches)
+csvData18432412.csv,Hip (inches)
+csvData20558674.csv,#
+csvData20558674.csv,Driver
+csvData20558674.csv,Make
+csvData20558674.csv,Pts
+csvData20558674.csv,Status
+csvData20558674.csv,Winnings
+csvData20558674.csv,Team
+csvData11881355.csv,Wm Alpha
+csvData11881355.csv,Bust (inches)
+csvData11881355.csv,Waist (inches)
+csvData11881355.csv,Hip (inches)
+csvData5113908.csv,Wm Alpha
+csvData5113908.csv,Bust (inches)
+csvData5113908.csv,Waist (inches)
+csvData5113908.csv,Hip (inches)
+csvData9637715.csv,Township
+csvData9637715.csv,Range
+csvData9637715.csv,"Patentee Name LastName, FirstName MiddleName"
+csvData9637715.csv,County
+csvData9637715.csv,State
+csvData9637715.csv,Land Office
+csvData9637715.csv,State of Land Offfice
+csvData9637715.csv,Meridian
+csvData16440686.csv,Wm Alpha
+csvData16440686.csv,Bust (inches)
+csvData16440686.csv,Waist (inches)
+csvData16440686.csv,Hip (inches)
+csvData3376752.csv,Wm Alpha
+csvData3376752.csv,Bust (inches)
+csvData3376752.csv,Waist (inches)
+csvData3376752.csv,Hip (inches)
+csvData17145243.csv,Wm Alpha
+csvData17145243.csv,Bust (inches)
+csvData17145243.csv,Waist (inches)
+csvData17145243.csv,Hip (inches)
+csvData6505727__4.csv,Name
+csvData8736746.csv,Wm Alpha
+csvData8736746.csv,Bust (inches)
+csvData8736746.csv,Waist (inches)
+csvData8736746.csv,Hip (inches)
+csvData27070133.csv,Wm Alpha
+csvData27070133.csv,Bust (inches)
+csvData27070133.csv,Waist (inches)
+csvData27070133.csv,Hip (inches)
+csvData22980923.csv,Season(s)
+csvData22980923.csv,TOI
+csvData13973871.csv,Wm Alpha
+csvData13973871.csv,Bust (inches)
+csvData13973871.csv,Waist (inches)
+csvData13973871.csv,Hip (inches)
+csvData14026522.csv,Wm Alpha
+csvData14026522.csv,Bust (inches)
+csvData14026522.csv,Waist (inches)
+csvData14026522.csv,Hip (inches)
+csvData2295455.csv,Wm Alpha
+csvData2295455.csv,Bust (inches)
+csvData2295455.csv,Waist (inches)
+csvData2295455.csv,Hip (inches)
+csvData4492535.csv,Name
+csvData4492535.csv,Age
+csvData4492535.csv,Team
+csvData11908991.csv,Wm Alpha
+csvData11908991.csv,Bust (inches)
+csvData11908991.csv,Waist (inches)
+csvData11908991.csv,Hip (inches)
+csvData6793725.csv,Wm Alpha
+csvData6793725.csv,Bust (inches)
+csvData6793725.csv,Waist (inches)
+csvData6793725.csv,Hip (inches)
+csvData18784108__1.csv,POS
+csvData18784108__1.csv,Player
+csvData1417156.csv,Wm Alpha
+csvData1417156.csv,Bust (inches)
+csvData1417156.csv,Waist (inches)
+csvData1417156.csv,Hip (inches)
+csvData5501984.csv,Wm Alpha
+csvData5501984.csv,Bust (inches)
+csvData5501984.csv,Waist (inches)
+csvData5501984.csv,Hip (inches)
+csvData728511.csv,Wm Alpha
+csvData728511.csv,Bust (inches)
+csvData728511.csv,Waist (inches)
+csvData728511.csv,Hip (inches)
+csvData24907325.csv,Ht
+csvData6397828.csv,Location
+csvData6397828.csv,PrD
+csvData6397828.csv,CrD
+csvData21804923.csv,Wm Alpha
+csvData21804923.csv,Bust (inches)
+csvData21804923.csv,Waist (inches)
+csvData21804923.csv,Hip (inches)
+csvData4751708.csv,Version
+csvData4751708.csv,engine
+csvData4751708.csv,backend
+csvData4751708.csv,register
+csvData4751708.csv,ledger
+csvData4751708.csv,motif
+csvData4751708.csv,gnome
+csvData4751708.csv,misc app
+csvData4751708.csv,import-export
+csvData4751708.csv,reports
+csvData4751708.csv,scheme
+csvData4751708.csv,business
+csvData4751708.csv,test
+csvData4751708.csv,docs
+csvData4751708.csv,internal txt
+csvData4751708.csv,Total
+csvData6298010.csv,Name
+csvData6298010.csv,Country
+csvData6298010.csv,sex
+csvData6298010.csv,tour
+csvData6298010.csv,class
+csvData6298010.csv,div
+csvData6298010.csv,date
+csvData6298010.csv,site id
+csvData2254699.csv,Display Channel
+csvData2254699.csv,Call Sign
+csvData2254699.csv,PMT PID
+csvData2254699.csv,Video
+csvData2254699.csv,Dimensions
+csvData2254699.csv,Aspect Ratio
+csvData2254699.csv,Video PID
+csvData2254699.csv,Video (Mbps)
+csvData2254699.csv,Audio Type
+csvData2254699.csv,Audio PID
+csvData2254699.csv,Audio Bitrate
+csvData5780814.csv,Month
+csvData5780814.csv,Cash Receipts
+csvData26592040.csv,Player
+csvData26592040.csv,Pos
+csvData26592040.csv,B-T
+csvData26592040.csv,Born
+csvData26592040.csv,Place
+csvData26592040.csv,Draft Info
+csvData26592040.csv,High Level
+csvData26592040.csv,Current Team
+csvData26592040.csv,Status
+csvData21972902.csv,Name of area hunted
+csvData26775988.csv,Wm Alpha
+csvData26775988.csv,Bust (inches)
+csvData26775988.csv,Waist (inches)
+csvData26775988.csv,Hip (inches)
+csvData1515375.csv,Date
+csvData1515375.csv,Opponent
+csvData1515375.csv,rush
+csvData1515375.csv,rec
+csvData1515375.csv,kr
+csvData1515375.csv,pr
+csvData1515375.csv,int
+csvData1515375.csv,fum
+csvData1515375.csv,xpm
+csvData1515375.csv,fgm
+csvData1515375.csv,saf
+csvData1515375.csv,misc
+csvData1515375.csv,2pt
+csvData4674540__14.csv,POS
+csvData4674540__14.csv,Team
+csvData14566702.csv,event
+csvData14566702.csv,black
+csvData14566702.csv,rank
+csvData14566702.csv,white
+csvData14566702.csv,date
+csvData14566702.csv,place
+csvData21483012.csv,Start Date
+csvData21483012.csv,End Date
+csvData21483012.csv,Dept
+csvData21483012.csv,Course Title
+csvData21483012.csv,Hours
+csvData21483012.csv,Fee
+csvData21483012.csv,Instructor
+csvData29134297.csv,Games
+csvData29134297.csv,City
+csvData29134297.csv,Sport
+csvData29134297.csv,Team
+csvData29134297.csv,NOC
+csvData29134297.csv,Phase
+csvData29134297.csv,Unit
+csvData29134297.csv,Date
+csvData29134297.csv,Result
+csvData21895219.csv,Wm Alpha
+csvData21895219.csv,Bust (inches)
+csvData21895219.csv,Waist (inches)
+csvData21895219.csv,Hip (inches)
+csvData11493545.csv,Games
+csvData11493545.csv,City
+csvData11493545.csv,Sport
+csvData11493545.csv,Team
+csvData11493545.csv,NOC
+csvData11493545.csv,Phase
+csvData11493545.csv,Unit
+csvData11493545.csv,Date
+csvData11493545.csv,Result
+csvData24643235.csv,Season(s)
+csvData24643235.csv,TOI
+csvData1319433.csv,Wm Alpha
+csvData1319433.csv,Bust (inches)
+csvData1319433.csv,Waist (inches)
+csvData1319433.csv,Hip (inches)
+csvData20825255.csv,Name
+csvData20825255.csv,Country
+csvData20825255.csv,sex
+csvData20825255.csv,tour
+csvData20825255.csv,class
+csvData20825255.csv,div
+csvData20825255.csv,date
+csvData20825255.csv,site id
+csvData20825255.csv,line/ramp
+csvData16642348.csv,Wm Alpha
+csvData16642348.csv,Bust (inches)
+csvData16642348.csv,Waist (inches)
+csvData16642348.csv,Hip (inches)
+csvData8640870.csv,Wm Alpha
+csvData8640870.csv,Bust (inches)
+csvData8640870.csv,Waist (inches)
+csvData8640870.csv,Hip (inches)
+csvData8963593__1.csv,Opp
+csvData21122742.csv,Country
+csvData23908813.csv,Games
+csvData23908813.csv,City
+csvData23908813.csv,Sport
+csvData23908813.csv,Team
+csvData23908813.csv,NOC
+csvData23908813.csv,Phase
+csvData23908813.csv,Unit
+csvData23908813.csv,Date
+csvData23908813.csv,Result
+csvData23908813.csv,Position
+csvData17900684.csv,Date
+csvData17900684.csv,Tm
+csvData17900684.csv,Opp
+csvData17900684.csv,Result
+csvData17900684.csv,Type
+csvData17900684.csv,Quarterback
+csvData17900684.csv,Score Before
+csvData17900684.csv,Score After
+csvData1188143.csv,Name
+csvData1188143.csv,Country
+csvData1188143.csv,sex
+csvData1188143.csv,tour
+csvData1188143.csv,class
+csvData1188143.csv,div
+csvData1188143.csv,date
+csvData1188143.csv,site id
+csvData16867479.csv,Wm Alpha
+csvData16867479.csv,Bust (inches)
+csvData16867479.csv,Waist (inches)
+csvData16867479.csv,Hip (inches)
+csvData4639650.csv,Wm Alpha
+csvData4639650.csv,Bust (inches)
+csvData4639650.csv,Waist (inches)
+csvData4639650.csv,Hip (inches)
+csvData2342510.csv,Wm Alpha
+csvData2342510.csv,Bust (inches)
+csvData2342510.csv,Waist (inches)
+csvData2342510.csv,Hip (inches)
+csvData1363020__15.csv,Name
+csvData26478023.csv,Wm Alpha
+csvData26478023.csv,Bust (inches)
+csvData26478023.csv,Waist (inches)
+csvData26478023.csv,Hip (inches)
+csvData10975009.csv,Wm Alpha
+csvData10975009.csv,Bust (inches)
+csvData10975009.csv,Waist (inches)
+csvData10975009.csv,Hip (inches)
+csvData21277661.csv,Wm Alpha
+csvData21277661.csv,Bust (inches)
+csvData21277661.csv,Waist (inches)
+csvData21277661.csv,Hip (inches)
+csvData16389691.csv,Wm Alpha
+csvData16389691.csv,Bust (inches)
+csvData16389691.csv,Waist (inches)
+csvData16389691.csv,Hip (inches)
+csvData6852661.csv,Size
+csvData6852661.csv,Bust (Unstretched)
+csvData6852661.csv,Bust (Stretched)
+csvData6852661.csv,Waist
+csvData6852661.csv,Shoulder
+csvData6852661.csv,Sleeve
+csvData6852661.csv,Hips
+csvData6852661.csv,Length
+csvData6852661.csv,Fit Weight (Ref)
+csvData5746878.csv,Clearing
+csvData5746878.csv,Globex
+csvData5746878.csv,Floor
+csvData5746878.csv,ClearPort
+csvData5746878.csv,Product Name
+csvData5746878.csv,Product Group
+csvData5746878.csv,Sub Group
+csvData5746878.csv,Category
+csvData5746878.csv,Sub-Category
+csvData5746878.csv,Cleared As
+csvData5746878.csv,Exchange
+csvData5746878.csv,Open Interest
+csvData12567617.csv,Wm Alpha
+csvData12567617.csv,Bust (inches)
+csvData12567617.csv,Waist (inches)
+csvData12567617.csv,Hip (inches)
+csvData14248779__2.csv,Tm
+csvData14248779__2.csv,Opp
+csvData19212974.csv,Wm Alpha
+csvData19212974.csv,Bust (inches)
+csvData19212974.csv,Waist (inches)
+csvData19212974.csv,Hip (inches)
+csvData18493125__14.csv,Player
+csvData5561238.csv,Wm Alpha
+csvData5561238.csv,Bust (inches)
+csvData5561238.csv,Waist (inches)
+csvData5561238.csv,Hip (inches)
+csvData13290807.csv,Wm Alpha
+csvData13290807.csv,Bust (inches)
+csvData13290807.csv,Waist (inches)
+csvData13290807.csv,Hip (inches)
+csvData612600.csv,Course Title
+csvData612600.csv,Years
+csvData612600.csv,Notes
+csvData20810864.csv,Walk Rate
+csvData20810864.csv,Strikeout Rate
+csvData20810864.csv,Contact Rate
+csvData12880871.csv,Emission
+csvData12880871.csv,Class
+csvData14892669.csv,Wm Alpha
+csvData14892669.csv,Bust (inches)
+csvData14892669.csv,Waist (inches)
+csvData14892669.csv,Hip (inches)
+csvData4051255.csv,Wm Alpha
+csvData4051255.csv,Bust (inches)
+csvData4051255.csv,Waist (inches)
+csvData4051255.csv,Hip (inches)
+csvData15710720.csv,Wm Alpha
+csvData15710720.csv,Bust (inches)
+csvData15710720.csv,Waist (inches)
+csvData15710720.csv,Hip (inches)
+csvData10128613.csv,Games
+csvData10128613.csv,City
+csvData10128613.csv,Sport
+csvData10128613.csv,Team
+csvData10128613.csv,NOC
+csvData10128613.csv,Phase
+csvData10128613.csv,Date
+csvData2172789.csv,Wm Alpha
+csvData2172789.csv,Bust (inches)
+csvData2172789.csv,Waist (inches)
+csvData2172789.csv,Hip (inches)
+csvData5643182.csv,Wm Alpha
+csvData5643182.csv,Bust (inches)
+csvData5643182.csv,Waist (inches)
+csvData5643182.csv,Hip (inches)
+csvData14089755.csv,Wm Alpha
+csvData14089755.csv,Bust (inches)
+csvData14089755.csv,Waist (inches)
+csvData14089755.csv,Hip (inches)
+csvData3168853.csv,Wm Alpha
+csvData3168853.csv,Bust (inches)
+csvData3168853.csv,Waist (inches)
+csvData3168853.csv,Hip (inches)
+csvData15330348.csv,Wm Alpha
+csvData15330348.csv,Bust (inches)
+csvData15330348.csv,Waist (inches)
+csvData15330348.csv,Hip (inches)
+csvData1102081__11.csv,POS
+csvData1102081__11.csv,Team
+csvData5595099.csv,Wm Alpha
+csvData5595099.csv,Bust (inches)
+csvData5595099.csv,Waist (inches)
+csvData5595099.csv,Hip (inches)
+csvData25225058.csv,Wm Alpha
+csvData25225058.csv,Bust (inches)
+csvData25225058.csv,Waist (inches)
+csvData25225058.csv,Hip (inches)
+csvData3044628__0.csv,Tm
+csvData3044628__0.csv,Opp
+csvData919002__3.csv,Tm
+csvData919002__3.csv,MP
+csvData18518895.csv,Symbol
+csvData18518895.csv,Company
+csvData18518895.csv,Insider
+csvData18518895.csv,Position
+csvData18518895.csv,Date
+csvData18518895.csv,Buy/Sell
+csvData18518895.csv,Shares
+csvData18518895.csv,Trade Price ($)
+csvData18518895.csv,Details
+csvData15933162.csv,Team
+csvData15933162.csv,Opposition
+csvData15933162.csv,Match Date
+csvData14833792__2.csv,Team
+csvData14833792__2.csv,Player
+csvData14833792__2.csv,POS
+csvData10017699.csv,Clock Time
+csvData10017699.csv,Pace/km
+csvData10017699.csv,Chip Time/km
+csvData10017699.csv,First name
+csvData10017699.csv,Last name
+csvData10017699.csv,Gender
+csvData10017699.csv,Division
+csvData10017699.csv,Gender Rank
+csvData10017699.csv,Division Rank
+csvData27310904.csv,Player
+csvData27310904.csv,%Shots at Rim
+csvData27310904.csv,FG% at Rim
+csvData27310904.csv,%Assisted at Rim
+csvData27310904.csv,%Shots 2pt Jumpers
+csvData27310904.csv,FG% 2pt Jumpers
+csvData27310904.csv,%Assisted 2pt Jumpers
+csvData27310904.csv,%Shots 3pt
+csvData27310904.csv,FG% 3pt
+csvData27310904.csv,%assisted 3pt
+csvData27310904.csv,FT%
+csvData20393267.csv,Name
+csvData20393267.csv,Country
+csvData20393267.csv,sex
+csvData20393267.csv,tour
+csvData20393267.csv,class
+csvData20393267.csv,div
+csvData20393267.csv,date
+csvData20393267.csv,site id
+csvData18661263__15.csv,Team
+csvData18661263__15.csv,Player
+csvData18661263__15.csv,POS
+csvData1917039.csv,Weapon
+csvData1917039.csv,Unit
+csvData18661263__14.csv,Team
+csvData18661263__14.csv,Player
+csvData18661263__14.csv,POS
+csvData3326737.csv,Ticker
+csvData3326737.csv,Company Name
+csvData3326737.csv,Financial Strength
+csvData3326737.csv,Profitability Rank
+csvData3326737.csv,Market Cap (Mil)
+csvData22266740__3.csv,Date
+csvData9079863__1.csv,MP
+csvData9079863__1.csv,Tm
+csvData22794941.csv,Model
+csvData22794941.csv,Target(s)
+csvData22794941.csv,Platform
+csvData22794941.csv,Wireless NIC
+csvData22794941.csv,Wireless Standard
+csvData22794941.csv,Wired Ports
+csvData22794941.csv,VLAN Config
+csvData22794941.csv,USB
+csvData14585065__4.csv,Player
+csvData16992117.csv,Weapon
+csvData16992117.csv,Unit
+csvData19114693__4.csv,Team
+csvData19114693__4.csv,TOI/G
+csvData23734437.csv,SEASON
+csvData23734437.csv,TEAM
+csvData23734437.csv,LEAGUE
+csvData23734437.csv,POSTSEASON
+csvData10917663.csv,Cart Icon
+csvData10917663.csv,Activity
+csvData10917663.csv,Description
+csvData10917663.csv,Dates
+csvData10917663.csv,Time
+csvData10917663.csv,Days
+csvData10917663.csv,Location
+csvData10917663.csv,Fees
+csvData10917663.csv,Ages
+csvData10917663.csv,Status
+csvData10917663.csv,Single Icon
+csvData10917663.csv,Fee Icon
+csvData10917663.csv,Location Icon
+csvData10917663.csv,Enrollment Count Icon
+csvData10917663.csv,Details Icon
+csvData10917663.csv,Wishlist
+csvData10917663.csv,Gender
+csvData10170154__3.csv,col21
+csvData10170154__3.csv,col10
+csvData10170154__3.csv,col22
+csvData10170154__3.csv,col20
+csvData10170154__3.csv,col6
+csvData10170154__3.csv,col12
+csvData10170154__3.csv,col14
+csvData10170154__3.csv,col4
+csvData27012523__4.csv,Age
+csvData7914010.csv,Cart Icon
+csvData7914010.csv,Activity
+csvData7914010.csv,Description
+csvData7914010.csv,Dates
+csvData7914010.csv,Time
+csvData7914010.csv,Days
+csvData7914010.csv,Location
+csvData7914010.csv,Fees
+csvData7914010.csv,Ages
+csvData7914010.csv,Status
+csvData7914010.csv,Single Icon
+csvData7914010.csv,Fee Icon
+csvData7914010.csv,Location Icon
+csvData7914010.csv,Enrollment Count Icon
+csvData7914010.csv,Details Icon
+csvData7914010.csv,Wishlist
+csvData7914010.csv,Gender
+csvData9469123__3.csv,TEAM
+csvData25417922__4.csv,MP
+csvData25417922__4.csv,Date
+csvData25417922__4.csv,Tm
+csvData28207355.csv,Symbol
+csvData28207355.csv,Company
+csvData28207355.csv,Insider
+csvData28207355.csv,Position
+csvData28207355.csv,Date
+csvData28207355.csv,Buy/Sell
+csvData28207355.csv,Shares
+csvData28207355.csv,Trade Price ($)
+csvData28207355.csv,Details
+csvData29387459__3.csv,Age
+csvData29390582.csv,Name
+csvData29390582.csv,Pos
+csvData29390582.csv,Location
+csvData29390582.csv,Ht
+csvData29390582.csv,Stars
+csvData11486385.csv,Cart Icon
+csvData11486385.csv,Activity
+csvData11486385.csv,Description
+csvData11486385.csv,Dates
+csvData11486385.csv,Time
+csvData11486385.csv,Days
+csvData11486385.csv,Location
+csvData11486385.csv,Fees
+csvData11486385.csv,Ages
+csvData11486385.csv,Status
+csvData11486385.csv,Single Icon
+csvData11486385.csv,Fee Icon
+csvData11486385.csv,Location Icon
+csvData11486385.csv,Enrollment Count Icon
+csvData11486385.csv,Details Icon
+csvData11486385.csv,Wishlist
+csvData11486385.csv,Gender
+csvData7489355.csv,Course Title
+csvData7489355.csv,Min-Max Credits
+csvData7489355.csv,Years
+csvData23011936.csv,Compare
+csvData23011936.csv,Carat
+csvData23011936.csv,Intensity
+csvData23011936.csv,Advanced Â» Â« Basic
+csvData6718043.csv,Player
+csvData6718043.csv,Player Sort
+csvData6718043.csv,Pos
+csvData6718043.csv,Salary
+csvData6718043.csv,Pct
+csvData6718043.csv,$/WARP
+csvData12520151.csv,Course Title
+csvData12520151.csv,Min-Max Credits
+csvData12520151.csv,Years
+csvData24499893.csv,Country
+csvData15303785.csv,Product Line
+csvData15303785.csv,Part #
+csvData15303785.csv,Description
+csvData15303785.csv,Sections
+csvData15303785.csv,Material
+csvData15303785.csv,Guides
+csvData15303785.csv,Type
+csvData15303785.csv,Handle
+csvData15303785.csv,Seat
+csvData15303785.csv,Power
+csvData15303785.csv,Line Wt.
+csvData15303785.csv,Lure Wt.
+csvData15303785.csv,W/ Line
+csvData25437325__10.csv,Team
+csvData25437325__10.csv,Player
+csvData25437325__10.csv,POS
+csvData17053462.csv,Emission
+csvData17053462.csv,Class
+csvData17053462.csv,City
+csvData17053462.csv,County
+csvData17053462.csv,State
+csvData25166752.csv,Label
+csvData25166752.csv,Test
+csvData25166752.csv,Server
+csvData25166752.csv,JDK
+csvData25166752.csv,Database
+csvData25166752.csv,OS
+csvData25166752.csv,Ran by
+csvData25166752.csv,Runner
+csvData25166752.csv,Success
+csvData7502606.csv,Last Name
+csvData7502606.csv,First Name
+csvData7502606.csv,Rank
+csvData7502606.csv,Regiment
+csvData20465022__0.csv,col14
+csvData20465022__0.csv,col4
+csvData20465022__0.csv,col21
+csvData20465022__0.csv,col12
+csvData20465022__0.csv,col15
+csvData20465022__0.csv,col17
+csvData21376897.csv,Time (MST)
+csvData21376897.csv,Temp.
+csvData21376897.csv,Windchill
+csvData21376897.csv,Dew Point
+csvData21376897.csv,Humidity
+csvData21376897.csv,Pressure
+csvData21376897.csv,Visibility
+csvData21376897.csv,Wind Dir
+csvData21376897.csv,Wind Speed
+csvData21376897.csv,Gust Speed
+csvData21376897.csv,Conditions
+csvData3419230.csv,Name
+csvData3419230.csv,Pos
+csvData3419230.csv,Location
+csvData3419230.csv,Ht
+csvData3419230.csv,Stars
+csvData3419230.csv,Committed
+csvData8757079.csv,Country
+csvData12695986.csv,Make
+csvData12695986.csv,Model
+csvData12695986.csv,Modulation
+csvData12695986.csv,Weight
+csvData12695986.csv,Dimensions (LÃWÃH)
+csvData12695986.csv,Torque
+csvData12695986.csv,Speed
+csvData12695986.csv,Motor Type
+csvData12695986.csv,Rotation
+csvData12695986.csv,Gear Material
+csvData12695986.csv,Street Price
+csvData12695986.csv,Compare
+csvData10074535__9.csv,Player
+csvData8131211__2.csv,Opp
+csvData5207802.csv,Container Area
+csvData5207802.csv,Column
+csvData5207802.csv,Row
+csvData5207802.csv,Contact
+csvData5207802.csv,Team
+csvData5207802.csv,Disposition
+csvData5207802.csv,Region
+csvData5207802.csv,Labeled
+csvData5207802.csv,Core and Section
+csvData2055974__0.csv,MP
+csvData2055974__0.csv,Age
+csvData2055974__0.csv,Opp
+csvData7129293.csv,Climate Variable
+csvData21084464__10.csv,Player
+csvData21084464__10.csv,POS
+csvData24969953.csv,Ticker
+csvData24969953.csv,Company Name
+csvData24969953.csv,Financial Strength
+csvData24969953.csv,Profitability Rank
+csvData24969953.csv,Market Cap (Mil)
+csvData1079127.csv,Team Name
+csvData1079127.csv,Team
+csvData1079127.csv,MLB-Aff
+csvData1079127.csv,Manager(s)
+csvData1079127.csv,Ballpark
+csvData1079127.csv,Attendance
+csvData1079127.csv,Best OPS
+csvData1079127.csv,Best WHIP
+csvData7888980.csv,Supra Model
+csvData11863576.csv,Emission
+csvData11863576.csv,Class
+csvData11863576.csv,City
+csvData11863576.csv,County
+csvData11863576.csv,State
+csvData21486117.csv,Display Channel
+csvData21486117.csv,Call Sign
+csvData21486117.csv,PMT PID
+csvData21486117.csv,Video
+csvData21486117.csv,Dimensions
+csvData21486117.csv,Aspect Ratio
+csvData21486117.csv,Video PID
+csvData21486117.csv,Video (Mbps)
+csvData21486117.csv,PCR PID
+csvData21486117.csv,Audio Type
+csvData21486117.csv,Audio PID
+csvData21486117.csv,Audio Bitrate
+csvData22293691.csv,Season(s)
+csvData22293691.csv,TOI
+csvData3667414.csv,Cart Icon
+csvData3667414.csv,Activity
+csvData3667414.csv,Description
+csvData3667414.csv,Dates
+csvData3667414.csv,Time
+csvData3667414.csv,Days
+csvData3667414.csv,Location
+csvData3667414.csv,Fees
+csvData3667414.csv,Ages
+csvData3667414.csv,Status
+csvData3667414.csv,Single Icon
+csvData3667414.csv,Fee Icon
+csvData3667414.csv,Location Icon
+csvData3667414.csv,Enrollment Count Icon
+csvData3667414.csv,Details Icon
+csvData3667414.csv,Wishlist
+csvData3667414.csv,Gender
+csvData7424289.csv,FN
+csvData7424289.csv,LN
+csvData7424289.csv,DIVISION
+csvData7424289.csv,SWIM
+csvData7424289.csv,T1
+csvData7424289.csv,BIKE
+csvData7424289.csv,RATE
+csvData7424289.csv,T2
+csvData7424289.csv,RUN
+csvData7424289.csv,Sand
+csvData7424289.csv,TIME
+csvData15067795__5.csv,Age
+csvData15067795__5.csv,Tm
+csvData28416396.csv,Opposition
+csvData28416396.csv,Match Date
+csvData14191343.csv,Date
+csvData14191343.csv,Match
+csvData14191343.csv,Result
+csvData14191343.csv,Appearance
+csvData12134321.csv,Version
+csvData12134321.csv,engine
+csvData12134321.csv,backend
+csvData12134321.csv,register
+csvData12134321.csv,ledger
+csvData12134321.csv,motif
+csvData12134321.csv,gnome
+csvData12134321.csv,misc app
+csvData12134321.csv,import-export
+csvData12134321.csv,reports
+csvData12134321.csv,scheme
+csvData12134321.csv,business
+csvData12134321.csv,test
+csvData12134321.csv,docs
+csvData12134321.csv,internal txt
+csvData12134321.csv,Total
+csvData23010896__5.csv,Opp
+csvData16588983.csv,Model
+csvData16588983.csv,Overall Length
+csvData16588983.csv,Overall Height
+csvData16588983.csv,Overall Width
+csvData16588983.csv,Interior Length
+csvData16588983.csv,Interior Height
+csvData16588983.csv,Interior Width
+csvData16588983.csv,Door Opening Height
+csvData16588983.csv,Door Opening Width
+csvData16588983.csv,Ball Size
+csvData16588983.csv,Brakes
+csvData16400549.csv,Display Channel
+csvData16400549.csv,Call Sign
+csvData16400549.csv,PMT PID
+csvData16400549.csv,Video
+csvData16400549.csv,Dimensions
+csvData16400549.csv,Aspect Ratio
+csvData16400549.csv,Video PID
+csvData16400549.csv,Video (Mbps)
+csvData16400549.csv,PCR PID
+csvData16400549.csv,Audio Type
+csvData16400549.csv,Audio PID
+csvData16400549.csv,Audio Bitrate
+csvData24591574__1.csv,MP
+csvData2055279.csv,FN
+csvData2055279.csv,LN
+csvData2055279.csv,DIVISION
+csvData2055279.csv,CITY
+csvData2055279.csv,STATE
+csvData2055279.csv,"""ChipTime"""
+csvData2055279.csv,"""Total Pace"""
+csvData2055279.csv,TIME
+csvData5767256.csv,Present
+csvData5767256.csv,Preterit (Past)
+csvData5767256.csv,Imperfect
+csvData5767256.csv,Conditional
+csvData5767256.csv,Future
+csvData5767256.csv,Present Perfect
+csvData5767256.csv,Preterit Perfect
+csvData5767256.csv,Past Perfect (Pluperfect)
+csvData5767256.csv,Conditional Perfect
+csvData5767256.csv,Future Perfect
+csvData5767256.csv,Present Subjunctive
+csvData5767256.csv,Imperfect Subjunctive
+csvData5767256.csv,Future Subjunctive
+csvData5767256.csv,Present Perfect Subjunctive
+csvData5767256.csv,Past Perfect (Pluperfect) Subjunctive
+csvData5767256.csv,Future Perfect Subjunctive
+csvData23033509__13.csv,Team
+csvData23033509__13.csv,POS
+csvData15290037.csv,Season(s)
+csvData15290037.csv,TOI
+csvData6256229.csv,Games
+csvData6256229.csv,City
+csvData6256229.csv,Sport
+csvData6256229.csv,Team
+csvData6256229.csv,NOC
+csvData6256229.csv,Phase
+csvData6256229.csv,Unit
+csvData6256229.csv,Date
+csvData9469123__11.csv,TEAM
+csvData26150573__0.csv,Tm
+csvData10450354.csv,Player
+csvData10450354.csv,Span
+csvData7829518.csv,Name
+csvData7829518.csv,Age
+csvData29366004.csv,Trk
+csvData29366004.csv,Code
+csvData29366004.csv,Station Name
+csvData29366004.csv,Avg
+csvData29366004.csv,Elev
+csvData29366004.csv,Zone
+csvData29366004.csv,Address
+csvData12463329.csv,Inn
+csvData12463329.csv,Score
+csvData12463329.csv,RoB
+csvData12463329.csv,Pit(cnt)Sequence
+csvData12463329.csv,@Bat
+csvData12463329.csv,Batter
+csvData12463329.csv,Pitcher
+csvData12463329.csv,wWPA
+csvData12463329.csv,wWE
+csvData12463329.csv,Play Description
+csvData12660506__3.csv,MP
+csvData19621512__10.csv,LG
+csvData19621512__10.csv,NAME
+csvData9935655.csv,Title and developer
+csvData9935655.csv,Latest release date and version
+csvData9935655.csv,2D/3D or specialty fields
+csvData9935655.csv,Runs on Unix-like systems?
+csvData9935655.csv,Runs on Windows?
+csvData9935655.csv,Other platforms?
+csvData9935655.csv,License
+csvData9935655.csv,Academic version?
+csvData9935655.csv,User Interface language/s
+csvData9935655.csv,Support for Building Information Modelling?
+csvData9935655.csv,Support for Industry Foundation Classes?
+csvData9935655.csv,Support for AutoCAD DXF?
+csvData9935655.csv,Exports
+csvData9935655.csv,Price (USD)
+csvData1065291.csv,NAME
+csvData1065291.csv,CITY/STATE
+csvData1065291.csv,SWIM
+csvData22475593__0.csv,Opp
+csvData857035.csv,Cart Icon
+csvData857035.csv,Activity
+csvData857035.csv,Description
+csvData857035.csv,Dates
+csvData857035.csv,Time
+csvData857035.csv,Days
+csvData857035.csv,Location
+csvData857035.csv,Fees
+csvData857035.csv,Ages
+csvData857035.csv,Status
+csvData857035.csv,Single Icon
+csvData857035.csv,Fee Icon
+csvData857035.csv,Location Icon
+csvData857035.csv,Enrollment Count Icon
+csvData857035.csv,Details Icon
+csvData857035.csv,Wishlist
+csvData857035.csv,Gender
+csvData12507199__2.csv,Opponent
+csvData28839471.csv,Present
+csvData28839471.csv,Preterit (Past)
+csvData28839471.csv,Imperfect
+csvData28839471.csv,Conditional
+csvData28839471.csv,Future
+csvData28839471.csv,Present Perfect
+csvData28839471.csv,Preterit Perfect
+csvData28839471.csv,Past Perfect (Pluperfect)
+csvData28839471.csv,Conditional Perfect
+csvData28839471.csv,Future Perfect
+csvData28839471.csv,Present Subjunctive
+csvData28839471.csv,Imperfect Subjunctive
+csvData28839471.csv,Future Subjunctive
+csvData28839471.csv,Present Perfect Subjunctive
+csvData28839471.csv,Past Perfect (Pluperfect) Subjunctive
+csvData28839471.csv,Future Perfect Subjunctive
+csvData15284229.csv,Cart Icon
+csvData15284229.csv,Activity
+csvData15284229.csv,Description
+csvData15284229.csv,Dates
+csvData15284229.csv,Time
+csvData15284229.csv,Days
+csvData15284229.csv,Location
+csvData15284229.csv,Fees
+csvData15284229.csv,Ages
+csvData15284229.csv,Status
+csvData15284229.csv,Single Icon
+csvData15284229.csv,Fee Icon
+csvData15284229.csv,Location Icon
+csvData15284229.csv,Enrollment Count Icon
+csvData15284229.csv,Details Icon
+csvData15284229.csv,Wishlist
+csvData15284229.csv,Gender
+csvData11247855.csv,Inn
+csvData11247855.csv,Score
+csvData11247855.csv,RoB
+csvData11247855.csv,Pit(cnt)Sequence
+csvData11247855.csv,@Bat
+csvData11247855.csv,Batter
+csvData11247855.csv,Pitcher
+csvData11247855.csv,wWPA
+csvData11247855.csv,wWE
+csvData11247855.csv,Play Description
+csvData2877720__12.csv,Player
+csvData23496968.csv,categoryName
+csvData23496968.csv,imageTitle
+csvData6018550.csv,SEASON
+csvData6018550.csv,TEAM
+csvData6018550.csv,LEAGUE
+csvData6018550.csv,POSTSEASON
+csvData10665216.csv,Season(s)
+csvData10665216.csv,TOI
+csvData3282891.csv,Name
+csvData15959016__4.csv,Team
+csvData6916455.csv,East
+csvData6916455.csv,Home
+csvData6916455.csv,Away
+csvData6916455.csv,Division
+csvData6916455.csv,1-Run
+csvData6916455.csv,Xtra
+csvData26164035.csv,Walk Rate
+csvData26164035.csv,Strikeout Rate
+csvData26164035.csv,Contact Rate
+csvData11166662.csv,Name
+csvData11166662.csv,Pos
+csvData11166662.csv,Location
+csvData11166662.csv,Ht
+csvData11166662.csv,Stars
+csvData11166662.csv,Committed
+csvData11166662.csv,Visit Date
+csvData11166662.csv,Recruited By
+csvData18755525.csv,Name
+csvData18755525.csv,Pos
+csvData18755525.csv,Location
+csvData18755525.csv,Ht
+csvData18755525.csv,Stars
+csvData18755525.csv,Videos
+csvData29417681.csv,Title
+csvData29417681.csv,Offering
+csvData29417681.csv,Standing
+csvData29417681.csv,When
+csvData29417681.csv,Description
+csvData29417681.csv,Faculty
+csvData29417681.csv,Start Quarters
+csvData29417681.csv,Open Quarters
+csvData15368950.csv,Distribution
+csvData15368950.csv,Latest Stable Release (Date)
+csvData15368950.csv,Release Cycle
+csvData15368950.csv,Based on
+csvData15368950.csv,Developed by
+csvData15368950.csv,Sponsored by
+csvData15368950.csv,Package Format
+csvData15368950.csv,Package Management
+csvData15368950.csv,Default Desktop Environment(s) (Version)
+csvData15368950.csv,Linux Kernel
+csvData15368950.csv,Default Filesystem
+csvData15368950.csv,Official Ports
+csvData15368950.csv,Derivative Distributions
+csvData15368950.csv,Most Frequently Used (Readers' Poll)
+csvData15368950.csv,Best For (Readers' Poll)
+csvData24362981.csv,Wm Alpha
+csvData24362981.csv,Bust (inches)
+csvData24362981.csv,Waist (inches)
+csvData24362981.csv,Hip (inches)
+csvData18909217.csv,FN
+csvData18909217.csv,LN
+csvData18909217.csv,DIVISION
+csvData18909217.csv,Swim
+csvData18909217.csv,T1
+csvData18909217.csv,Bike
+csvData18909217.csv,T2
+csvData18909217.csv,Run
+csvData18909217.csv,Sand
+csvData18909217.csv,TIME
+csvData8707649.csv,FN
+csvData8707649.csv,LN
+csvData8707649.csv,SEX
+csvData8707649.csv,DIVISION
+csvData8707649.csv,CITY
+csvData8707649.csv,STATE
+csvData8707649.csv,DIVPL
+csvData8707649.csv,SEXPL
+csvData8707649.csv,GUN_TIME
+csvData8707649.csv,TIME
+csvData8707649.csv,PACE
+csvData15975405.csv,Continent
+csvData15975405.csv,Country
+csvData14984034.csv,SEASON
+csvData14984034.csv,TEAM
+csvData14984034.csv,LEAGUE
+csvData14984034.csv,POSTSEASON
+csvData18977753.csv,Date
+csvData18977753.csv,Opponent
+csvData18977753.csv,Score
+csvData18977753.csv,tack
+csvData18977753.csv,ast
+csvData18977753.csv,tot
+csvData18977753.csv,sack
+csvData18977753.csv,lost
+csvData18977753.csv,tfl
+csvData18977753.csv,yds
+csvData18977753.csv,ff
+csvData18977753.csv,fr
+csvData18977753.csv,td
+csvData18977753.csv,int
+csvData18977753.csv,brup
+csvData18977753.csv,blk
+csvData18977753.csv,saf
+csvData3150333.csv,Date
+csvData3150333.csv,Tm
+csvData3150333.csv,Opp
+csvData3150333.csv,Result
+csvData3150333.csv,Scorer/Receiver
+csvData3150333.csv,Score Before
+csvData3150333.csv,Score After
+csvData13028743.csv,Emission
+csvData13028743.csv,Class
+csvData1283739.csv,Player
+csvData1283739.csv,Span
+csvData2427182.csv,FN
+csvData2427182.csv,LN
+csvData2427182.csv,DIVISION
+csvData2427182.csv,DIVPL
+csvData2427182.csv,SEXPL
+csvData2427182.csv,SWIM
+csvData2427182.csv,T1
+csvData2427182.csv,BIKE
+csvData2427182.csv,RATE
+csvData2427182.csv,T2
+csvData2427182.csv,RUN
+csvData2427182.csv,PENALTY
+csvData2427182.csv,TIME
+csvData21797156.csv,Local Time
+csvData21797156.csv,Temperature
+csvData21797156.csv,Dewpoint
+csvData21797156.csv,Humidity
+csvData21797156.csv,Barometer
+csvData21797156.csv,Visibility
+csvData21797156.csv,Wind Direction
+csvData21797156.csv,Wind Speed
+csvData21797156.csv,Conditions
+csvData28677408.csv,Team Name
+csvData28677408.csv,Team
+csvData28677408.csv,Overall
+csvData28677408.csv,Manager(s)
+csvData28677408.csv,Ballpark
+csvData28677408.csv,Best OPS
+csvData28677408.csv,Best WHIP
+csvData28681743__5.csv,Player
+csvData12665768.csv,Time (EST)
+csvData12665768.csv,Temp.
+csvData12665768.csv,Windchill
+csvData12665768.csv,Dew Point
+csvData12665768.csv,Humidity
+csvData12665768.csv,Pressure
+csvData12665768.csv,Visibility
+csvData12665768.csv,Wind Dir
+csvData12665768.csv,Wind Speed
+csvData12665768.csv,Gust Speed
+csvData12665768.csv,Conditions
+csvData8862400.csv,Player
+csvData8862400.csv,Team
+csvData21878658.csv,Cart Icon
+csvData21878658.csv,Activity
+csvData21878658.csv,Description
+csvData21878658.csv,Dates
+csvData21878658.csv,Time
+csvData21878658.csv,Days
+csvData21878658.csv,Location
+csvData21878658.csv,Fees
+csvData21878658.csv,Ages
+csvData21878658.csv,Status
+csvData21878658.csv,Single Icon
+csvData21878658.csv,Fee Icon
+csvData21878658.csv,Location Icon
+csvData21878658.csv,Enrollment Count Icon
+csvData21878658.csv,Details Icon
+csvData21878658.csv,Wishlist
+csvData21878658.csv,Gender
+csvData27729927.csv,Date
+csvData27729927.csv,Tm
+csvData27729927.csv,Opp
+csvData27729927.csv,Result
+csvData27729927.csv,Scorer/Receiver
+csvData27729927.csv,Score Before
+csvData27729927.csv,Score After
+csvData21742618.csv,Player
+csvData21742618.csv,Span
+csvData21742618.csv,BBI
+csvData21742618.csv,BBM
+csvData9761878.csv,Date
+csvData9761878.csv,Opponent
+csvData9761878.csv,Score
+csvData9761878.csv,sack
+csvData9761878.csv,lost
+csvData9761878.csv,yds
+csvData9761878.csv,ff
+csvData9761878.csv,fr
+csvData9761878.csv,td
+csvData9761878.csv,int
+csvData9761878.csv,brup
+csvData9761878.csv,blk
+csvData9761878.csv,saf
+csvData25723899.csv,Emission
+csvData25723899.csv,Class
+csvData25723899.csv,City
+csvData25723899.csv,County
+csvData25723899.csv,State
+csvData5339470.csv,Pool
+csvData5339470.csv,Date
+csvData5339470.csv,Local Time
+csvData5339470.csv,GMT Time
+csvData5339470.csv,Teams
+csvData5339470.csv,Live Score Result
+csvData5339470.csv,City
+csvData5339470.csv,Description
+csvData5339470.csv,Press Conference
+csvData5339470.csv,Stats
+csvData5339470.csv,Photos
+csvData28405036.csv,Emission
+csvData28405036.csv,Class
+csvData28405036.csv,City
+csvData28405036.csv,County
+csvData28405036.csv,State
+csvData22475359.csv,Season
+csvData22475359.csv,League
+csvData22475359.csv,Finish
+csvData22475359.csv,Postseason
+csvData16859300.csv,FN
+csvData16859300.csv,LN
+csvData16859300.csv,DIVISION
+csvData16859300.csv,DIVPL
+csvData16859300.csv,SEXPL
+csvData16859300.csv,SWIM
+csvData16859300.csv,RATE
+csvData16859300.csv,T1
+csvData16859300.csv,BIKE
+csvData16859300.csv,T2
+csvData16859300.csv,RUN
+csvData16859300.csv,PENALTY
+csvData16859300.csv,TIME
+csvData14225400.csv,Player
+csvData14225400.csv,Pos
+csvData14225400.csv,Team
+csvData14225400.csv,Opp
+csvData27585711.csv,Display Channel
+csvData27585711.csv,Call Sign
+csvData27585711.csv,PMT PID
+csvData27585711.csv,Video
+csvData27585711.csv,Dimensions
+csvData27585711.csv,Aspect Ratio
+csvData27585711.csv,Video PID
+csvData27585711.csv,Video (Mbps)
+csvData27585711.csv,PCR PID
+csvData27585711.csv,Audio Type
+csvData27585711.csv,Audio PID
+csvData27585711.csv,Audio Bitrate
+csvData15588062.csv,Player
+csvData15588062.csv,Pos
+csvData15588062.csv,Ht
+csvData15588062.csv,B-T
+csvData15588062.csv,Born
+csvData15588062.csv,Place
+csvData15588062.csv,High Level
+csvData15588062.csv,Current Team
+csvData15588062.csv,Status
+csvData18598146__2.csv,DESKTOP/IBM/FW/IDS IPSEC 56
+csvData18598146__2.csv,IP/FW/IDS IPSEC 3DES
+csvData18598146__2.csv,ENTERPRISE/SNASW IPSEC 3DES
+csvData18598146__2.csv,IP IPSEC 3DES
+csvData18598146__2.csv,ENTERPRISE/SNASW IPSEC 56
+csvData12181401.csv,Cls
+csvData12181401.csv,Crew
+csvData12181401.csv,Total Time Card 3
+csvData12181401.csv,8
+csvData12181401.csv,9
+csvData12181401.csv,IRTC 14
+csvData12181401.csv,10
+csvData12181401.csv,Total
+csvData15829672.csv,Team Name
+csvData15829672.csv,Team
+csvData15829672.csv,Manager(s)
+csvData15829672.csv,Ballpark
+csvData15829672.csv,Payroll
+csvData15829672.csv,Attendance
+csvData15829672.csv,Best OPS
+csvData6567171.csv,Player
+csvData6567171.csv,Span
+csvData21675463__1.csv,POS
+csvData24427567.csv,League
+csvData24427567.csv,Team
+csvData28975031.csv,Date
+csvData28975031.csv,Pos
+csvData28975031.csv,Wt
+csvData28975031.csv,Co
+csvData28975031.csv,Dist
+csvData28975031.csv,Going
+csvData28975031.csv,Jockey
+csvData28975031.csv,Trainer
+csvData28975031.csv,Winner
+csvData28975031.csv,Op
+csvData28975031.csv,SP
+csvData18369929.csv,Symbol
+csvData18369929.csv,Company
+csvData18369929.csv,Insider
+csvData18369929.csv,Position
+csvData18369929.csv,Date
+csvData18369929.csv,Buy/Sell
+csvData18369929.csv,Shares
+csvData18369929.csv,Trade Price ($)
+csvData18369929.csv,Details
+csvData18519094.csv,Team
+csvData18519094.csv,Opp
+csvData18519094.csv,Pos
+csvData18519094.csv,Player
+csvData8891379.csv,Name
+csvData8891379.csv,Country
+csvData8891379.csv,sex
+csvData8891379.csv,tour
+csvData8891379.csv,class
+csvData8891379.csv,div
+csvData8891379.csv,date
+csvData8891379.csv,site id
+csvData22759313.csv,event
+csvData22759313.csv,black
+csvData22759313.csv,rank
+csvData22759313.csv,white
+csvData22759313.csv,date
+csvData22759313.csv,place
+csvData8998474.csv,SEASON
+csvData26519471.csv,Date
+csvData26519471.csv,Tm
+csvData26519471.csv,Opp
+csvData26519471.csv,Result
+csvData26519471.csv,Type
+csvData26519471.csv,Score Before
+csvData26519471.csv,Score After
+csvData6680543__7.csv,Age
+csvData21680194.csv,Player
+csvData21680194.csv,Club
+csvData21680194.csv,POS
+csvData21680194.csv,PKG/A
+csvData19652064.csv,Team
+csvData19652064.csv,Opposition
+csvData19652064.csv,Ground
+csvData19652064.csv,Match Date
+csvData19652064.csv,Scorecard
+csvData3175677.csv,Team
+csvData3175677.csv,Oppo
+csvData3175677.csv,Date
+csvData3175677.csv,Comp
+csvData3175677.csv,Res
+csvData3175677.csv,Appear
+csvData23762715.csv,Player
+csvData23762715.csv,Pos
+csvData23762715.csv,Team
+csvData23762715.csv,Opp
+csvData18645772.csv,Name
+csvData18645772.csv,Com%
+csvData23670445.csv,Fecha
+csvData23670445.csv,Match
+csvData23670445.csv,Result
+csvData23670445.csv,Appearance
+csvData18108067.csv,Unif
+csvData18108067.csv,Player
+csvData18108067.csv,Pos
+csvData18108067.csv,Ht
+csvData18108067.csv,B-T
+csvData18108067.csv,Born
+csvData18108067.csv,Place
+csvData18108067.csv,Draft Info
+csvData18108067.csv,High Level
+csvData18108067.csv,Current Team
+csvData18108067.csv,Status
+csvData7184080.csv,Player
+csvData7184080.csv,Pos
+csvData7184080.csv,Team
+csvData7184080.csv,Opp
+csvData8114058.csv,Date
+csvData8114058.csv,Match
+csvData8114058.csv,Result
+csvData8114058.csv,Appearance
+csvData5211196.csv,Unif
+csvData5211196.csv,Player
+csvData5211196.csv,Pos
+csvData5211196.csv,Ht
+csvData5211196.csv,B-T
+csvData5211196.csv,Born
+csvData5211196.csv,Place
+csvData5211196.csv,Draft Info
+csvData5211196.csv,High Level
+csvData5211196.csv,Current Team
+csvData5211196.csv,Status
+csvData16213531.csv,TEAM
+csvData16213531.csv,LEAGUE
+csvData16213531.csv,POSTSEASON
+csvData5072572.csv,Games
+csvData5072572.csv,City
+csvData5072572.csv,Sport
+csvData5072572.csv,Team
+csvData5072572.csv,NOC
+csvData5072572.csv,Phase
+csvData5072572.csv,Date
+csvData3711021.csv,Name
+csvData3711021.csv,min
+csvData28449056.csv,Vendor
+csvData28449056.csv,Model
+csvData28449056.csv,CPU
+csvData28449056.csv,Super I/O
+csvData28449056.csv,EC
+csvData28449056.csv,Flash Chip
+csvData28449056.csv,Flash Size
+csvData28449056.csv,Flash S.
+csvData28449056.csv,Owner
+csvData25166301.csv,Player
+csvData25166301.csv,Pos
+csvData25166301.csv,Team
+csvData25166301.csv,Opp
+csvData27328520.csv,Date
+csvData27328520.csv,Opponent
+csvData27328520.csv,rush
+csvData27328520.csv,rec
+csvData27328520.csv,kr
+csvData27328520.csv,pr
+csvData27328520.csv,int
+csvData27328520.csv,fum
+csvData27328520.csv,xpm
+csvData27328520.csv,fgm
+csvData27328520.csv,saf
+csvData27328520.csv,misc
+csvData27328520.csv,2pt
+csvData2075259.csv,Ticker
+csvData2075259.csv,Company Name
+csvData2075259.csv,Financial Strength
+csvData2075259.csv,Profitability Rank
+csvData2075259.csv,Market Cap (Mil)
+csvData14273674.csv,FN
+csvData14273674.csv,LN
+csvData14273674.csv,DIVISION
+csvData14273674.csv,SWIM
+csvData14273674.csv,T1
+csvData14273674.csv,BIKE
+csvData14273674.csv,RATE
+csvData14273674.csv,T2
+csvData14273674.csv,RUN
+csvData14273674.csv,TIME
+csvData1635358__0.csv,MP
+csvData1635358__0.csv,Opp
+csvData8936481.csv,Date
+csvData8936481.csv,Match
+csvData8936481.csv,Result
+csvData8936481.csv,Appearance
+csvData11781598.csv,Games
+csvData11781598.csv,City
+csvData11781598.csv,Sport
+csvData11781598.csv,Team
+csvData11781598.csv,NOC
+csvData11781598.csv,Phase
+csvData11781598.csv,Unit
+csvData11781598.csv,Date
+csvData11781598.csv,Result
+csvData29402006__3.csv,Player
+csvData1355593.csv,Emission
+csvData1355593.csv,Class
+csvData1355593.csv,City
+csvData1355593.csv,County
+csvData1355593.csv,State
+csvData23382877.csv,U.S.
+csvData23382877.csv,China
+csvData24733900.csv,ADDRESS
+csvData24733900.csv,TOWN
+csvData24733900.csv,STYLE
+csvData24733900.csv,Bs
+csvData24733900.csv,List $
+csvData24733900.csv,Sale $
+csvData24733900.csv,Date
+csvData20628874.csv,Name
+csvData20628874.csv,Wingspan
+csvData6863056.csv,Country
+csvData15568998.csv,Season
+csvData11217568.csv,Vendor
+csvData11217568.csv,Mainboard
+csvData11217568.csv,Northbridge
+csvData11217568.csv,Southbridge
+csvData11217568.csv,Super I/O
+csvData11217568.csv,CPU
+csvData11217568.csv,Socket
+csvData11217568.csv,Status / Tutorial
+csvData11217568.csv,ROM 1
+csvData11217568.csv,P 2
+csvData11217568.csv,S 3
+csvData11217568.csv,F 4
+csvData11217568.csv,v3 only 7
+csvData1444875__13.csv,POS
+csvData1444875__13.csv,Team
+csvData9124304.csv,SEASON
+csvData9124304.csv,TEAM
+csvData9124304.csv,LEAGUE
+csvData9124304.csv,POSTSEASON
+csvData16127186.csv,Games
+csvData16127186.csv,City
+csvData16127186.csv,Sport
+csvData16127186.csv,Team
+csvData16127186.csv,NOC
+csvData16127186.csv,Phase
+csvData16127186.csv,Unit
+csvData16127186.csv,Date
+csvData16127186.csv,Result
+csvData18230187__3.csv,State
+csvData22394405__3.csv,Name
+csvData13362883.csv,Display Channel
+csvData13362883.csv,Call Sign
+csvData13362883.csv,PMT PID
+csvData13362883.csv,Video
+csvData13362883.csv,Aspect Ratio
+csvData13362883.csv,Video PID
+csvData13362883.csv,Video (Mbps)
+csvData13362883.csv,PCR PID
+csvData13362883.csv,Audio Type
+csvData13362883.csv,Audio PID
+csvData13362883.csv,Audio Bitrate
+csvData27867556__5.csv,Date
+csvData27867556__5.csv,Age
+csvData26748754.csv,Ticker
+csvData26748754.csv,Company Name
+csvData26748754.csv,Financial Strength
+csvData26748754.csv,Profitability Rank
+csvData26748754.csv,Market Cap (Mil)
+csvData15176997.csv,Date
+csvData15176997.csv,Tm
+csvData15176997.csv,Opp
+csvData15176997.csv,Result
+csvData15176997.csv,Type
+csvData15176997.csv,Score Before
+csvData15176997.csv,Score After
+csvData12591019.csv,Date
+csvData12591019.csv,Pos
+csvData12591019.csv,Wt
+csvData12591019.csv,Co
+csvData12591019.csv,Dist
+csvData12591019.csv,Going
+csvData12591019.csv,Cl
+csvData12591019.csv,Jockey
+csvData12591019.csv,Trainer
+csvData12591019.csv,Winner
+csvData12591019.csv,SP
+csvData10299723.csv,Product Name
+csvData10299723.csv,Output Current
+csvData10299723.csv,VIN Min.
+csvData10299723.csv,VIN Max.
+csvData10299723.csv,VOUT Min.*1
+csvData10299723.csv,VOUT Max.*1
+csvData10299723.csv,Voltage Accuracy *1
+csvData10299723.csv,Dropout Voltage Typ.*2
+csvData10299723.csv,Dropout Voltage Max.*2
+csvData10299723.csv,Dropout Voltage Condition *2
+csvData10299723.csv,Supply Current Typ.*3
+csvData10299723.csv,RR @1kHz Typ.
+csvData10299723.csv,Capacitor Capacitance
+csvData10299723.csv,Package
+csvData29383799__13.csv,POS
+csvData11258813.csv,Cart Icon
+csvData11258813.csv,Activity
+csvData11258813.csv,Description
+csvData11258813.csv,Dates
+csvData11258813.csv,Time
+csvData11258813.csv,Days
+csvData11258813.csv,Location
+csvData11258813.csv,Fees
+csvData11258813.csv,Ages
+csvData11258813.csv,Status
+csvData11258813.csv,Single Icon
+csvData11258813.csv,Fee Icon
+csvData11258813.csv,Location Icon
+csvData11258813.csv,Enrollment Count Icon
+csvData11258813.csv,Details Icon
+csvData11258813.csv,Wishlist
+csvData11258813.csv,Gender
+csvData3491256.csv,Symbol
+csvData3491256.csv,Company
+csvData3491256.csv,Insider
+csvData3491256.csv,Position
+csvData3491256.csv,Date
+csvData3491256.csv,Buy/Sell
+csvData3491256.csv,Shares
+csvData3491256.csv,Trade Price ($)
+csvData3491256.csv,Details
+csvData7813872.csv,TEAM
+csvData7813872.csv,LEAGUE
+csvData7813872.csv,POSTSEASON
+csvData14990804.csv,Opposition
+csvData14990804.csv,Match Date
+csvData23638540.csv,SEASON
+csvData23638540.csv,TEAM
+csvData23638540.csv,LEAGUE
+csvData23638540.csv,T
+csvData23638540.csv,OTW
+csvData23638540.csv,POSTSEASON
+csvData14569287.csv,#
+csvData14569287.csv,Driver
+csvData14569287.csv,Make
+csvData14569287.csv,Pts
+csvData14569287.csv,Status
+csvData14569287.csv,Winnings
+csvData14569287.csv,Team
+csvData5836060.csv,Skaters
+csvData5836060.csv,TOI
+csvData19591445.csv,Team
+csvData19591445.csv,Oppo
+csvData19591445.csv,Date
+csvData19591445.csv,Comp
+csvData19591445.csv,Res
+csvData19591445.csv,Appear
+csvData19290873.csv,FN
+csvData19290873.csv,LN
+csvData19290873.csv,SEX
+csvData19290873.csv,DIVISION
+csvData19290873.csv,CITY
+csvData19290873.csv,STATE
+csvData19290873.csv,DIVPL
+csvData19290873.csv,SEXPL
+csvData19290873.csv,Chip TIme
+csvData19290873.csv,TIME
+csvData19290873.csv,PACE
+csvData25055845__1.csv,Opponent
+csvData21416056.csv,Symbol
+csvData21416056.csv,Company
+csvData21416056.csv,Insider
+csvData21416056.csv,Position
+csvData21416056.csv,Date
+csvData21416056.csv,Buy/Sell
+csvData21416056.csv,Shares
+csvData21416056.csv,Trade Price ($)
+csvData21416056.csv,Details
+csvData16196064.csv,Season(s)
+csvData16196064.csv,TOI
+csvData15318677.csv,Month
+csvData26651945__6.csv,POS
+csvData23657595.csv,Team
+csvData23657595.csv,Result
+csvData23657595.csv,Opposition
+csvData23657595.csv,Ground
+csvData23657595.csv,Match Date
+csvData2285399__17.csv,TEAM
+csvData2285399__17.csv,NAME
+csvData6267481__0.csv,Name
+csvData6267481__0.csv,Acquired
+csvData10777645.csv,Facility Name
+csvData10777645.csv,Address 1
+csvData10777645.csv,City
+csvData10777645.csv,State
+csvData10777645.csv,Kt/V Adult Peritoneal Dialysis Performance Period Rate
+csvData10777645.csv,Kt/V Pediatric Hemodialysis Performance Period Rate
+csvData15101973__2.csv,Age
+csvData15101973__2.csv,Opp
+csvData7615166__7.csv,Player
+csvData6027794__0.csv,LG
+csvData898308.csv,Symbol
+csvData898308.csv,Company
+csvData898308.csv,Insider
+csvData898308.csv,Position
+csvData898308.csv,Date
+csvData898308.csv,Buy/Sell
+csvData898308.csv,Shares
+csvData898308.csv,Trade Price ($)
+csvData898308.csv,Details
+csvData23007614.csv,Pos
+csvData23007614.csv,Helm
+csvData23007614.csv,Crew
+csvData23007614.csv,Club
+csvData25283220__0.csv,Team
+csvData5675876.csv,Walk Rate
+csvData5675876.csv,Strikeout Rate
+csvData5675876.csv,Contact Rate
+csvData7894692.csv,Eastern
+csvData7894692.csv,Home
+csvData7894692.csv,Away
+csvData7894692.csv,Division
+csvData7894692.csv,1-Run
+csvData7894692.csv,Xtra
+csvData12214846.csv,Course Title
+csvData12214846.csv,Years
+csvData12214846.csv,Notes
+csvData11449691.csv,Hunt Valley
+csvData11449691.csv,Timonium
+csvData11449691.csv,Lutherville
+csvData11449691.csv,North Avenue
+csvData11449691.csv,Penn Station
+csvData11449691.csv,Univ. of Baltimore/Mt. Royal Ave.
+csvData11449691.csv,Lexington Market
+csvData11449691.csv,Camden Yards
+csvData11449691.csv,Patapsco
+csvData11449691.csv,North Linthicum
+csvData11449691.csv,BWI Marshall Airport
+csvData11449691.csv,Cromwell Station
+csvData9964039__8.csv,TOI
+csvData6863752.csv,Symbol
+csvData6863752.csv,Company
+csvData6863752.csv,Insider
+csvData6863752.csv,Date
+csvData6863752.csv,Buy/Sell
+csvData6863752.csv,Shares
+csvData6863752.csv,Trade Price ($)
+csvData6863752.csv,Details
+csvData18409343.csv,Ticker
+csvData18409343.csv,Company Name
+csvData18409343.csv,Financial Strength
+csvData18409343.csv,Profitability Rank
+csvData18409343.csv,Market Cap (Mil)
+csvData10580848.csv,Helm
+csvData10580848.csv,Crew
+csvData10580848.csv,Club
+csvData22682128__6.csv,I
+csvData22682128__6.csv,D
+csvData15307913.csv,SEASON
+csvData15307913.csv,TEAM
+csvData15307913.csv,LEAGUE
+csvData15307913.csv,OTW
+csvData15307913.csv,POSTSEASON
+csvData13434912__3.csv,Team
+csvData11841244.csv,SEASON
+csvData11841244.csv,TEAM
+csvData11841244.csv,LEAGUE
+csvData11841244.csv,OTW
+csvData11841244.csv,OTL
+csvData11841244.csv,POSTSEASON
+csvData22612136.csv,Date
+csvData22612136.csv,Opponent
+csvData22612136.csv,Score
+csvData22612136.csv,sack
+csvData22612136.csv,lost
+csvData22612136.csv,ff
+csvData22612136.csv,fr
+csvData22612136.csv,blk
+csvData22612136.csv,saf
+csvData4199793.csv,Date
+csvData4199793.csv,Tm
+csvData4199793.csv,Opp
+csvData4199793.csv,Result
+csvData4199793.csv,Type
+csvData4199793.csv,Quarterback
+csvData4199793.csv,Score Before
+csvData4199793.csv,Score After
+csvData21339573.csv,Last Name
+csvData21339573.csv,First Name
+csvData21339573.csv,Rank
+csvData21339573.csv,Regiment
+csvData13935868.csv,Total Population
+csvData13935868.csv,Percent Catholic
+csvData13935868.csv,Source
+csvData13021006.csv,SEASON
+csvData13021006.csv,TEAM
+csvData13021006.csv,LEAGUE
+csvData13021006.csv,OTW
+csvData13021006.csv,OTL
+csvData13021006.csv,POSTSEASON
+csvData13160581.csv,Date
+csvData13160581.csv,Match
+csvData13160581.csv,Result
+csvData13160581.csv,Appearance
+csvData11052049__5.csv,F
+csvData11052049__5.csv,A
+csvData11052049__5.csv,H
+csvData11052049__5.csv,E
+csvData15339969.csv,Date
+csvData15339969.csv,Pos
+csvData15339969.csv,Wt
+csvData15339969.csv,Co
+csvData15339969.csv,Dist
+csvData15339969.csv,Going
+csvData15339969.csv,Jockey
+csvData15339969.csv,Trainer
+csvData15339969.csv,Winner
+csvData15339969.csv,Op
+csvData15339969.csv,SP
+csvData25257327.csv,Source
+csvData4449932.csv,Weapon
+csvData4449932.csv,Unit
+csvData25333476.csv,Name
+csvData25333476.csv,min
+csvData269342.csv,Date
+csvData269342.csv,Tm
+csvData269342.csv,Opp
+csvData269342.csv,Result
+csvData269342.csv,Type
+csvData269342.csv,Quarterback
+csvData269342.csv,Score Before
+csvData269342.csv,Score After
+csvData10289113.csv,Date
+csvData10289113.csv,Tm
+csvData10289113.csv,Opp
+csvData10289113.csv,Result
+csvData10289113.csv,Type
+csvData10289113.csv,Score Before
+csvData10289113.csv,Score After
+csvData19811491.csv,Model
+csvData19811491.csv,Engine
+csvData19811491.csv,Bore/Stroke (mm)
+csvData19811491.csv,Comp. Ratio
+csvData19811491.csv,Fuel System
+csvData19811491.csv,Power (kW/bhp)
+csvData19811491.csv,Torque (Nm/ft-lb)
+csvData19811491.csv,0-62mph man
+csvData19811491.csv,Produced
+csvData5908890__7.csv,Date
+csvData5908890__7.csv,Tm
+csvData13678738.csv,Date
+csvData13678738.csv,Opponent
+csvData13678738.csv,Score
+csvData13678738.csv,tack
+csvData13678738.csv,ast
+csvData13678738.csv,sack
+csvData13678738.csv,lost
+csvData13678738.csv,yds
+csvData13678738.csv,ff
+csvData13678738.csv,fr
+csvData13678738.csv,td
+csvData13678738.csv,int
+csvData13678738.csv,brup
+csvData13678738.csv,blk
+csvData13678738.csv,saf
+csvData18598146__0.csv,DESKTOP/IBM/FW/IDS IPSEC 56
+csvData18598146__0.csv,IP/FW/IDS IPSEC 3DES
+csvData18598146__0.csv,ENTERPRISE/SNASW IPSEC 3DES
+csvData18598146__0.csv,IP IPSEC 3DES
+csvData18598146__0.csv,ENTERPRISE/SNASW IPSEC 56
+csvData6197002.csv,Ticker
+csvData6197002.csv,Company Name
+csvData6197002.csv,Financial Strength
+csvData6197002.csv,Profitability Rank
+csvData6197002.csv,Market Cap (Mil)
+csvData18153131.csv,Wm Alpha
+csvData18153131.csv,Bust (inches)
+csvData18153131.csv,Waist (inches)
+csvData18153131.csv,Hip (inches)
+csvData21217951.csv,Cart Icon
+csvData21217951.csv,Activity
+csvData21217951.csv,Description
+csvData21217951.csv,Dates
+csvData21217951.csv,Time
+csvData21217951.csv,Days
+csvData21217951.csv,Location
+csvData21217951.csv,Fees
+csvData21217951.csv,Ages
+csvData21217951.csv,Status
+csvData21217951.csv,Single Icon
+csvData21217951.csv,Fee Icon
+csvData21217951.csv,Location Icon
+csvData21217951.csv,Enrollment Count Icon
+csvData21217951.csv,Details Icon
+csvData21217951.csv,Wishlist
+csvData21217951.csv,Gender
+csvData6117243.csv,Track
+csvData2798756__3.csv,Tm
+csvData2798756__3.csv,Age
+csvData10170154__8.csv,col3
+csvData10170154__8.csv,col11
+csvData10170154__8.csv,col21
+csvData10170154__8.csv,col22
+csvData10170154__8.csv,col23
+csvData10170154__8.csv,col14
+csvData10170154__8.csv,col17
+csvData28140294.csv,Date
+csvData28140294.csv,Pos
+csvData28140294.csv,Wt
+csvData28140294.csv,Co
+csvData28140294.csv,Dist
+csvData28140294.csv,Going
+csvData28140294.csv,Jockey
+csvData28140294.csv,Trainer
+csvData28140294.csv,Winner
+csvData28140294.csv,Op
+csvData28140294.csv,SP
+csvData2182929.csv,Location
+csvData2182929.csv,PrD
+csvData2182929.csv,CrD
+csvData16616357.csv,Date
+csvData16616357.csv,Opponent
+csvData16616357.csv,sack
+csvData16616357.csv,lost
+csvData16616357.csv,yds
+csvData16616357.csv,ff
+csvData16616357.csv,fr
+csvData16616357.csv,td
+csvData16616357.csv,int
+csvData16616357.csv,brup
+csvData16616357.csv,blk
+csvData16616357.csv,saf
+csvData28985944.csv,Game Date
+csvData28985944.csv,Team
+csvData28985944.csv,Opp
+csvData28985944.csv,Result
+csvData28985944.csv,Notes
+csvData463325.csv,Ht
+csvData28598833.csv,Name
+csvData28598833.csv,ISIN
+csvData28598833.csv,Sector
+csvData28598833.csv,SEDOL
+csvData28598833.csv,Market Value
+csvData28598833.csv,Maturity
+csvData28598833.csv,Notional Value
+csvData28598833.csv,Yield to Call (%)
+csvData28598833.csv,Par Value
+csvData15784667.csv,Location
+csvData15784667.csv,PrD
+csvData15784667.csv,CrD
+csvData26720493.csv,Application
+csvData26720493.csv,Specification-Based Hardware Support
+csvData26720493.csv,B200 M2 TRC #1 (DAS+FC SAN)
+csvData26720493.csv,"B200 M2 TRC #2 (Diskless, ESXi 4.1+ only)"
+csvData26720493.csv,B200 M1 TRC #1 (DAS+FC SAN)
+csvData26720493.csv,"B200 M1 TRC #2 (Diskless, ESXi 4.1+ only)"
+csvData26720493.csv,C210 M2 TRC #1 (DAS)
+csvData26720493.csv,C210 M2 TRC #2 (DAS+FC SAN)
+csvData26720493.csv,"C210 M2 TRC #3 (Diskless, ESXi 4.1+ only)"
+csvData26720493.csv,"C210 M1 TRC #1 (DAS, single-VM)"
+csvData26720493.csv,C210 M1 TRC #2 (DAS)
+csvData26720493.csv,C210 M1 TRC #3 (DAS+FC SAN)
+csvData26720493.csv,"C210 M1 TRC #4 (Diskless, ESXi 4.1+ only)"
+csvData26720493.csv,C200 M2 TRC #1 (DAS)
+csvData16703706.csv,Player
+csvData16703706.csv,Pos
+csvData16703706.csv,Team
+csvData16703706.csv,Opp
+csvData1181142.csv,Name
+csvData1181142.csv,Height w/o Shoes
+csvData1181142.csv,Height w/shoes
+csvData1181142.csv,Wingspan
+csvData1181142.csv,Reach
+csvData19114693__2.csv,Team
+csvData19114693__2.csv,TOI/G
+csvData783968.csv,Date
+csvData783968.csv,Pos
+csvData783968.csv,Wt
+csvData783968.csv,Co
+csvData783968.csv,Dist
+csvData783968.csv,Going
+csvData783968.csv,Jockey
+csvData783968.csv,Trainer
+csvData783968.csv,Winner
+csvData783968.csv,SP
+csvData13726780__2.csv,Tm
+csvData13726780__2.csv,Date
+csvData26570457.csv,Unif
+csvData26570457.csv,Player
+csvData26570457.csv,Pos
+csvData26570457.csv,Ht
+csvData26570457.csv,B-T
+csvData26570457.csv,Born
+csvData26570457.csv,Place
+csvData26570457.csv,Draft Info
+csvData26570457.csv,High Level
+csvData26570457.csv,Current Team
+csvData26570457.csv,Status
+csvData13173387.csv,SURNAME
+csvData13173387.csv,Given Name
+csvData13173387.csv,Relationship to Head of Household
+csvData13173387.csv,Father
+csvData13173387.csv,Month
+csvData13173387.csv,Towm
+csvData13173387.csv,Uyezd
+csvData13173387.csv,Gubernia
+csvData13173387.csv,Archive/Fond/Inventory/File#
+csvData23413367__6.csv,col6
+csvData23413367__6.csv,col2
+csvData23413367__6.csv,col17
+csvData23413367__6.csv,col14
+csvData23413367__6.csv,col12
+csvData23413367__6.csv,col15
+csvData23413367__6.csv,col1
+csvData18518803.csv,Cart Icon
+csvData18518803.csv,Activity
+csvData18518803.csv,Description
+csvData18518803.csv,Dates
+csvData18518803.csv,Time
+csvData18518803.csv,Days
+csvData18518803.csv,Location
+csvData18518803.csv,Fees
+csvData18518803.csv,Ages
+csvData18518803.csv,Status
+csvData18518803.csv,Single Icon
+csvData18518803.csv,Fee Icon
+csvData18518803.csv,Location Icon
+csvData18518803.csv,Enrollment Count Icon
+csvData18518803.csv,Details Icon
+csvData18518803.csv,Wishlist
+csvData18518803.csv,Gender
+csvData6505727__2.csv,Name
+csvData13047481.csv,Team Name
+csvData13047481.csv,Team
+csvData13047481.csv,Overall
+csvData13047481.csv,Manager(s)
+csvData13047481.csv,Ballpark
+csvData13047481.csv,Best OPS
+csvData13047481.csv,Best WHIP
+csvData6375481.csv,Team Name
+csvData6375481.csv,Team
+csvData6375481.csv,Overall
+csvData6375481.csv,Ballpark
+csvData6375481.csv,Best OPS
+csvData6375481.csv,Best WHIP
+csvData10694704.csv,Date
+csvData10694704.csv,Tm
+csvData10694704.csv,Opp
+csvData10694704.csv,Result
+csvData10694704.csv,Type
+csvData10694704.csv,Score Before
+csvData10694704.csv,Score After
+csvData9057963.csv,Games
+csvData9057963.csv,City
+csvData9057963.csv,Sport
+csvData9057963.csv,Team
+csvData9057963.csv,NOC
+csvData9057963.csv,Phase
+csvData9057963.csv,Date
+csvData12116743.csv,Ticker
+csvData12116743.csv,Company Name
+csvData12116743.csv,Financial Strength
+csvData12116743.csv,Profitability Rank
+csvData12116743.csv,Market Cap (Mil)
+csvData28219100__1.csv,Opp
+csvData20870838.csv,Name
+csvData20870838.csv,mail
+csvData20870838.csv,phone number
+csvData20870838.csv,Do 15.
+csvData20870838.csv,Sa 17.
+csvData20870838.csv,So 18.
+csvData20870838.csv,Mo 19.
+csvData20870838.csv,Di 20.
+csvData20870838.csv,Mi 21.
+csvData20870838.csv,KDE Project
+csvData20870838.csv,accommodation needed
+csvData22587519.csv,Games
+csvData22587519.csv,City
+csvData22587519.csv,Sport
+csvData22587519.csv,Team
+csvData22587519.csv,NOC
+csvData22587519.csv,Phase
+csvData22587519.csv,Date
+csvData22587519.csv,S%
+csvData5262396.csv,Team
+csvData8392825.csv,Games
+csvData8392825.csv,City
+csvData8392825.csv,Sport
+csvData8392825.csv,Team
+csvData8392825.csv,NOC
+csvData8392825.csv,Phase
+csvData8392825.csv,Unit
+csvData8392825.csv,Date
+csvData8392825.csv,Result
+csvData7917252.csv,Time (CDT)
+csvData7917252.csv,Temp.
+csvData7917252.csv,Heat Index
+csvData7917252.csv,Dew Point
+csvData7917252.csv,Humidity
+csvData7917252.csv,Pressure
+csvData7917252.csv,Visibility
+csvData7917252.csv,Wind Dir
+csvData7917252.csv,Wind Speed
+csvData7917252.csv,Gust Speed
+csvData7917252.csv,Conditions
+csvData25450714__18.csv,Player
+csvData11704198.csv,Date
+csvData11704198.csv,Tm
+csvData11704198.csv,Opp
+csvData11704198.csv,Result
+csvData11704198.csv,Type
+csvData11704198.csv,Quarterback
+csvData11704198.csv,Score Before
+csvData11704198.csv,Score After
+csvData18662229.csv,Location
+csvData18662229.csv,PrD
+csvData18662229.csv,CrD
+csvData7278610.csv,U.S.
+csvData7278610.csv,China
+csvData19130941__3.csv,Team
+csvData19130941__3.csv,Player
+csvData25267683.csv,Ticker
+csvData25267683.csv,Company Name
+csvData25267683.csv,Financial Strength
+csvData25267683.csv,Profitability Rank
+csvData25267683.csv,Market Cap (Mil)
+csvData22177077.csv,Wm Alpha
+csvData22177077.csv,Bust (inches)
+csvData22177077.csv,Waist (inches)
+csvData22177077.csv,Hip (inches)
+csvData545791.csv,Name
+csvData545791.csv,Pos
+csvData545791.csv,Location
+csvData545791.csv,Ht
+csvData545791.csv,Stars
+csvData545791.csv,Committed
+csvData545791.csv,Visit Date
+csvData545791.csv,Recruited By
+csvData21580843.csv,School Year
+csvData21580843.csv,District Name
+csvData21580843.csv,Grade Span
+csvData21580843.csv,School Name
+csvData21580843.csv,School Eligibility
+csvData21580843.csv,School Program Type
+csvData21580843.csv,School Improvement Status
+csvData22480172.csv,"Thread Size, NPTF"
+csvData22480172.csv,"Transmitted Wavelength, nm"
+csvData22480172.csv,Encole Part Number
+csvData22480172.csv,Price
+csvData28954004.csv,Ticker
+csvData28954004.csv,Company Name
+csvData28954004.csv,Financial Strength
+csvData28954004.csv,Profitability Rank
+csvData28954004.csv,Market Cap (Mil)
+csvData7082359.csv,Player
+csvData7082359.csv,Pos
+csvData7082359.csv,Team
+csvData7082359.csv,Opp
+csvData11324514.csv,Location
+csvData11324514.csv,PrD
+csvData11324514.csv,CrD
+csvData22907064.csv,Model
+csvData22907064.csv,No-Load Speed{%BR%}(rpm)
+csvData5487247.csv,Games
+csvData5487247.csv,City
+csvData5487247.csv,Sport
+csvData5487247.csv,Team
+csvData5487247.csv,NOC
+csvData5487247.csv,Phase
+csvData5487247.csv,Date
+csvData8998647.csv,Date
+csvData8998647.csv,Tm
+csvData8998647.csv,Opp
+csvData8998647.csv,Result
+csvData8998647.csv,Type
+csvData8998647.csv,Quarterback
+csvData8998647.csv,Score Before
+csvData8998647.csv,Score After
+csvData10775794.csv,Pos
+csvData10775794.csv,Tot Salary
+csvData10775794.csv,Avg Salary
+csvData10775794.csv,$/WARP
+csvData10775794.csv,Pct Sal
+csvData10775794.csv,Pct WARP
+csvData10775794.csv,Efficiency
+csvData1448745.csv,Playerplayer name
+csvData1448745.csv,POSplayer position
+csvData1448745.csv,VALplayer value
+csvData28675422__2.csv,Date
+csvData18221596.csv,Date
+csvData18221596.csv,Match
+csvData18221596.csv,Result
+csvData18221596.csv,Appearance
+csvData12906779__2.csv,TEAM
+csvData12906779__2.csv,LG
+csvData28325620.csv,Unif
+csvData28325620.csv,Player
+csvData28325620.csv,Pos
+csvData28325620.csv,Ht
+csvData28325620.csv,B-T
+csvData28325620.csv,Born
+csvData28325620.csv,Place
+csvData28325620.csv,Draft Info
+csvData28325620.csv,High Level
+csvData28325620.csv,Current Team
+csvData28325620.csv,Status
+csvData3836886.csv,Date
+csvData3836886.csv,Tm
+csvData3836886.csv,Opp
+csvData3836886.csv,Result
+csvData3836886.csv,Type
+csvData3836886.csv,Score Before
+csvData3836886.csv,Score After
+csvData8830922.csv,TEAM
+csvData8830922.csv,LEAGUE
+csvData8830922.csv,POSTSEASON
+csvData698512.csv,Team
+csvData7441893.csv,Course Title
+csvData7441893.csv,Min-Max Credits
+csvData7441893.csv,Years
+csvData9481387.csv,Series
+csvData9481387.csv,Pulse Sequence
+csvData9481387.csv,Mode
+csvData9481387.csv,Imaging Options
+csvData9481387.csv,Plane
+csvData23722712.csv,Vendor
+csvData23722712.csv,Mainboard
+csvData23722712.csv,Northbridge
+csvData23722712.csv,Southbridge
+csvData23722712.csv,Super I/O
+csvData23722712.csv,CPU
+csvData23722712.csv,Socket
+csvData23722712.csv,Status
+csvData23722712.csv,ROM 1
+csvData23722712.csv,P 2
+csvData23722712.csv,S 3
+csvData23722712.csv,F 4
+csvData23722712.csv,v3 only 7
+csvData4403274.csv,Date
+csvData4403274.csv,Opponent
+csvData18562133__2.csv,Player
+csvData18562133__2.csv,POS
+csvData11398936.csv,Date
+csvData11398936.csv,Opponent
+csvData896922.csv,Trk
+csvData896922.csv,Code
+csvData25283220__11.csv,Player
+csvData6250506.csv,Games
+csvData6250506.csv,City
+csvData6250506.csv,Sport
+csvData6250506.csv,Team
+csvData6250506.csv,NOC
+csvData6250506.csv,Phase
+csvData6250506.csv,Date
+csvData3060027.csv,Player
+csvData3060027.csv,%Shots at Rim
+csvData3060027.csv,FG% at Rim
+csvData3060027.csv,%Assisted at Rim
+csvData3060027.csv,%Shots 2pt Jumpers
+csvData3060027.csv,FG% 2pt Jumpers
+csvData3060027.csv,%Assisted 2pt Jumpers
+csvData3060027.csv,%Shots 3pt
+csvData3060027.csv,FG% 3pt
+csvData3060027.csv,%assisted 3pt
+csvData3060027.csv,FT%
+csvData11727091.csv,Display Channel
+csvData11727091.csv,Call Sign
+csvData11727091.csv,PMT PID
+csvData11727091.csv,Video
+csvData11727091.csv,Dimensions
+csvData11727091.csv,Aspect Ratio
+csvData11727091.csv,Video PID
+csvData11727091.csv,Video (Mbps)
+csvData11727091.csv,PCR PID
+csvData11727091.csv,Audio Type
+csvData11727091.csv,Audio PID
+csvData11727091.csv,Audio Bitrate
+csvData27604003__1.csv,Tm
+csvData18726085.csv,Open Date
+csvData18726085.csv,Close date
+csvData18726085.csv,Symbol
+csvData18726085.csv,Action
+csvData18726085.csv,SL
+csvData18726085.csv,TP
+csvData18726085.csv,Duration
+csvData18726085.csv,Change
+csvData20186787.csv,Location
+csvData20186787.csv,PrD
+csvData20186787.csv,CrD
+csvData1902536__3.csv,Player
+csvData1902536__3.csv,POS
+csvData25933881__3.csv,Date
+csvData1786628__2.csv,Date
+csvData10327833.csv,Car Number
+csvData10327833.csv,Laps Completed
+csvData10327833.csv,Winnings
+csvData21183387.csv,Games
+csvData21183387.csv,City
+csvData21183387.csv,Sport
+csvData21183387.csv,Team
+csvData21183387.csv,NOC
+csvData21183387.csv,Phase
+csvData21183387.csv,Unit
+csvData21183387.csv,Date
+csvData21183387.csv,Result
+csvData4674540__1.csv,Team
+csvData2995759.csv,Display Channel
+csvData2995759.csv,Call Sign
+csvData2995759.csv,PMT PID
+csvData2995759.csv,Video
+csvData2995759.csv,Dimensions
+csvData2995759.csv,Aspect Ratio
+csvData2995759.csv,Video PID
+csvData2995759.csv,Video (Mbps)
+csvData2995759.csv,PCR PID
+csvData2995759.csv,Audio Type
+csvData2995759.csv,Audio PID
+csvData2995759.csv,Audio Bitrate
+csvData26113466.csv,Last Name
+csvData26113466.csv,First Name
+csvData26113466.csv,Date of Expiration
+csvData26113466.csv,Address
+csvData26113466.csv,City
+csvData26113466.csv,State
+csvData47236.csv,Jurisdiction
+csvData47236.csv,Civil Matters - % of Total
+csvData47236.csv,Housing Matters - % of Total
+csvData47236.csv,Custody/ Visitation/ Divorce - % of Total
+csvData47236.csv,Youth - % of Total
+csvData47236.csv,Other Family - % of Total
+csvData47236.csv,Criminal Matters - % of Total
+csvData47236.csv,Surrogate Matters - % of Total
+csvData47236.csv,Public Welfare and Benefit Issues - % of Total
+csvData47236.csv,Other - % of Total
+csvData22021857.csv,City
+csvData23219876.csv,Population1
+csvData23219876.csv,Violent crime
+csvData23219876.csv,Murder and nonnegligent manslaughter
+csvData23219876.csv,Forcible rape
+csvData23219876.csv,Robbery
+csvData23219876.csv,Aggravated assault
+csvData23219876.csv,Property crime
+csvData23219876.csv,Property crime rate
+csvData23219876.csv,Burglary
+csvData23219876.csv,Larceny-theft
+csvData23219876.csv,Larceny-theft rate
+csvData23219876.csv,Motor vehicle theft
+csvData24155216.csv,Symbol
+csvData24155216.csv,Company
+csvData24155216.csv,Insider
+csvData24155216.csv,Position
+csvData24155216.csv,Date
+csvData24155216.csv,Buy/Sell
+csvData24155216.csv,Shares
+csvData24155216.csv,Trade Price ($)
+csvData24155216.csv,Details
+csvData13419799.csv,Date
+csvData13419799.csv,Opponent
+csvData13419799.csv,Score
+csvData13419799.csv,tack
+csvData13419799.csv,ast
+csvData13419799.csv,tot
+csvData13419799.csv,sack
+csvData13419799.csv,lost
+csvData13419799.csv,tfl
+csvData13419799.csv,yds
+csvData13419799.csv,ff
+csvData13419799.csv,fr
+csvData13419799.csv,td
+csvData13419799.csv,int
+csvData13419799.csv,brup
+csvData13419799.csv,blk
+csvData13419799.csv,saf
+csvData4394574.csv,TEAM
+csvData4394574.csv,LEAGUE
+csvData4394574.csv,POSTSEASON
+csvData2616569.csv,Team
+csvData2616569.csv,Opposition
+csvData2616569.csv,Ground
+csvData2616569.csv,Match Date
+csvData2616569.csv,Scorecard
+csvData12137164.csv,Name
+csvData12137164.csv,Pos
+csvData12137164.csv,Location
+csvData12137164.csv,Ht
+csvData12137164.csv,Stars
+csvData12137164.csv,Videos
+csvData11948532.csv,Date
+csvData11948532.csv,Opponent
+csvData11948532.csv,rush
+csvData11948532.csv,rec
+csvData11948532.csv,kr
+csvData11948532.csv,pr
+csvData11948532.csv,int
+csvData11948532.csv,fum
+csvData11948532.csv,xpm
+csvData11948532.csv,fgm
+csvData11948532.csv,saf
+csvData11948532.csv,misc
+csvData11948532.csv,2pt
+csvData24805929.csv,Player
+csvData24805929.csv,Span
+csvData24805929.csv,BBI
+csvData24805929.csv,BBM
+csvData17215729__8.csv,Team
+csvData6247961.csv,Date
+csvData6247961.csv,Opponent
+csvData6247961.csv,Score
+csvData6247961.csv,tack
+csvData6247961.csv,ast
+csvData6247961.csv,sack
+csvData6247961.csv,lost
+csvData6247961.csv,yds
+csvData6247961.csv,ff
+csvData6247961.csv,fr
+csvData6247961.csv,td
+csvData6247961.csv,int
+csvData6247961.csv,brup
+csvData6247961.csv,blk
+csvData6247961.csv,saf
+csvData19022488.csv,Teleporter
+csvData19022488.csv,Position
+csvData19022488.csv,Destination
+csvData19022488.csv,Status
+csvData25283220__3.csv,Team
+csvData28939760.csv,Season(s)
+csvData28939760.csv,TOI
+csvData23832742.csv,Version
+csvData23832742.csv,engine
+csvData23832742.csv,backend
+csvData23832742.csv,register
+csvData23832742.csv,ledger
+csvData23832742.csv,motif
+csvData23832742.csv,gnome
+csvData23832742.csv,divers
+csvData23832742.csv,import-export
+csvData23832742.csv,reports
+csvData23832742.csv,scheme
+csvData23832742.csv,business
+csvData23832742.csv,test
+csvData23832742.csv,docs
+csvData23832742.csv,txt interne
+csvData23832742.csv,Total
+csvData22729235.csv,Fisher
+csvData13573338.csv,Meeting Information
+csvData13573338.csv,Building - Room
+csvData4619396__1.csv,L
+csvData4619396__1.csv,J
+csvData4619396__1.csv,M
+csvData4619396__1.csv,O
+csvData22833518__1.csv,Team
+csvData20485824.csv,Date
+csvData20485824.csv,Opponent
+csvData20485824.csv,Score
+csvData20485824.csv,sack
+csvData20485824.csv,lost
+csvData20485824.csv,yds
+csvData20485824.csv,ff
+csvData20485824.csv,fr
+csvData20485824.csv,td
+csvData20485824.csv,int
+csvData20485824.csv,brup
+csvData20485824.csv,blk
+csvData20485824.csv,saf
+csvData436368__0.csv,POS
+csvData436368__0.csv,Team
+csvData23033509__3.csv,Player
+csvData23527792.csv,Game Date
+csvData23527792.csv,Team
+csvData23527792.csv,Opp
+csvData23527792.csv,Result
+csvData23527792.csv,Str%
+csvData23527792.csv,Career W-L
+csvData23527792.csv,Feat Description
+csvData8712109.csv,Name
+csvData8712109.csv,Top
+csvData8712109.csv,Time
+csvData8712109.csv,HK %
+csvData8712109.csv,Accuracy
+csvData8712109.csv,Unlocks
+csvData5132735.csv,Trk
+csvData5132735.csv,Code
+csvData5132735.csv,Station Name
+csvData5132735.csv,Elev
+csvData5132735.csv,Zone
+csvData5132735.csv,Address
+csvData14963477__8.csv,POS
+csvData1519975.csv,Prov Spot or DNQ
+csvData1519975.csv,Driver
+csvData1519975.csv,Manu
+csvData824389.csv,Team Name
+csvData824389.csv,Team
+csvData824389.csv,MLB-Aff
+csvData824389.csv,Manager(s)
+csvData824389.csv,Best OPS
+csvData824389.csv,Best WHIP
+csvData10586458.csv,Location
+csvData10586458.csv,PrD
+csvData10586458.csv,CrD
+csvData11058880.csv,SEASON
+csvData11058880.csv,TEAM
+csvData11058880.csv,LEAGUE
+csvData11058880.csv,OTW
+csvData11058880.csv,OTL
+csvData11058880.csv,POSTSEASON
+csvData46983.csv,TYPE
+csvData46983.csv,SURNAME
+csvData46983.csv,First Name(s)
+csvData46983.csv,Father's Given Name
+csvData46983.csv,Mother's Given Name
+csvData46983.csv,Mother's MAIDEN NAME
+csvData8930847__2.csv,MP
+csvData24139768.csv,Vendor
+csvData24139768.csv,Model
+csvData24139768.csv,CPU
+csvData24139768.csv,Super I/O
+csvData24139768.csv,EC
+csvData24139768.csv,Flash Chip
+csvData24139768.csv,Flash Size
+csvData24139768.csv,Flash S.
+csvData24139768.csv,Owner
+csvData24805223__8.csv,Player
+csvData24805223__8.csv,POS
+csvData26692326.csv,Wm Alpha
+csvData26692326.csv,Bust (inches)
+csvData26692326.csv,Waist (inches)
+csvData26692326.csv,Hip (inches)
+csvData2852713__1.csv,Name
+csvData23500287.csv,Unif
+csvData23500287.csv,Player
+csvData23500287.csv,Pos
+csvData23500287.csv,Ht
+csvData23500287.csv,B-T
+csvData23500287.csv,Born
+csvData23500287.csv,Place
+csvData23500287.csv,Draft Info
+csvData23500287.csv,High Level
+csvData23500287.csv,Current Team
+csvData23500287.csv,Status
+csvData5085816.csv,Date
+csvData5085816.csv,Tm
+csvData5085816.csv,Opp
+csvData5085816.csv,Result
+csvData5085816.csv,Type
+csvData5085816.csv,Score Before
+csvData5085816.csv,Score After
+csvData3087355.csv,Open Date
+csvData3087355.csv,Close date
+csvData3087355.csv,Symbol
+csvData3087355.csv,Action
+csvData3087355.csv,Lots
+csvData3087355.csv,SL(Pips)
+csvData3087355.csv,Open Price
+csvData3087355.csv,Close Price
+csvData14519377.csv,Date
+csvData14519377.csv,Match
+csvData14519377.csv,Result
+csvData14519377.csv,Appearance
+csvData17862947.csv,TEAM
+csvData17862947.csv,LEAGUE
+csvData17862947.csv,POSTSEASON
+csvData710818.csv,Name
+csvData710818.csv,Age
+csvData710818.csv,Team
+csvData5544321.csv,Date
+csvData5544321.csv,Opponent
+csvData5544321.csv,Score
+csvData5544321.csv,sack
+csvData5544321.csv,lost
+csvData5544321.csv,ff
+csvData5544321.csv,blk
+csvData5544321.csv,saf
+csvData13523115__12.csv,LG
+csvData13523115__12.csv,LVL
+csvData13523115__12.csv,NAME
+csvData29466178.csv,Emission
+csvData29466178.csv,Class
+csvData29466178.csv,City
+csvData29466178.csv,County
+csvData29466178.csv,State
+csvData23934713.csv,Date
+csvData23934713.csv,Opponent
+csvData23934713.csv,Score
+csvData23934713.csv,yds
+csvData23934713.csv,ff
+csvData23934713.csv,fr
+csvData23934713.csv,td
+csvData23934713.csv,int
+csvData23934713.csv,brup
+csvData23934713.csv,blk
+csvData23934713.csv,saf
+csvData4955320.csv,Date
+csvData4955320.csv,Tm
+csvData4955320.csv,Opp
+csvData4955320.csv,Result
+csvData4955320.csv,Type
+csvData4955320.csv,Quarterback
+csvData4955320.csv,Score Before
+csvData4955320.csv,Score After
+csvData3838652.csv,Name
+csvData3838652.csv,Pos
+csvData3838652.csv,Salary
+csvData22454098.csv,Player
+csvData22454098.csv,Span
+csvData18017401.csv,Inn
+csvData18017401.csv,Score
+csvData18017401.csv,RoB
+csvData18017401.csv,Pit(cnt)Sequence
+csvData18017401.csv,R/O
+csvData18017401.csv,@Bat
+csvData18017401.csv,Batter
+csvData18017401.csv,Pitcher
+csvData18017401.csv,wWPA
+csvData18017401.csv,wWE
+csvData18017401.csv,Play Description
+csvData6612454.csv,Product
+csvData6612454.csv,Developer
+csvData6612454.csv,Pagination
+csvData6612454.csv,Rotation Lock
+csvData6612454.csv,Auto-scroll
+csvData6612454.csv,Progress indicator
+csvData6612454.csv,Backward/forward
+csvData6612454.csv,Table of Contents
+csvData6612454.csv,Bookmarks
+csvData6612454.csv,Resume
+csvData6612454.csv,Cloud synchronisation
+csvData6612454.csv,Go To
+csvData6612454.csv,Full text search
+csvData20660351.csv,Day
+csvData20660351.csv,Date
+csvData20660351.csv,Winner/tie
+csvData20660351.csv,Loser/tie
+csvData617860__4.csv,col11
+csvData2055974__4.csv,Opp
+csvData2055974__4.csv,MP
+csvData6547072.csv,Date
+csvData6547072.csv,Opponent
+csvData6547072.csv,Score
+csvData6547072.csv,sack
+csvData6547072.csv,lost
+csvData6547072.csv,fr
+csvData6547072.csv,blk
+csvData6547072.csv,saf
+csvData28193349__12.csv,POS
+csvData22163524.csv,Games
+csvData22163524.csv,City
+csvData22163524.csv,Sport
+csvData22163524.csv,Team
+csvData22163524.csv,NOC
+csvData22163524.csv,Phase
+csvData22163524.csv,Unit
+csvData22163524.csv,Date
+csvData4054652.csv,Player
+csvData4054652.csv,Team
+csvData4054652.csv,Date
+csvData4054652.csv,Type
+csvData4054652.csv,Field
+csvData4054652.csv,Opponent
+csvData4054652.csv,Home/Away
+csvData4054652.csv,Pitcher
+csvData4054652.csv,Outcome
+csvData10692057.csv,Location
+csvData10692057.csv,PrD
+csvData10692057.csv,CrD
+csvData22267063.csv,Player
+csvData22267063.csv,Pos
+csvData22267063.csv,Class
+csvData22267063.csv,Pre-Draft Team
+csvData22267063.csv,Draft Team
+csvData26239762__1.csv,Opp
+csvData26311710.csv,Team name
+csvData26311710.csv,Total Time
+csvData26311710.csv,Avg. Time
+csvData2290675.csv,Date
+csvData2290675.csv,Opponent
+csvData2290675.csv,Score
+csvData2290675.csv,3b
+csvData2290675.csv,hr
+csvData2290675.csv,sb
+csvData2290675.csv,cs
+csvData9172835.csv,Wm Alpha
+csvData9172835.csv,Bust (inches)
+csvData9172835.csv,Waist (inches)
+csvData9172835.csv,Hip (inches)
+csvData18889133.csv,FN
+csvData18889133.csv,LN
+csvData18889133.csv,DIVISION
+csvData18889133.csv,SWIM
+csvData18889133.csv,T1
+csvData18889133.csv,BIKE
+csvData18889133.csv,RATE
+csvData18889133.csv,T2
+csvData18889133.csv,RUN
+csvData18889133.csv,TIME
+csvData24842226.csv,Wm Alpha
+csvData24842226.csv,Bust (inches)
+csvData24842226.csv,Waist (inches)
+csvData24842226.csv,Hip (inches)
+csvData17608558.csv,Ticker
+csvData17608558.csv,Company Name
+csvData17608558.csv,Financial Strength
+csvData17608558.csv,Profitability Rank
+csvData17608558.csv,Market Cap (Mil)
+csvData5296964.csv,Date
+csvData5296964.csv,Opponent
+csvData5296964.csv,Score
+csvData5296964.csv,hr
+csvData29493425.csv,Wm Alpha
+csvData29493425.csv,Bust (inches)
+csvData29493425.csv,Waist (inches)
+csvData29493425.csv,Hip (inches)
+csvData25931801.csv,Wm Alpha
+csvData25931801.csv,Bust (inches)
+csvData25931801.csv,Waist (inches)
+csvData25931801.csv,Hip (inches)
+csvData5750017.csv,Wm Alpha
+csvData5750017.csv,Bust (inches)
+csvData5750017.csv,Waist (inches)
+csvData5750017.csv,Hip (inches)
+csvData14999018.csv,Wm Alpha
+csvData14999018.csv,Bust (inches)
+csvData14999018.csv,Waist (inches)
+csvData14999018.csv,Hip (inches)
+csvData4355784.csv,Wm Alpha
+csvData4355784.csv,Bust (inches)
+csvData4355784.csv,Waist (inches)
+csvData4355784.csv,Hip (inches)
+csvData14585645.csv,Date
+csvData14585645.csv,Opponent
+csvData14585645.csv,Score
+csvData14585645.csv,3b
+csvData14585645.csv,hr
+csvData14585645.csv,sb
+csvData2781749.csv,Wm Alpha
+csvData2781749.csv,Bust (inches)
+csvData2781749.csv,Waist (inches)
+csvData2781749.csv,Hip (inches)
+csvData251906.csv,Date
+csvData251906.csv,Match
+csvData251906.csv,Result
+csvData251906.csv,Appearance
+csvData17412689.csv,Wm Alpha
+csvData17412689.csv,Bust (inches)
+csvData17412689.csv,Waist (inches)
+csvData17412689.csv,Hip (inches)
+csvData25316265.csv,Wm Alpha
+csvData25316265.csv,Bust (inches)
+csvData25316265.csv,Waist (inches)
+csvData25316265.csv,Hip (inches)
+csvData10074535__2.csv,Player
+csvData11972688.csv,Wm Alpha
+csvData11972688.csv,Bust (inches)
+csvData11972688.csv,Waist (inches)
+csvData11972688.csv,Hip (inches)
+csvData11618254.csv,Wm Alpha
+csvData11618254.csv,Bust (inches)
+csvData11618254.csv,Waist (inches)
+csvData11618254.csv,Hip (inches)
+csvData26651945__5.csv,POS
+csvData6081462.csv,Wm Alpha
+csvData6081462.csv,Bust (inches)
+csvData6081462.csv,Waist (inches)
+csvData6081462.csv,Hip (inches)
+csvData2273270__2.csv,Name
+csvData653743.csv,Wm Alpha
+csvData653743.csv,Bust (inches)
+csvData653743.csv,Waist (inches)
+csvData653743.csv,Hip (inches)
+csvData9103974__1.csv,LVL
+csvData2481180.csv,Date
+csvData2481180.csv,Opponent
+csvData2481180.csv,Score
+csvData2481180.csv,3b
+csvData2481180.csv,cs
+csvData27886551.csv,Date
+csvData27886551.csv,Opponent
+csvData27886551.csv,Score
+csvData27886551.csv,hr
+csvData18254710.csv,Team
+csvData18254710.csv,Lg
+csvData22086053.csv,12:00 am
+csvData22086053.csv,1:00 am
+csvData22086053.csv,2:00 am
+csvData22086053.csv,3:00 am
+csvData22086053.csv,4:00 am
+csvData22086053.csv,5:00 am
+csvData22086053.csv,6:00 am
+csvData22086053.csv,7:00 am
+csvData22086053.csv,8:00 am
+csvData22086053.csv,9:00 am
+csvData22086053.csv,10:00 am
+csvData22086053.csv,11:00 am
+csvData22086053.csv,12:00 pm
+csvData22086053.csv,1:00 pm
+csvData22086053.csv,2:00 pm
+csvData22086053.csv,3:00 pm
+csvData22086053.csv,4:00 pm
+csvData22086053.csv,5:00 pm
+csvData22086053.csv,6:00 pm
+csvData22086053.csv,7:00 pm
+csvData22086053.csv,8:00 pm
+csvData22086053.csv,9:00 pm
+csvData22086053.csv,10:00 pm
+csvData22086053.csv,11:00 pm
+csvData20076712.csv,Date
+csvData20076712.csv,Opponent
+csvData20076712.csv,2b
+csvData20076712.csv,3b
+csvData20076712.csv,hr
+csvData20076712.csv,bb
+csvData20076712.csv,k
+csvData20076712.csv,sb
+csvData20076712.csv,cs
+csvData9810570.csv,Description
+csvData15879708.csv,Description
+csvData4440277.csv,Description
+csvData9887957.csv,Wm Alpha
+csvData9887957.csv,Bust (inches)
+csvData9887957.csv,Waist (inches)
+csvData9887957.csv,Hip (inches)
+csvData21446323.csv,Date
+csvData21446323.csv,Opponent
+csvData21446323.csv,Score
+csvData21446323.csv,3b
+csvData21446323.csv,hr
+csvData12732689.csv,Wm Alpha
+csvData12732689.csv,Bust (inches)
+csvData12732689.csv,Waist (inches)
+csvData12732689.csv,Hip (inches)
+csvData1471797.csv,Wm Alpha
+csvData1471797.csv,Bust (inches)
+csvData1471797.csv,Waist (inches)
+csvData1471797.csv,Hip (inches)
+csvData16177334.csv,Name
+csvData16177334.csv,POS
+csvData16177334.csv,Salary
+csvData3726343__3.csv,Player
+csvData29079240.csv,Date
+csvData29079240.csv,Opponent
+csvData29079240.csv,Score
+csvData29079240.csv,2b
+csvData29079240.csv,3b
+csvData29079240.csv,hr
+csvData29079240.csv,bb
+csvData29079240.csv,k
+csvData29079240.csv,sb
+csvData29079240.csv,cs
+csvData20721103.csv,Date
+csvData20721103.csv,Opponent
+csvData20721103.csv,Score
+csvData20721103.csv,3b
+csvData20721103.csv,hr
+csvData12840642.csv,Date
+csvData12840642.csv,Opponent
+csvData12840642.csv,Score
+csvData12840642.csv,hr
+csvData4582875__1.csv,Player
+csvData4582875__1.csv,Opp
+csvData4582875__1.csv,Game Date
+csvData8479264__7.csv,Player
+csvData8479264__7.csv,POS
+csvData27769844.csv,Wm Alpha
+csvData27769844.csv,Bust (inches)
+csvData27769844.csv,Waist (inches)
+csvData27769844.csv,Hip (inches)
+csvData21199710.csv,Date
+csvData21199710.csv,Opponent
+csvData21199710.csv,3b
+csvData21199710.csv,hr
+csvData21199710.csv,cs
+csvData19048587.csv,Date
+csvData19048587.csv,Opponent
+csvData19048587.csv,Score
+csvData19048587.csv,2b
+csvData19048587.csv,3b
+csvData19048587.csv,hr
+csvData19048587.csv,bb
+csvData19048587.csv,sb
+csvData19048587.csv,cs
+csvData19659867__5.csv,Opp
+csvData27222634.csv,Wm Alpha
+csvData27222634.csv,Bust (inches)
+csvData27222634.csv,Waist (inches)
+csvData27222634.csv,Hip (inches)
+csvData19499881.csv,Wm Alpha
+csvData19499881.csv,Bust (inches)
+csvData19499881.csv,Waist (inches)
+csvData19499881.csv,Hip (inches)
+csvData8931705.csv,Wm Alpha
+csvData8931705.csv,Bust (inches)
+csvData8931705.csv,Waist (inches)
+csvData8931705.csv,Hip (inches)
+csvData28675422__4.csv,Date
+csvData28675422__4.csv,Tm
+csvData686611.csv,Wm Alpha
+csvData686611.csv,Bust (inches)
+csvData686611.csv,Waist (inches)
+csvData686611.csv,Hip (inches)
+csvData1902536__7.csv,POS
+csvData1902536__7.csv,Team
+csvData11736535.csv,Date
+csvData11736535.csv,Opponent
+csvData11736535.csv,2b
+csvData11736535.csv,3b
+csvData11736535.csv,hr
+csvData11736535.csv,bb
+csvData11736535.csv,k
+csvData11736535.csv,sb
+csvData11736535.csv,cs
+csvData14371155.csv,Date
+csvData14371155.csv,Opponent
+csvData14371155.csv,3b
+csvData14371155.csv,cs
+csvData828014.csv,Wm Alpha
+csvData828014.csv,Bust (inches)
+csvData828014.csv,Waist (inches)
+csvData828014.csv,Hip (inches)
+csvData7320164__0.csv,Player
+csvData7320164__0.csv,Team
+csvData16114577__9.csv,Team
+csvData1694150.csv,Ticker
+csvData1694150.csv,Company Name
+csvData1694150.csv,Financial Strength
+csvData1694150.csv,Profitability Rank
+csvData1694150.csv,Market Cap (Mil)
+csvData29230622__15.csv,TEAM
+csvData20851404.csv,Date
+csvData20851404.csv,Opponent
+csvData20851404.csv,Score
+csvData20851404.csv,2b
+csvData20851404.csv,3b
+csvData20851404.csv,hr
+csvData20851404.csv,cs
+csvData4974598.csv,Wm Alpha
+csvData4974598.csv,Bust (inches)
+csvData4974598.csv,Waist (inches)
+csvData4974598.csv,Hip (inches)
+csvData3002926.csv,Team
+csvData3002926.csv,Lg
+csvData16106829.csv,Date
+csvData16106829.csv,Opponent
+csvData16106829.csv,3b
+csvData16106829.csv,cs
+csvData28108677.csv,Team
+csvData28108677.csv,Lg
+csvData21225814.csv,Wm Alpha
+csvData21225814.csv,Bust (inches)
+csvData21225814.csv,Waist (inches)
+csvData21225814.csv,Hip (inches)
+csvData17329620.csv,Wm Alpha
+csvData17329620.csv,Bust (inches)
+csvData17329620.csv,Waist (inches)
+csvData17329620.csv,Hip (inches)
+csvData21411958.csv,Date
+csvData21411958.csv,Opponent
+csvData21411958.csv,Score
+csvData21411958.csv,2b
+csvData21411958.csv,3b
+csvData21411958.csv,hr
+csvData21411958.csv,bb
+csvData21411958.csv,k
+csvData21411958.csv,sb
+csvData21411958.csv,cs
+csvData12373941.csv,Date
+csvData12373941.csv,Opponent
+csvData12373941.csv,Score
+csvData12373941.csv,2b
+csvData12373941.csv,3b
+csvData12373941.csv,hr
+csvData12373941.csv,cs
+csvData21581423.csv,Wm Alpha
+csvData21581423.csv,Bust (inches)
+csvData21581423.csv,Waist (inches)
+csvData21581423.csv,Hip (inches)
+csvData7586525.csv,Date
+csvData7586525.csv,Opponent
+csvData7586525.csv,Score
+csvData7586525.csv,2b
+csvData7586525.csv,3b
+csvData7586525.csv,hr
+csvData7586525.csv,bb
+csvData7586525.csv,k
+csvData7586525.csv,sb
+csvData7586525.csv,cs
+csvData23094565.csv,Wm Alpha
+csvData23094565.csv,Bust (inches)
+csvData23094565.csv,Waist (inches)
+csvData23094565.csv,Hip (inches)
+csvData138750.csv,Date
+csvData138750.csv,Opponent
+csvData138750.csv,Score
+csvData138750.csv,2b
+csvData138750.csv,3b
+csvData138750.csv,hr
+csvData138750.csv,sb
+csvData138750.csv,cs
+csvData54729.csv,Wm Alpha
+csvData54729.csv,Bust (inches)
+csvData54729.csv,Waist (inches)
+csvData54729.csv,Hip (inches)
+csvData28193349__8.csv,POS
+csvData920668.csv,Wm Alpha
+csvData920668.csv,Bust (inches)
+csvData920668.csv,Waist (inches)
+csvData920668.csv,Hip (inches)
+csvData16179833.csv,Date
+csvData16179833.csv,Opponent
+csvData16179833.csv,ab
+csvData16179833.csv,r
+csvData16179833.csv,h
+csvData16179833.csv,2b
+csvData16179833.csv,3b
+csvData16179833.csv,hr
+csvData16179833.csv,rbi
+csvData16179833.csv,bb
+csvData16179833.csv,k
+csvData16179833.csv,sb
+csvData16179833.csv,cs
+csvData18828630__1.csv,3+HepBâ¡â¡
+csvData18828630__1.csv,1+VarÂ§Â§
+csvData18828630__1.csv,4:3:1:4-FSÂ§Â§Â§
+csvData18828630__1.csv,4:3:1:0:3:1â¬â¬
+csvData18828630__1.csv,4:3:1:3â â â 
+csvData18828630__1.csv,3+HibÂ¶
+csvData18828630__1.csv,4:3:1***
+csvData18828630__1.csv,4:3:1:3:3-PS****
+csvData17999405.csv,Date
+csvData17999405.csv,Opponent
+csvData17999405.csv,3b
+csvData18532902.csv,Wm Alpha
+csvData18532902.csv,Bust (inches)
+csvData18532902.csv,Waist (inches)
+csvData18532902.csv,Hip (inches)
+csvData16211584__0.csv,Date
+csvData22954489.csv,Date
+csvData22954489.csv,Opponent
+csvData22954489.csv,2b
+csvData22954489.csv,3b
+csvData22954489.csv,hr
+csvData22954489.csv,bb
+csvData22954489.csv,k
+csvData22954489.csv,sb
+csvData22954489.csv,cs
+csvData3174851.csv,Date
+csvData3174851.csv,Opponent
+csvData3174851.csv,3b
+csvData3174851.csv,cs
+csvData18580608.csv,Date
+csvData18580608.csv,Opponent
+csvData18580608.csv,Score
+csvData18580608.csv,3b
+csvData18580608.csv,hr
+csvData18580608.csv,sb
+csvData18580608.csv,cs
+csvData3313567.csv,Date
+csvData3313567.csv,Opponent
+csvData3313567.csv,Score
+csvData3313567.csv,2b
+csvData3313567.csv,3b
+csvData3313567.csv,hr
+csvData3313567.csv,bb
+csvData3313567.csv,sb
+csvData3313567.csv,cs
+csvData26295170.csv,Date
+csvData26295170.csv,Opponent
+csvData26295170.csv,Score
+csvData26295170.csv,2b
+csvData26295170.csv,3b
+csvData26295170.csv,hr
+csvData26295170.csv,bb
+csvData26295170.csv,sb
+csvData26295170.csv,cs
+csvData9533400.csv,Date
+csvData9533400.csv,Opponent
+csvData9533400.csv,Score
+csvData9533400.csv,2b
+csvData9533400.csv,3b
+csvData9533400.csv,hr
+csvData9533400.csv,bb
+csvData9533400.csv,sb
+csvData9533400.csv,cs
+csvData1335254.csv,Date
+csvData1335254.csv,Opponent
+csvData1335254.csv,Score
+csvData1335254.csv,hr
+csvData1335254.csv,cs
+csvData21180610__4.csv,Team
+csvData6161915.csv,Name
+csvData6161915.csv,POS
+csvData6161915.csv,Salary
+csvData12140426.csv,Date
+csvData12140426.csv,Opponent
+csvData12140426.csv,Score
+csvData12140426.csv,hr
+csvData12140426.csv,sb
+csvData12140426.csv,cs
+csvData28782575.csv,Wm Alpha
+csvData28782575.csv,Bust (inches)
+csvData28782575.csv,Waist (inches)
+csvData28782575.csv,Hip (inches)
+csvData21188553.csv,Wm Alpha
+csvData21188553.csv,Bust (inches)
+csvData21188553.csv,Waist (inches)
+csvData21188553.csv,Hip (inches)
+csvData25492117.csv,Date
+csvData25492117.csv,Opponent
+csvData25492117.csv,3b
+csvData7017590.csv,Date
+csvData7017590.csv,Opponent
+csvData2456195.csv,Date
+csvData2456195.csv,Opponent
+csvData2456195.csv,2b
+csvData2456195.csv,3b
+csvData2456195.csv,hr
+csvData2456195.csv,bb
+csvData2456195.csv,k
+csvData2456195.csv,sb
+csvData2456195.csv,cs
+csvData12745314.csv,Team
+csvData12745314.csv,Lg
+csvData8104420.csv,Wm Alpha
+csvData8104420.csv,Bust (inches)
+csvData8104420.csv,Waist (inches)
+csvData8104420.csv,Hip (inches)
+csvData6796853.csv,Wm Alpha
+csvData6796853.csv,Bust (inches)
+csvData6796853.csv,Waist (inches)
+csvData6796853.csv,Hip (inches)
+csvData1492719.csv,Wm Alpha
+csvData1492719.csv,Bust (inches)
+csvData1492719.csv,Waist (inches)
+csvData1492719.csv,Hip (inches)
+csvData23563467.csv,Date
+csvData23563467.csv,Opponent
+csvData23563467.csv,Score
+csvData23563467.csv,3b
+csvData23563467.csv,hr
+csvData23563467.csv,sb
+csvData23563467.csv,cs
+csvData19706578__1.csv,Date
+csvData17169701.csv,Wm Alpha
+csvData17169701.csv,Bust (inches)
+csvData17169701.csv,Waist (inches)
+csvData17169701.csv,Hip (inches)
+csvData448900__3.csv,MP
+csvData448900__3.csv,Age
+csvData448900__3.csv,Tm
+csvData448900__3.csv,Date
+csvData23148058.csv,Description
+csvData27987124__13.csv,Player
+csvData7069998.csv,Date
+csvData7069998.csv,Opponent
+csvData7069998.csv,3b
+csvData20914327.csv,Wm Alpha
+csvData20914327.csv,Bust (inches)
+csvData20914327.csv,Waist (inches)
+csvData20914327.csv,Hip (inches)
+csvData14874113.csv,Date
+csvData14874113.csv,Opponent
+csvData9534250.csv,Wm Alpha
+csvData9534250.csv,Bust (inches)
+csvData9534250.csv,Waist (inches)
+csvData9534250.csv,Hip (inches)
+csvData7769963.csv,Date
+csvData7769963.csv,Opponent
+csvData7769963.csv,2b
+csvData7769963.csv,3b
+csvData7769963.csv,hr
+csvData7769963.csv,bb
+csvData7769963.csv,k
+csvData7769963.csv,sb
+csvData7769963.csv,cs
+csvData5438497.csv,Date
+csvData5438497.csv,Opponent
+csvData5438497.csv,3b
+csvData5438497.csv,hr
+csvData5438497.csv,cs
+csvData18009943.csv,Date
+csvData18009943.csv,Opponent
+csvData18009943.csv,hr
+csvData19621512__16.csv,TEAM
+csvData19621512__16.csv,LG
+csvData12424505.csv,Wm Alpha
+csvData12424505.csv,Bust (inches)
+csvData12424505.csv,Waist (inches)
+csvData12424505.csv,Hip (inches)
+csvData25116980.csv,Wm Alpha
+csvData25116980.csv,Bust (inches)
+csvData25116980.csv,Waist (inches)
+csvData25116980.csv,Hip (inches)
+csvData22343857.csv,Wm Alpha
+csvData22343857.csv,Bust (inches)
+csvData22343857.csv,Waist (inches)
+csvData22343857.csv,Hip (inches)
+csvData25202576.csv,Date
+csvData25202576.csv,Opponent
+csvData25202576.csv,3b
+csvData25202576.csv,hr
+csvData22192533.csv,Date
+csvData22192533.csv,Opponent
+csvData22192533.csv,3b
+csvData16739900.csv,Wm Alpha
+csvData16739900.csv,Bust (inches)
+csvData16739900.csv,Waist (inches)
+csvData16739900.csv,Hip (inches)
+csvData1083326.csv,Wm Alpha
+csvData1083326.csv,Bust (inches)
+csvData1083326.csv,Waist (inches)
+csvData1083326.csv,Hip (inches)
+csvData25558418.csv,Wm Alpha
+csvData25558418.csv,Bust (inches)
+csvData25558418.csv,Waist (inches)
+csvData25558418.csv,Hip (inches)
+csvData11658691.csv,Wm Alpha
+csvData11658691.csv,Bust (inches)
+csvData11658691.csv,Waist (inches)
+csvData11658691.csv,Hip (inches)
+csvData2897623.csv,Date
+csvData2897623.csv,Opponent
+csvData23138641__11.csv,Team
+csvData11683226.csv,Wm Alpha
+csvData11683226.csv,Bust (inches)
+csvData11683226.csv,Waist (inches)
+csvData11683226.csv,Hip (inches)
+csvData23362508__0.csv,MP
+csvData23362508__0.csv,Date
+csvData14558189.csv,Date
+csvData14558189.csv,Opponent
+csvData14558189.csv,Score
+csvData14558189.csv,3b
+csvData14558189.csv,hr
+csvData29359375.csv,Date
+csvData29359375.csv,Opponent
+csvData29359375.csv,Score
+csvData29359375.csv,hr
+csvData17096803.csv,Wm Alpha
+csvData17096803.csv,Bust (inches)
+csvData17096803.csv,Waist (inches)
+csvData17096803.csv,Hip (inches)
+csvData13456608.csv,Date
+csvData13456608.csv,Opponent
+csvData13456608.csv,2b
+csvData13456608.csv,3b
+csvData13456608.csv,hr
+csvData13456608.csv,bb
+csvData13456608.csv,k
+csvData13456608.csv,sb
+csvData13456608.csv,cs
+csvData27920584.csv,Date
+csvData27920584.csv,Opponent
+csvData27920584.csv,2b
+csvData27920584.csv,3b
+csvData27920584.csv,hr
+csvData27920584.csv,bb
+csvData27920584.csv,k
+csvData27920584.csv,sb
+csvData27920584.csv,cs
+csvData6039083.csv,Date
+csvData6039083.csv,Opponent
+csvData6039083.csv,Score
+csvData6039083.csv,ab
+csvData6039083.csv,r
+csvData6039083.csv,h
+csvData6039083.csv,2b
+csvData6039083.csv,3b
+csvData6039083.csv,hr
+csvData6039083.csv,rbi
+csvData6039083.csv,bb
+csvData6039083.csv,k
+csvData6039083.csv,sb
+csvData6039083.csv,cs
+csvData20075499__3.csv,Player
+csvData24805223__9.csv,Player
+csvData24805223__9.csv,POS
+csvData16049147.csv,Wm Alpha
+csvData16049147.csv,Bust (inches)
+csvData16049147.csv,Waist (inches)
+csvData16049147.csv,Hip (inches)
+csvData15206161__8.csv,Feat Description
+csvData15206161__8.csv,Team
+csvData15206161__8.csv,Result
+csvData16403538.csv,Date
+csvData16403538.csv,Opponent
+csvData16403538.csv,hr
+csvData25541407.csv,Wm Alpha
+csvData25541407.csv,Bust (inches)
+csvData25541407.csv,Waist (inches)
+csvData25541407.csv,Hip (inches)
+csvData12651916.csv,Wm Alpha
+csvData12651916.csv,Bust (inches)
+csvData12651916.csv,Waist (inches)
+csvData12651916.csv,Hip (inches)
+csvData25450714__2.csv,POS
+csvData6560108.csv,Wm Alpha
+csvData6560108.csv,Bust (inches)
+csvData6560108.csv,Waist (inches)
+csvData6560108.csv,Hip (inches)
+csvData2852022__3.csv,Age
+csvData2852022__3.csv,Tm
+csvData2852022__3.csv,MP
+csvData11367473.csv,Date
+csvData11367473.csv,Opponent
+csvData11367473.csv,Score
+csvData11367473.csv,3b
+csvData11367473.csv,hr
+csvData11367473.csv,sb
+csvData23138641__6.csv,Team
+csvData22266740__5.csv,Date
+csvData2915061.csv,Date
+csvData2915061.csv,Opponent
+csvData2915061.csv,3b
+csvData2915061.csv,hr
+csvData2915061.csv,cs
+csvData13902854.csv,Wm Alpha
+csvData13902854.csv,Bust (inches)
+csvData13902854.csv,Waist (inches)
+csvData13902854.csv,Hip (inches)
+csvData4676916__1.csv,Team
+csvData25917960__5.csv,Age
+csvData25917960__5.csv,MP
+csvData7452094.csv,Wm Alpha
+csvData7452094.csv,Bust (inches)
+csvData7452094.csv,Waist (inches)
+csvData7452094.csv,Hip (inches)
+csvData18493125__1.csv,Team
+csvData18493125__1.csv,Player
+csvData10911563.csv,Wm Alpha
+csvData10911563.csv,Bust (inches)
+csvData10911563.csv,Waist (inches)
+csvData10911563.csv,Hip (inches)
+csvData1504499.csv,Date
+csvData1504499.csv,Opponent
+csvData1504499.csv,Score
+csvData1504499.csv,3b
+csvData1504499.csv,hr
+csvData1504499.csv,cs
+csvData3792639.csv,Ticker
+csvData3792639.csv,Company Name
+csvData3792639.csv,Financial Strength
+csvData3792639.csv,Profitability Rank
+csvData3792639.csv,Market Cap (Mil)
+csvData5341032.csv,Wm Alpha
+csvData5341032.csv,Bust (inches)
+csvData5341032.csv,Waist (inches)
+csvData5341032.csv,Hip (inches)
+csvData4616117.csv,Wm Alpha
+csvData4616117.csv,Bust (inches)
+csvData4616117.csv,Waist (inches)
+csvData4616117.csv,Hip (inches)
+csvData13157490.csv,Wm Alpha
+csvData13157490.csv,Bust (inches)
+csvData13157490.csv,Waist (inches)
+csvData13157490.csv,Hip (inches)
+csvData2309799.csv,Wm Alpha
+csvData2309799.csv,Bust (inches)
+csvData2309799.csv,Waist (inches)
+csvData2309799.csv,Hip (inches)
+csvData12735867.csv,Wm Alpha
+csvData12735867.csv,Bust (inches)
+csvData12735867.csv,Waist (inches)
+csvData12735867.csv,Hip (inches)
+csvData17403936.csv,Date
+csvData17403936.csv,Opponent
+csvData17403936.csv,2b
+csvData17403936.csv,3b
+csvData17403936.csv,hr
+csvData17403936.csv,bb
+csvData17403936.csv,k
+csvData17403936.csv,sb
+csvData17403936.csv,cs
+csvData26491935.csv,Wm Alpha
+csvData26491935.csv,Bust (inches)
+csvData26491935.csv,Waist (inches)
+csvData26491935.csv,Hip (inches)
+csvData9385219__2.csv,Date
+csvData26464338.csv,Wm Alpha
+csvData26464338.csv,Bust (inches)
+csvData26464338.csv,Waist (inches)
+csvData26464338.csv,Hip (inches)
+csvData12240230.csv,Wm Alpha
+csvData12240230.csv,Bust (inches)
+csvData12240230.csv,Waist (inches)
+csvData12240230.csv,Hip (inches)
+csvData3763118.csv,Team
+csvData3763118.csv,Lg
+csvData17907278.csv,Date
+csvData17907278.csv,Opponent
+csvData17907278.csv,2b
+csvData17907278.csv,3b
+csvData17907278.csv,hr
+csvData17907278.csv,bb
+csvData17907278.csv,k
+csvData17907278.csv,sb
+csvData17907278.csv,cs
+csvData24878751.csv,Date
+csvData24878751.csv,Opponent
+csvData24878751.csv,Score
+csvData24878751.csv,2b
+csvData24878751.csv,3b
+csvData24878751.csv,hr
+csvData24878751.csv,cs
+csvData6780612.csv,Date
+csvData6780612.csv,Opponent
+csvData6780612.csv,Score
+csvData6780612.csv,hr
+csvData6780612.csv,cs
+csvData17416824.csv,Wm Alpha
+csvData17416824.csv,Bust (inches)
+csvData17416824.csv,Waist (inches)
+csvData17416824.csv,Hip (inches)
+csvData13945907.csv,Date
+csvData13945907.csv,Opponent
+csvData13945907.csv,Score
+csvData13945907.csv,2b
+csvData13945907.csv,3b
+csvData13945907.csv,hr
+csvData13945907.csv,sb
+csvData13945907.csv,cs
+csvData10887965.csv,Wm Alpha
+csvData10887965.csv,Bust (inches)
+csvData10887965.csv,Waist (inches)
+csvData10887965.csv,Hip (inches)
+csvData27178168.csv,Date
+csvData27178168.csv,Opponent
+csvData27178168.csv,2b
+csvData27178168.csv,3b
+csvData27178168.csv,hr
+csvData27178168.csv,bb
+csvData27178168.csv,k
+csvData27178168.csv,sb
+csvData27178168.csv,cs
+csvData26024936.csv,Wm Alpha
+csvData26024936.csv,Bust (inches)
+csvData26024936.csv,Waist (inches)
+csvData26024936.csv,Hip (inches)
+csvData4434482.csv,Date
+csvData4434482.csv,Opponent
+csvData4434482.csv,Score
+csvData4434482.csv,2b
+csvData4434482.csv,3b
+csvData4434482.csv,hr
+csvData17921577.csv,Wm Alpha
+csvData17921577.csv,Bust (inches)
+csvData17921577.csv,Waist (inches)
+csvData17921577.csv,Hip (inches)
+csvData28837690.csv,Wm Alpha
+csvData28837690.csv,Bust (inches)
+csvData28837690.csv,Waist (inches)
+csvData28837690.csv,Hip (inches)
+csvData23195006.csv,Ticker
+csvData23195006.csv,Company Name
+csvData23195006.csv,Financial Strength
+csvData23195006.csv,Profitability Rank
+csvData23195006.csv,Market Cap (Mil)
+csvData9903718.csv,Wm Alpha
+csvData9903718.csv,Bust (inches)
+csvData9903718.csv,Waist (inches)
+csvData9903718.csv,Hip (inches)
+csvData13027100.csv,Date
+csvData13027100.csv,Opponent
+csvData13027100.csv,2b
+csvData13027100.csv,3b
+csvData13027100.csv,hr
+csvData13027100.csv,bb
+csvData13027100.csv,k
+csvData13027100.csv,sb
+csvData13027100.csv,cs
+csvData27867556__0.csv,MP
+csvData27867556__0.csv,Tm
+csvData8013988.csv,Date
+csvData8013988.csv,Opponent
+csvData8013988.csv,3b
+csvData8013988.csv,hr
+csvData28831003.csv,Ticker
+csvData28831003.csv,Company Name
+csvData28831003.csv,Financial Strength
+csvData28831003.csv,Profitability Rank
+csvData28831003.csv,Market Cap (Mil)
+csvData19322365.csv,Wm Alpha
+csvData19322365.csv,Bust (inches)
+csvData19322365.csv,Waist (inches)
+csvData19322365.csv,Hip (inches)
+csvData28193349__13.csv,POS
+csvData19462442.csv,Date
+csvData19462442.csv,Opponent
+csvData19462442.csv,2b
+csvData19462442.csv,3b
+csvData19462442.csv,hr
+csvData19462442.csv,bb
+csvData19462442.csv,k
+csvData19462442.csv,sb
+csvData19462442.csv,cs
+csvData5177843.csv,Date
+csvData5177843.csv,Opponent
+csvData5177843.csv,2b
+csvData5177843.csv,3b
+csvData5177843.csv,hr
+csvData5177843.csv,bb
+csvData5177843.csv,k
+csvData5177843.csv,sb
+csvData5177843.csv,cs
+csvData22368571.csv,Wm Alpha
+csvData22368571.csv,Bust (inches)
+csvData22368571.csv,Waist (inches)
+csvData22368571.csv,Hip (inches)
+csvData5433037.csv,Wm Alpha
+csvData5433037.csv,Bust (inches)
+csvData5433037.csv,Waist (inches)
+csvData5433037.csv,Hip (inches)
+csvData23445203.csv,Date
+csvData23445203.csv,Opponent
+csvData23445203.csv,Score
+csvData23445203.csv,hr
+csvData647397.csv,Wm Alpha
+csvData647397.csv,Bust (inches)
+csvData647397.csv,Waist (inches)
+csvData647397.csv,Hip (inches)
+csvData26445407.csv,Date
+csvData26445407.csv,Opponent
+csvData26445407.csv,3b
+csvData26445407.csv,hr
+csvData2257146.csv,Date
+csvData2257146.csv,Opponent
+csvData2257146.csv,Score
+csvData2257146.csv,3b
+csvData2257146.csv,hr
+csvData2257146.csv,bb
+csvData2257146.csv,cs
+csvData21751010.csv,Wm Alpha
+csvData21751010.csv,Bust (inches)
+csvData21751010.csv,Waist (inches)
+csvData21751010.csv,Hip (inches)
+csvData13638124__1.csv,Player
+csvData13694570.csv,Date
+csvData13694570.csv,Opponent
+csvData26156587.csv,Date
+csvData26156587.csv,Opponent
+csvData26156587.csv,3b
+csvData26156587.csv,cs
+csvData23413367__15.csv,col15
+csvData23413367__15.csv,col19
+csvData23413367__15.csv,col13
+csvData11995640.csv,Date
+csvData11995640.csv,Opponent
+csvData11995640.csv,2b
+csvData11995640.csv,3b
+csvData11995640.csv,hr
+csvData11995640.csv,bb
+csvData11995640.csv,k
+csvData11995640.csv,sb
+csvData11995640.csv,cs
+csvData7022588.csv,Wm Alpha
+csvData7022588.csv,Bust (inches)
+csvData7022588.csv,Waist (inches)
+csvData7022588.csv,Hip (inches)
+csvData5692977.csv,Wm Alpha
+csvData5692977.csv,Bust (inches)
+csvData5692977.csv,Waist (inches)
+csvData5692977.csv,Hip (inches)
+csvData25710980.csv,Wm Alpha
+csvData25710980.csv,Bust (inches)
+csvData25710980.csv,Waist (inches)
+csvData25710980.csv,Hip (inches)
+csvData27487423.csv,Ticker
+csvData27487423.csv,Company Name
+csvData27487423.csv,Financial Strength
+csvData27487423.csv,Profitability Rank
+csvData27487423.csv,Market Cap (Mil)
+csvData6662352.csv,Wm Alpha
+csvData6662352.csv,Bust (inches)
+csvData6662352.csv,Waist (inches)
+csvData6662352.csv,Hip (inches)
+csvData528553.csv,Wm Alpha
+csvData528553.csv,Bust (inches)
+csvData528553.csv,Waist (inches)
+csvData528553.csv,Hip (inches)
+csvData2295971.csv,Wm Alpha
+csvData2295971.csv,Bust (inches)
+csvData2295971.csv,Waist (inches)
+csvData2295971.csv,Hip (inches)
+csvData22604517.csv,Date
+csvData22604517.csv,Opponent
+csvData22604517.csv,Score
+csvData22604517.csv,3b
+csvData22604517.csv,hr
+csvData7895999.csv,Date
+csvData7895999.csv,Opponent
+csvData7895999.csv,3b
+csvData29383799__6.csv,POS
+csvData158232__1.csv,Name
+csvData9198663.csv,Wm Alpha
+csvData9198663.csv,Bust (inches)
+csvData9198663.csv,Waist (inches)
+csvData9198663.csv,Hip (inches)
+csvData23199378.csv,Wm Alpha
+csvData23199378.csv,Bust (inches)
+csvData23199378.csv,Waist (inches)
+csvData23199378.csv,Hip (inches)
+csvData6630597.csv,Date
+csvData6630597.csv,Opponent
+csvData6630597.csv,Score
+csvData6630597.csv,3b
+csvData6630597.csv,hr
+csvData6630597.csv,cs
+csvData1403926.csv,Date
+csvData1403926.csv,Opponent
+csvData1403926.csv,3b
+csvData1403926.csv,hr
+csvData9491308.csv,Wm Alpha
+csvData9491308.csv,Bust (inches)
+csvData9491308.csv,Waist (inches)
+csvData9491308.csv,Hip (inches)
+csvData21608350.csv,Date
+csvData21608350.csv,Opponent
+csvData21608350.csv,Score
+csvData21608350.csv,cs
+csvData18362365.csv,Wm Alpha
+csvData18362365.csv,Bust (inches)
+csvData18362365.csv,Waist (inches)
+csvData18362365.csv,Hip (inches)
+csvData28705882.csv,Wm Alpha
+csvData28705882.csv,Bust (inches)
+csvData28705882.csv,Waist (inches)
+csvData28705882.csv,Hip (inches)
+csvData492969.csv,Team
+csvData492969.csv,Lg
+csvData4269776__2.csv,MP
+csvData4269776__2.csv,Age
+csvData10364341.csv,Wm Alpha
+csvData10364341.csv,Bust (inches)
+csvData10364341.csv,Waist (inches)
+csvData10364341.csv,Hip (inches)
+csvData7176748.csv,Date
+csvData7176748.csv,Opponent
+csvData7176748.csv,ab
+csvData7176748.csv,r
+csvData7176748.csv,h
+csvData7176748.csv,2b
+csvData7176748.csv,3b
+csvData7176748.csv,hr
+csvData7176748.csv,rbi
+csvData7176748.csv,bb
+csvData7176748.csv,k
+csvData7176748.csv,sb
+csvData7176748.csv,cs
+csvData23553481.csv,Wm Alpha
+csvData23553481.csv,Bust (inches)
+csvData23553481.csv,Waist (inches)
+csvData23553481.csv,Hip (inches)
+csvData9520009.csv,Wm Alpha
+csvData9520009.csv,Bust (inches)
+csvData9520009.csv,Waist (inches)
+csvData9520009.csv,Hip (inches)
+csvData17456416.csv,Date
+csvData17456416.csv,Opponent
+csvData17456416.csv,3b
+csvData17456416.csv,hr
+csvData11487262.csv,Name
+csvData11487262.csv,POS
+csvData11487262.csv,Salary
+csvData12025579.csv,Wm Alpha
+csvData12025579.csv,Bust (inches)
+csvData12025579.csv,Waist (inches)
+csvData12025579.csv,Hip (inches)
+csvData14183910.csv,Wm Alpha
+csvData14183910.csv,Bust (inches)
+csvData14183910.csv,Waist (inches)
+csvData14183910.csv,Hip (inches)
+csvData15879244.csv,Wm Alpha
+csvData15879244.csv,Bust (inches)
+csvData15879244.csv,Waist (inches)
+csvData15879244.csv,Hip (inches)
+csvData21499778.csv,Wm Alpha
+csvData21499778.csv,Bust (inches)
+csvData21499778.csv,Waist (inches)
+csvData21499778.csv,Hip (inches)
+csvData18345146.csv,Date
+csvData18345146.csv,Opponent
+csvData18345146.csv,2b
+csvData18345146.csv,3b
+csvData18345146.csv,hr
+csvData18345146.csv,bb
+csvData18345146.csv,k
+csvData18345146.csv,sb
+csvData18345146.csv,cs
+csvData1696520.csv,Wm Alpha
+csvData1696520.csv,Bust (inches)
+csvData1696520.csv,Waist (inches)
+csvData1696520.csv,Hip (inches)
+csvData436368__10.csv,Team
+csvData11416498.csv,Date
+csvData11416498.csv,Opponent
+csvData11416498.csv,Score
+csvData11416498.csv,cs
+csvData4224930.csv,Wm Alpha
+csvData4224930.csv,Bust (inches)
+csvData4224930.csv,Waist (inches)
+csvData4224930.csv,Hip (inches)
+csvData9607407.csv,Wm Alpha
+csvData9607407.csv,Bust (inches)
+csvData9607407.csv,Waist (inches)
+csvData9607407.csv,Hip (inches)
+csvData24108736__5.csv,Player
+csvData24735069.csv,Date
+csvData24735069.csv,Opponent
+csvData24735069.csv,Score
+csvData24735069.csv,2b
+csvData24735069.csv,3b
+csvData24735069.csv,hr
+csvData24735069.csv,bb
+csvData24735069.csv,k
+csvData24735069.csv,sb
+csvData24735069.csv,cs
+csvData6958657.csv,Wm Alpha
+csvData6958657.csv,Bust (inches)
+csvData6958657.csv,Waist (inches)
+csvData6958657.csv,Hip (inches)
+csvData26604328__0.csv,Date
+csvData21334709.csv,Date
+csvData21334709.csv,Opponent
+csvData21334709.csv,Score
+csvData21334709.csv,2b
+csvData21334709.csv,3b
+csvData21334709.csv,hr
+csvData21334709.csv,bb
+csvData21334709.csv,k
+csvData21334709.csv,sb
+csvData21334709.csv,cs
+csvData623463.csv,Wm Alpha
+csvData623463.csv,Bust (inches)
+csvData623463.csv,Waist (inches)
+csvData623463.csv,Hip (inches)
+csvData5899399.csv,Team
+csvData5899399.csv,Lg
+csvData2770849.csv,Date
+csvData2770849.csv,Opponent
+csvData2770849.csv,3b
+csvData2770849.csv,hr
+csvData2770849.csv,k
+csvData2770849.csv,cs
+csvData21284537.csv,Wm Alpha
+csvData21284537.csv,Bust (inches)
+csvData21284537.csv,Waist (inches)
+csvData21284537.csv,Hip (inches)
+csvData218079.csv,Wm Alpha
+csvData218079.csv,Bust (inches)
+csvData218079.csv,Waist (inches)
+csvData218079.csv,Hip (inches)
+csvData6056582.csv,Wm Alpha
+csvData6056582.csv,Bust (inches)
+csvData6056582.csv,Waist (inches)
+csvData6056582.csv,Hip (inches)
+csvData6444295__3.csv,Player
+csvData24228399.csv,Date
+csvData24228399.csv,Opponent
+csvData24228399.csv,2b
+csvData24228399.csv,3b
+csvData24228399.csv,hr
+csvData24228399.csv,bb
+csvData24228399.csv,k
+csvData24228399.csv,sb
+csvData24228399.csv,cs
+csvData2239090.csv,Wm Alpha
+csvData2239090.csv,Bust (inches)
+csvData2239090.csv,Waist (inches)
+csvData2239090.csv,Hip (inches)
+csvData21755921.csv,Wm Alpha
+csvData21755921.csv,Bust (inches)
+csvData21755921.csv,Waist (inches)
+csvData21755921.csv,Hip (inches)
+csvData15062376.csv,Date
+csvData15062376.csv,Opponent
+csvData15062376.csv,Score
+csvData15062376.csv,3b
+csvData15062376.csv,sb
+csvData15062376.csv,cs
+csvData8667209__1.csv,D
+csvData27758970.csv,Date
+csvData27758970.csv,Opponent
+csvData27758970.csv,2b
+csvData27758970.csv,3b
+csvData27758970.csv,hr
+csvData27758970.csv,bb
+csvData27758970.csv,k
+csvData27758970.csv,sb
+csvData27758970.csv,cs
+csvData7250901.csv,Name
+csvData7250901.csv,POS
+csvData7250901.csv,Salary
+csvData10502656.csv,Date
+csvData10502656.csv,Opponent
+csvData10502656.csv,Score
+csvData10502656.csv,2b
+csvData10502656.csv,3b
+csvData10502656.csv,hr
+csvData10502656.csv,bb
+csvData10502656.csv,k
+csvData10502656.csv,sb
+csvData10502656.csv,cs
+csvData8009905.csv,Date
+csvData8009905.csv,Opponent
+csvData8009905.csv,Score
+csvData8009905.csv,hr
+csvData8009905.csv,cs
+csvData5848807.csv,Date
+csvData5848807.csv,Opponent
+csvData28932469.csv,Date
+csvData28932469.csv,Opponent
+csvData28932469.csv,Score
+csvData28932469.csv,hr
+csvData15030226__10.csv,Acquired
+csvData15030226__10.csv,Tm
+csvData27987124__18.csv,POS
+csvData3064916.csv,Date
+csvData3064916.csv,Opponent
+csvData3064916.csv,2b
+csvData3064916.csv,3b
+csvData3064916.csv,hr
+csvData3064916.csv,bb
+csvData3064916.csv,k
+csvData3064916.csv,sb
+csvData3064916.csv,cs
+csvData7508893.csv,Date
+csvData7508893.csv,Opponent
+csvData7508893.csv,Score
+csvData7508893.csv,2b
+csvData7508893.csv,3b
+csvData7508893.csv,hr
+csvData7508893.csv,bb
+csvData7508893.csv,k
+csvData7508893.csv,sb
+csvData7508893.csv,cs
+csvData22858175.csv,Name
+csvData22858175.csv,POS
+csvData22858175.csv,Salary
+csvData21904609.csv,Date
+csvData21904609.csv,Opponent
+csvData21904609.csv,Score
+csvData21904609.csv,2b
+csvData21904609.csv,3b
+csvData21904609.csv,hr
+csvData21904609.csv,bb
+csvData21904609.csv,k
+csvData21904609.csv,sb
+csvData21904609.csv,cs
+csvData15025720__3.csv,Team
+csvData1648462.csv,Date
+csvData1648462.csv,Opponent
+csvData1648462.csv,Score
+csvData1648462.csv,2b
+csvData1648462.csv,3b
+csvData1648462.csv,hr
+csvData1648462.csv,bb
+csvData1648462.csv,sb
+csvData1648462.csv,cs
+csvData29590685.csv,Date
+csvData29590685.csv,Opponent
+csvData29590685.csv,3b
+csvData3022822.csv,Date
+csvData3022822.csv,Opponent
+csvData3022822.csv,Score
+csvData3022822.csv,2b
+csvData3022822.csv,3b
+csvData3022822.csv,hr
+csvData3022822.csv,bb
+csvData3022822.csv,k
+csvData3022822.csv,sb
+csvData3022822.csv,cs
+csvData10951717.csv,Wm Alpha
+csvData10951717.csv,Bust (inches)
+csvData10951717.csv,Waist (inches)
+csvData10951717.csv,Hip (inches)
+csvData27958626.csv,Wm Alpha
+csvData27958626.csv,Bust (inches)
+csvData27958626.csv,Waist (inches)
+csvData27958626.csv,Hip (inches)
+csvData22544585.csv,Date
+csvData22544585.csv,Opponent
+csvData22544585.csv,3b
+csvData17905082.csv,Date
+csvData17905082.csv,Opponent
+csvData17905082.csv,3b
+csvData25120653__4.csv,Date
+csvData15475898.csv,Wm Alpha
+csvData15475898.csv,Bust (inches)
+csvData15475898.csv,Waist (inches)
+csvData15475898.csv,Hip (inches)
+csvData15267153.csv,Wm Alpha
+csvData15267153.csv,Bust (inches)
+csvData15267153.csv,Waist (inches)
+csvData15267153.csv,Hip (inches)
+csvData15527475.csv,Wm Alpha
+csvData15527475.csv,Bust (inches)
+csvData15527475.csv,Waist (inches)
+csvData15527475.csv,Hip (inches)
+csvData28672117.csv,Name
+csvData28672117.csv,POS
+csvData28672117.csv,Salary
+csvData29383799__8.csv,POS
+csvData22754656.csv,Wm Alpha
+csvData22754656.csv,Bust (inches)
+csvData22754656.csv,Waist (inches)
+csvData22754656.csv,Hip (inches)
+csvData16126338.csv,Wm Alpha
+csvData16126338.csv,Bust (inches)
+csvData16126338.csv,Waist (inches)
+csvData16126338.csv,Hip (inches)
+csvData11632972.csv,Ticker
+csvData11632972.csv,Company Name
+csvData11632972.csv,Financial Strength
+csvData11632972.csv,Profitability Rank
+csvData11632972.csv,Market Cap (Mil)
+csvData14207584.csv,Wm Alpha
+csvData14207584.csv,Bust (inches)
+csvData14207584.csv,Waist (inches)
+csvData14207584.csv,Hip (inches)
+csvData19970342__3.csv,Tm
+csvData13336059__12.csv,POS
+csvData2761087__12.csv,Player
+csvData28321364.csv,Wm Alpha
+csvData28321364.csv,Bust (inches)
+csvData28321364.csv,Waist (inches)
+csvData28321364.csv,Hip (inches)
+csvData28497002.csv,Wm Alpha
+csvData28497002.csv,Bust (inches)
+csvData28497002.csv,Waist (inches)
+csvData28497002.csv,Hip (inches)
+csvData14518660__2.csv,Name
+csvData14518660__2.csv,Tm
+csvData8620997__2.csv,POS
+csvData8620997__2.csv,Team
+csvData11247389.csv,Wm Alpha
+csvData11247389.csv,Bust (inches)
+csvData11247389.csv,Waist (inches)
+csvData11247389.csv,Hip (inches)
+csvData18299563.csv,Wm Alpha
+csvData18299563.csv,Bust (inches)
+csvData18299563.csv,Waist (inches)
+csvData18299563.csv,Hip (inches)
+csvData25952822.csv,Wm Alpha
+csvData25952822.csv,Bust (inches)
+csvData25952822.csv,Waist (inches)
+csvData25952822.csv,Hip (inches)
+csvData1560653.csv,Wm Alpha
+csvData1560653.csv,Bust (inches)
+csvData1560653.csv,Waist (inches)
+csvData1560653.csv,Hip (inches)
+csvData1750779.csv,Wm Alpha
+csvData1750779.csv,Bust (inches)
+csvData1750779.csv,Waist (inches)
+csvData1750779.csv,Hip (inches)
+csvData24740095.csv,Wm Alpha
+csvData24740095.csv,Bust (inches)
+csvData24740095.csv,Waist (inches)
+csvData24740095.csv,Hip (inches)
+csvData17145416.csv,Wm Alpha
+csvData17145416.csv,Bust (inches)
+csvData17145416.csv,Waist (inches)
+csvData17145416.csv,Hip (inches)
+csvData6765420.csv,Wm Alpha
+csvData6765420.csv,Bust (inches)
+csvData6765420.csv,Waist (inches)
+csvData6765420.csv,Hip (inches)
+csvData4236041__1.csv,LG
+csvData4236041__1.csv,NAME
+csvData4236041__1.csv,LVL
+csvData19687925.csv,Ticker
+csvData19687925.csv,Company Name
+csvData19687925.csv,Financial Strength
+csvData19687925.csv,Profitability Rank
+csvData19687925.csv,Market Cap (Mil)
+csvData15883972.csv,Wm Alpha
+csvData15883972.csv,Bust (inches)
+csvData15883972.csv,Waist (inches)
+csvData15883972.csv,Hip (inches)
+csvData28193349__15.csv,POS
+csvData24807247__12.csv,POS
+csvData18493412.csv,Wm Alpha
+csvData18493412.csv,Bust (inches)
+csvData18493412.csv,Waist (inches)
+csvData18493412.csv,Hip (inches)
+csvData10407982.csv,Wm Alpha
+csvData10407982.csv,Bust (inches)
+csvData10407982.csv,Waist (inches)
+csvData10407982.csv,Hip (inches)
+csvData518896.csv,Wm Alpha
+csvData518896.csv,Bust (inches)
+csvData518896.csv,Waist (inches)
+csvData518896.csv,Hip (inches)
+csvData23245441.csv,Wm Alpha
+csvData23245441.csv,Bust (inches)
+csvData23245441.csv,Waist (inches)
+csvData23245441.csv,Hip (inches)
+csvData16211584__1.csv,Date
+csvData18493125__7.csv,POS
+csvData18493125__7.csv,Team
+csvData14443150__6.csv,Team
+csvData12168209__4.csv,Opponent
+csvData12168209__4.csv,Date
+csvData17302070__15.csv,POS
+csvData17302070__15.csv,Team
+csvData19868843__18.csv,Player Name
+csvData29383799__11.csv,POS
+csvData5528326__0.csv,Opp
+csvData5528326__0.csv,Tm
+csvData14957253__4.csv,MP
+csvData14957253__4.csv,Opp
+csvData2660625__3.csv,Age
+csvData22050447__4.csv,Split
+csvData10212811__4.csv,POS
+csvData10212811__4.csv,Team
+csvData10212811__4.csv,Player
+csvData2877720__9.csv,Team
+csvData14443150__4.csv,Team
+csvData20085670__8.csv,Player
+csvData19868843__7.csv,TOI
+csvData29331554__2.csv,Date
+csvData29331554__2.csv,Age
+csvData19621512__15.csv,TEAM
+csvData19621512__15.csv,LG
+csvData3178438__9.csv,Team
+csvData26926545__3.csv,Opp
+csvData26926545__3.csv,Age
+csvData24739325__1.csv,Tm
+csvData26863691__8.csv,POS
+csvData3284798__5.csv,Split
+csvData8042983__0.csv,Date
+csvData17302070__4.csv,Player
+csvData17302070__4.csv,Team
+csvData1761445__5.csv,Date
+csvData1761445__5.csv,Opponent
+csvData29000154__3.csv,Date
+csvData6027794__11.csv,TEAM
+csvData6027794__11.csv,LG
+csvData29453038__10.csv,Player
+csvData29453038__10.csv,Team
+csvData29402006__5.csv,Player
+csvData12739105__0.csv,Date
+csvData12739105__0.csv,Tm
+csvData16461238__1.csv,Opponent
+csvData704435__3.csv,MP
+csvData704435__3.csv,Age
+csvData704435__3.csv,Tm
+csvData7953069__0.csv,Player
+csvData7953069__0.csv,POS
+csvData22394405__1.csv,Name
+csvData20967043__4.csv,Date
+csvData20967043__4.csv,Age
+csvData5589184__3.csv,State/Territory
+csvData28672318__0.csv,Opp
+csvData28672318__0.csv,Result
+csvData28672318__0.csv,Game Date
+csvData7401568__13.csv,Team
+csvData7401568__13.csv,Player
+csvData4236041__0.csv,LG
+csvData4236041__0.csv,NAME
+csvData4236041__0.csv,LVL
+csvData18786685__0.csv,Player
+csvData22266740__1.csv,MP
+csvData16773977__1.csv,Team
+csvData7984902__0.csv,Date
+csvData7984902__0.csv,Opp
+csvData7984902__0.csv,Age
+csvData1102081__8.csv,POS
+csvData1102081__8.csv,Team
+csvData24591574__3.csv,Tm
+csvData13434912__5.csv,Team
+csvData10547086__14.csv,Player
+csvData26604328__4.csv,MP
+csvData26604328__4.csv,Age
+csvData26604328__4.csv,Tm
+csvData23789447__3.csv,Split
+csvData20099586__1.csv,Team
+csvData19719828__5.csv,Age
+csvData22241580__3.csv,Result
+csvData2590167__3.csv,POS
+csvData1564466__3.csv,Player
+csvData22688206__3.csv,Tm
+csvData22688206__3.csv,MP
+csvData200653__2.csv,Age
+csvData15302880__1.csv,MP
+csvData15302880__1.csv,Date
+csvData617860__2.csv,col18
+csvData617860__2.csv,col14
+csvData617860__2.csv,col9
+csvData10984639__0.csv,MP
+csvData10984639__0.csv,Tm
+csvData4643292__2.csv,Tm
+csvData19621512__11.csv,LG
+csvData19621512__11.csv,NAME
+csvData2761087__17.csv,Team
+csvData27987124__10.csv,Player
+csvData1444875__7.csv,Player
+csvData10025189__4.csv,POS
+csvData10025189__4.csv,Team
+csvData2590167__11.csv,POS
+csvData617860__5.csv,col11
+csvData2404013__8.csv,POS
+csvData28672318__2.csv,Opp
+csvData28672318__2.csv,Result
+csvData28672318__2.csv,Game Date
+csvData22418917__2.csv,MP
+csvData22418917__2.csv,Age
+csvData22418917__2.csv,Opp
+csvData22418917__2.csv,Date
+csvData13938970__3.csv,Date
+csvData13938970__3.csv,MP
+csvData18107425__3.csv,Date
+csvData21472451__2.csv,Date
+csvData21472451__2.csv,Opp
+csvData24341501__11.csv,NAME
+csvData24341501__11.csv,LG
+csvData29230622__1.csv,LVL
+csvData29230622__1.csv,TEAM
+csvData13336059__2.csv,POS
+csvData2230362.csv,Wm Alpha
+csvData2230362.csv,Bust (inches)
+csvData2230362.csv,Waist (inches)
+csvData2230362.csv,Hip (inches)
+csvData26886255.csv,Wm Alpha
+csvData26886255.csv,Bust (inches)
+csvData26886255.csv,Waist (inches)
+csvData26886255.csv,Hip (inches)
+csvData21493532.csv,Players
+csvData21493532.csv,FG
+csvData21493532.csv,3pt
+csvData21493532.csv,FT
+csvData22782160.csv,Date
+csvData22782160.csv,Opponent
+csvData22782160.csv,Score
+csvData14358134.csv,Wm Alpha
+csvData14358134.csv,Bust (inches)
+csvData14358134.csv,Waist (inches)
+csvData14358134.csv,Hip (inches)
+csvData17468353.csv,Wm Alpha
+csvData17468353.csv,Bust (inches)
+csvData17468353.csv,Waist (inches)
+csvData17468353.csv,Hip (inches)
+csvData5908890__0.csv,Tm
+csvData4251720.csv,Description
+csvData27449855.csv,Starters
+csvData27449855.csv,Pos
+csvData27449855.csv,Min
+csvData27449855.csv,FG
+csvData27449855.csv,3Pt
+csvData27449855.csv,FT
+csvData6971219.csv,Wm Alpha
+csvData6971219.csv,Bust (inches)
+csvData6971219.csv,Waist (inches)
+csvData6971219.csv,Hip (inches)
+csvData14593803.csv,Description
+csvData17744189.csv,Wm Alpha
+csvData17744189.csv,Bust (inches)
+csvData17744189.csv,Waist (inches)
+csvData17744189.csv,Hip (inches)
+csvData3158509.csv,Wm Alpha
+csvData3158509.csv,Bust (inches)
+csvData3158509.csv,Waist (inches)
+csvData3158509.csv,Hip (inches)
+csvData24341501__6.csv,TEAM
+csvData24341501__6.csv,NAME
+csvData21794501.csv,Wm Alpha
+csvData21794501.csv,Bust (inches)
+csvData21794501.csv,Waist (inches)
+csvData21794501.csv,Hip (inches)
+csvData568308.csv,Wm Alpha
+csvData568308.csv,Bust (inches)
+csvData568308.csv,Waist (inches)
+csvData568308.csv,Hip (inches)
+csvData15904097.csv,SEASON
+csvData15904097.csv,TEAM
+csvData15904097.csv,LEAGUE
+csvData15904097.csv,OTW
+csvData15904097.csv,POSTSEASON
+csvData4960788.csv,Wm Alpha
+csvData4960788.csv,Bust (inches)
+csvData4960788.csv,Waist (inches)
+csvData4960788.csv,Hip (inches)
+csvData21580569.csv,Player
+csvData21580569.csv,FG%
+csvData21580569.csv,3P%
+csvData21580569.csv,FT%
+csvData24562231.csv,Wm Alpha
+csvData24562231.csv,Bust (inches)
+csvData24562231.csv,Waist (inches)
+csvData24562231.csv,Hip (inches)
+csvData28864731__0.csv,Opp
+csvData28864731__0.csv,MP
+csvData4837421.csv,Wm Alpha
+csvData4837421.csv,Bust (inches)
+csvData4837421.csv,Waist (inches)
+csvData4837421.csv,Hip (inches)
+csvData4332943.csv,Player
+csvData4332943.csv,POS
+csvData4332943.csv,PKG/A
+csvData24968167.csv,TEAM
+csvData24968167.csv,LEAGUE
+csvData24968167.csv,POSTSEASON
+csvData4583188.csv,Wm Alpha
+csvData4583188.csv,Bust (inches)
+csvData4583188.csv,Waist (inches)
+csvData4583188.csv,Hip (inches)
+csvData13403843.csv,Wm Alpha
+csvData13403843.csv,Bust (inches)
+csvData13403843.csv,Waist (inches)
+csvData13403843.csv,Hip (inches)
+csvData311532.csv,Date
+csvData311532.csv,Opponent
+csvData311532.csv,ab
+csvData311532.csv,r
+csvData311532.csv,h
+csvData311532.csv,2b
+csvData311532.csv,3b
+csvData311532.csv,hr
+csvData311532.csv,rbi
+csvData311532.csv,bb
+csvData311532.csv,k
+csvData311532.csv,sb
+csvData311532.csv,cs
+csvData1969534.csv,Date
+csvData1969534.csv,Opponent
+csvData1969534.csv,Score
+csvData1969534.csv,3b
+csvData1969534.csv,hr
+csvData1969534.csv,sb
+csvData2351936.csv,Player
+csvData2351936.csv,FG%
+csvData2351936.csv,3P%
+csvData2351936.csv,FT%
+csvData13588389__3.csv,Age
+csvData13588389__3.csv,MP
+csvData15705213.csv,Wm Alpha
+csvData15705213.csv,Bust (inches)
+csvData15705213.csv,Waist (inches)
+csvData15705213.csv,Hip (inches)
+csvData21750774.csv,Wm Alpha
+csvData21750774.csv,Bust (inches)
+csvData21750774.csv,Waist (inches)
+csvData21750774.csv,Hip (inches)
+csvData8454231.csv,Wm Alpha
+csvData8454231.csv,Bust (inches)
+csvData8454231.csv,Waist (inches)
+csvData8454231.csv,Hip (inches)
+csvData2390407__6.csv,col6
+csvData2390407__6.csv,col15
+csvData2390407__6.csv,col21
+csvData3317985__1.csv,Name
+csvData4959443.csv,Wm Alpha
+csvData4959443.csv,Bust (inches)
+csvData4959443.csv,Waist (inches)
+csvData4959443.csv,Hip (inches)
+csvData24757334.csv,Wm Alpha
+csvData24757334.csv,Bust (inches)
+csvData24757334.csv,Waist (inches)
+csvData24757334.csv,Hip (inches)
+csvData12819157.csv,Wm Alpha
+csvData12819157.csv,Bust (inches)
+csvData12819157.csv,Waist (inches)
+csvData12819157.csv,Hip (inches)
+csvData5162336.csv,Wm Alpha
+csvData5162336.csv,Bust (inches)
+csvData5162336.csv,Waist (inches)
+csvData5162336.csv,Hip (inches)
+csvData26085869.csv,Date
+csvData26085869.csv,Opponent
+csvData26085869.csv,Score
+csvData27912279.csv,Date
+csvData27912279.csv,Opponent
+csvData3178438__2.csv,Team
+csvData852392.csv,Wm Alpha
+csvData852392.csv,Bust (inches)
+csvData852392.csv,Waist (inches)
+csvData852392.csv,Hip (inches)
+csvData10020331.csv,Wm Alpha
+csvData10020331.csv,Bust (inches)
+csvData10020331.csv,Waist (inches)
+csvData10020331.csv,Hip (inches)
+csvData17904576.csv,Wm Alpha
+csvData17904576.csv,Bust (inches)
+csvData17904576.csv,Waist (inches)
+csvData17904576.csv,Hip (inches)
+csvData27551127.csv,Wm Alpha
+csvData27551127.csv,Bust (inches)
+csvData27551127.csv,Waist (inches)
+csvData27551127.csv,Hip (inches)
+csvData15186034.csv,Season
+csvData15186034.csv,Team
+csvData23675480.csv,Wm Alpha
+csvData23675480.csv,Bust (inches)
+csvData23675480.csv,Waist (inches)
+csvData23675480.csv,Hip (inches)
+csvData14443150__5.csv,Team
+csvData26408717.csv,Wm Alpha
+csvData26408717.csv,Bust (inches)
+csvData26408717.csv,Waist (inches)
+csvData26408717.csv,Hip (inches)
+csvData22438994.csv,Season
+csvData6027794__2.csv,LG
+csvData20467240.csv,Wm Alpha
+csvData20467240.csv,Bust (inches)
+csvData20467240.csv,Waist (inches)
+csvData20467240.csv,Hip (inches)
+csvData15863436.csv,Players
+csvData15863436.csv,FG
+csvData15863436.csv,3pt
+csvData15863436.csv,FT
+csvData24107140.csv,Wm Alpha
+csvData24107140.csv,Bust (inches)
+csvData24107140.csv,Waist (inches)
+csvData24107140.csv,Hip (inches)
+csvData28837343.csv,Wm Alpha
+csvData28837343.csv,Bust (inches)
+csvData28837343.csv,Waist (inches)
+csvData28837343.csv,Hip (inches)
+csvData21311975.csv,Wm Alpha
+csvData21311975.csv,Bust (inches)
+csvData21311975.csv,Waist (inches)
+csvData21311975.csv,Hip (inches)
+csvData20868409.csv,Wm Alpha
+csvData20868409.csv,Bust (inches)
+csvData20868409.csv,Waist (inches)
+csvData20868409.csv,Hip (inches)
+csvData23837696.csv,Wm Alpha
+csvData23837696.csv,Bust (inches)
+csvData23837696.csv,Waist (inches)
+csvData23837696.csv,Hip (inches)
+csvData13849494.csv,Wm Alpha
+csvData13849494.csv,Bust (inches)
+csvData13849494.csv,Waist (inches)
+csvData13849494.csv,Hip (inches)
+csvData27142907.csv,Wm Alpha
+csvData27142907.csv,Bust (inches)
+csvData27142907.csv,Waist (inches)
+csvData27142907.csv,Hip (inches)
+csvData18327923.csv,Wm Alpha
+csvData18327923.csv,Bust (inches)
+csvData18327923.csv,Waist (inches)
+csvData18327923.csv,Hip (inches)
+csvData1641204.csv,Wm Alpha
+csvData1641204.csv,Bust (inches)
+csvData1641204.csv,Waist (inches)
+csvData1641204.csv,Hip (inches)
+csvData8167340.csv,Wm Alpha
+csvData8167340.csv,Bust (inches)
+csvData8167340.csv,Waist (inches)
+csvData8167340.csv,Hip (inches)
+csvData2313527__0.csv,col17
+csvData2313527__0.csv,col18
+csvData2313527__0.csv,col11
+csvData2313527__0.csv,col15
+csvData2313527__0.csv,col5
+csvData2313527__0.csv,col3
+csvData8460770.csv,Wm Alpha
+csvData8460770.csv,Bust (inches)
+csvData8460770.csv,Waist (inches)
+csvData8460770.csv,Hip (inches)
+csvData25450714__19.csv,Player
+csvData27989328.csv,Wm Alpha
+csvData27989328.csv,Bust (inches)
+csvData27989328.csv,Waist (inches)
+csvData27989328.csv,Hip (inches)
+csvData4974329.csv,Wm Alpha
+csvData4974329.csv,Bust (inches)
+csvData4974329.csv,Waist (inches)
+csvData4974329.csv,Hip (inches)
+csvData25895736.csv,Wm Alpha
+csvData25895736.csv,Bust (inches)
+csvData25895736.csv,Waist (inches)
+csvData25895736.csv,Hip (inches)
+csvData1902536__14.csv,Player
+csvData19855787.csv,Season
+csvData1048267.csv,Wm Alpha
+csvData1048267.csv,Bust (inches)
+csvData1048267.csv,Waist (inches)
+csvData1048267.csv,Hip (inches)
+csvData8363781.csv,Wm Alpha
+csvData8363781.csv,Bust (inches)
+csvData8363781.csv,Waist (inches)
+csvData8363781.csv,Hip (inches)
+csvData9635937.csv,Split
+csvData9635937.csv,School
+csvData9635937.csv,Class
+csvData21478615.csv,Wm Alpha
+csvData21478615.csv,Bust (inches)
+csvData21478615.csv,Waist (inches)
+csvData21478615.csv,Hip (inches)
+csvData25321210.csv,Wm Alpha
+csvData25321210.csv,Bust (inches)
+csvData25321210.csv,Waist (inches)
+csvData25321210.csv,Hip (inches)
+csvData2393836.csv,U.S.
+csvData2393836.csv,China
+csvData23604104.csv,Players
+csvData23604104.csv,FG
+csvData23604104.csv,3pt
+csvData23604104.csv,FT
+csvData18989479.csv,Wm Alpha
+csvData18989479.csv,Bust (inches)
+csvData18989479.csv,Waist (inches)
+csvData18989479.csv,Hip (inches)
+csvData1357553.csv,Wm Alpha
+csvData1357553.csv,Bust (inches)
+csvData1357553.csv,Waist (inches)
+csvData1357553.csv,Hip (inches)
+csvData18777494.csv,Wm Alpha
+csvData18777494.csv,Bust (inches)
+csvData18777494.csv,Waist (inches)
+csvData18777494.csv,Hip (inches)
+csvData24283395.csv,Season
+csvData24283395.csv,School
+csvData23471232.csv,Wm Alpha
+csvData23471232.csv,Bust (inches)
+csvData23471232.csv,Waist (inches)
+csvData23471232.csv,Hip (inches)
+csvData28219100__3.csv,MP
+csvData18073272.csv,Wm Alpha
+csvData18073272.csv,Bust (inches)
+csvData18073272.csv,Waist (inches)
+csvData18073272.csv,Hip (inches)
+csvData7591362.csv,Wm Alpha
+csvData7591362.csv,Bust (inches)
+csvData7591362.csv,Waist (inches)
+csvData7591362.csv,Hip (inches)
+csvData10027553__3.csv,POS
+csvData27022341.csv,Players
+csvData27022341.csv,FG
+csvData27022341.csv,3pt
+csvData27022341.csv,FT
+csvData8537801.csv,Players
+csvData8537801.csv,FG
+csvData8537801.csv,3pt
+csvData8537801.csv,FT
+csvData12189181.csv,Wm Alpha
+csvData12189181.csv,Bust (inches)
+csvData12189181.csv,Waist (inches)
+csvData12189181.csv,Hip (inches)
+csvData13032394.csv,Wm Alpha
+csvData13032394.csv,Bust (inches)
+csvData13032394.csv,Waist (inches)
+csvData13032394.csv,Hip (inches)
+csvData24519630.csv,Season
+csvData9871826.csv,Season
+csvData9871826.csv,Team
+csvData6295555.csv,Name
+csvData27934469.csv,Wm Alpha
+csvData27934469.csv,Bust (inches)
+csvData27934469.csv,Waist (inches)
+csvData27934469.csv,Hip (inches)
+csvData15965777__13.csv,POS
+csvData15666657.csv,Wm Alpha
+csvData15666657.csv,Bust (inches)
+csvData15666657.csv,Waist (inches)
+csvData15666657.csv,Hip (inches)
+csvData27131680.csv,Wm Alpha
+csvData27131680.csv,Bust (inches)
+csvData27131680.csv,Waist (inches)
+csvData27131680.csv,Hip (inches)
+csvData25292521.csv,School
+csvData15897690.csv,Wm Alpha
+csvData15897690.csv,Bust (inches)
+csvData15897690.csv,Waist (inches)
+csvData15897690.csv,Hip (inches)
+csvData25736374.csv,Wm Alpha
+csvData25736374.csv,Bust (inches)
+csvData25736374.csv,Waist (inches)
+csvData25736374.csv,Hip (inches)
+csvData474339.csv,Wm Alpha
+csvData474339.csv,Bust (inches)
+csvData474339.csv,Waist (inches)
+csvData474339.csv,Hip (inches)
+csvData19130941__0.csv,Player
+csvData21141309.csv,Wm Alpha
+csvData21141309.csv,Bust (inches)
+csvData21141309.csv,Waist (inches)
+csvData21141309.csv,Hip (inches)
+csvData28241691.csv,Wm Alpha
+csvData28241691.csv,Bust (inches)
+csvData28241691.csv,Waist (inches)
+csvData28241691.csv,Hip (inches)
+csvData12339626.csv,Wm Alpha
+csvData12339626.csv,Bust (inches)
+csvData12339626.csv,Waist (inches)
+csvData12339626.csv,Hip (inches)
+csvData22682128__4.csv,D
+csvData22682128__4.csv,C
+csvData22833518__5.csv,POS
+csvData9549757.csv,Player
+csvData11573229__1.csv,Acquired
+csvData11573229__1.csv,Name
+csvData10597853.csv,Wm Alpha
+csvData10597853.csv,Bust (inches)
+csvData10597853.csv,Waist (inches)
+csvData10597853.csv,Hip (inches)
+csvData6662094.csv,ON BENCH
+csvData6662094.csv,FG
+csvData6662094.csv,3FG
+csvData6662094.csv,FT
+csvData6466571.csv,Wm Alpha
+csvData6466571.csv,Bust (inches)
+csvData6466571.csv,Waist (inches)
+csvData6466571.csv,Hip (inches)
+csvData6659050.csv,gs
+csvData4857600.csv,Description
+csvData26375234.csv,Wm Alpha
+csvData26375234.csv,Bust (inches)
+csvData26375234.csv,Waist (inches)
+csvData26375234.csv,Hip (inches)
+csvData134296.csv,Season
+csvData134296.csv,School
+csvData22343886.csv,Wm Alpha
+csvData22343886.csv,Bust (inches)
+csvData22343886.csv,Waist (inches)
+csvData22343886.csv,Hip (inches)
+csvData27734297.csv,Wm Alpha
+csvData27734297.csv,Bust (inches)
+csvData27734297.csv,Waist (inches)
+csvData27734297.csv,Hip (inches)
+csvData778707__2.csv,col2
+csvData778707__2.csv,col5
+csvData778707__2.csv,col15
+csvData778707__2.csv,col16
+csvData24835012.csv,Wm Alpha
+csvData24835012.csv,Bust (inches)
+csvData24835012.csv,Waist (inches)
+csvData24835012.csv,Hip (inches)
+csvData9768769__2.csv,POS
+csvData25539243.csv,Player
+csvData28703478.csv,Wm Alpha
+csvData28703478.csv,Bust (inches)
+csvData28703478.csv,Waist (inches)
+csvData28703478.csv,Hip (inches)
+csvData21082675.csv,Wm Alpha
+csvData21082675.csv,Bust (inches)
+csvData21082675.csv,Waist (inches)
+csvData21082675.csv,Hip (inches)
+csvData29006285.csv,Wm Alpha
+csvData29006285.csv,Bust (inches)
+csvData29006285.csv,Waist (inches)
+csvData29006285.csv,Hip (inches)
+csvData11971159__0.csv,Age
+csvData11971159__0.csv,Opp
+csvData18948934.csv,Wm Alpha
+csvData18948934.csv,Bust (inches)
+csvData18948934.csv,Waist (inches)
+csvData18948934.csv,Hip (inches)
+csvData13336059__4.csv,POS
+csvData825336.csv,Players
+csvData825336.csv,FG
+csvData825336.csv,3pt
+csvData825336.csv,FT
+csvData22901543.csv,Wm Alpha
+csvData22901543.csv,Bust (inches)
+csvData22901543.csv,Waist (inches)
+csvData22901543.csv,Hip (inches)
+csvData2081510.csv,Wm Alpha
+csvData2081510.csv,Bust (inches)
+csvData2081510.csv,Waist (inches)
+csvData2081510.csv,Hip (inches)
+csvData6732013.csv,Wm Alpha
+csvData6732013.csv,Bust (inches)
+csvData6732013.csv,Waist (inches)
+csvData6732013.csv,Hip (inches)
+csvData29547336.csv,Wm Alpha
+csvData29547336.csv,Bust (inches)
+csvData29547336.csv,Waist (inches)
+csvData29547336.csv,Hip (inches)
+csvData10051410.csv,Wm Alpha
+csvData10051410.csv,Bust (inches)
+csvData10051410.csv,Waist (inches)
+csvData10051410.csv,Hip (inches)
+csvData5607506.csv,Wm Alpha
+csvData5607506.csv,Bust (inches)
+csvData5607506.csv,Waist (inches)
+csvData5607506.csv,Hip (inches)
+csvData10395702.csv,Wm Alpha
+csvData10395702.csv,Bust (inches)
+csvData10395702.csv,Waist (inches)
+csvData10395702.csv,Hip (inches)
+csvData16010428.csv,Wm Alpha
+csvData16010428.csv,Bust (inches)
+csvData16010428.csv,Waist (inches)
+csvData16010428.csv,Hip (inches)
+csvData14269936.csv,Wm Alpha
+csvData14269936.csv,Bust (inches)
+csvData14269936.csv,Waist (inches)
+csvData14269936.csv,Hip (inches)
+csvData3228294.csv,Wm Alpha
+csvData3228294.csv,Bust (inches)
+csvData3228294.csv,Waist (inches)
+csvData3228294.csv,Hip (inches)
+csvData6059428.csv,Wm Alpha
+csvData6059428.csv,Bust (inches)
+csvData6059428.csv,Waist (inches)
+csvData6059428.csv,Hip (inches)
+csvData19999867.csv,Wm Alpha
+csvData19999867.csv,Bust (inches)
+csvData19999867.csv,Waist (inches)
+csvData19999867.csv,Hip (inches)
+csvData24148299.csv,Wm Alpha
+csvData24148299.csv,Bust (inches)
+csvData24148299.csv,Waist (inches)
+csvData24148299.csv,Hip (inches)
+csvData1987104.csv,Season
+csvData1987104.csv,School
+csvData3828967.csv,Players
+csvData3828967.csv,FG
+csvData3828967.csv,3pt
+csvData3828967.csv,FT
+csvData27857604.csv,Wm Alpha
+csvData27857604.csv,Bust (inches)
+csvData27857604.csv,Waist (inches)
+csvData27857604.csv,Hip (inches)
+csvData28375831.csv,Season
+csvData28375831.csv,School
+csvData23106393.csv,Wm Alpha
+csvData23106393.csv,Bust (inches)
+csvData23106393.csv,Waist (inches)
+csvData23106393.csv,Hip (inches)
+csvData20980376.csv,Wm Alpha
+csvData20980376.csv,Bust (inches)
+csvData20980376.csv,Waist (inches)
+csvData20980376.csv,Hip (inches)
+csvData18071335.csv,Season
+csvData18071335.csv,Team
+csvData26620871.csv,Wm Alpha
+csvData26620871.csv,Bust (inches)
+csvData26620871.csv,Waist (inches)
+csvData26620871.csv,Hip (inches)
+csvData21501487.csv,Wm Alpha
+csvData21501487.csv,Bust (inches)
+csvData21501487.csv,Waist (inches)
+csvData21501487.csv,Hip (inches)
+csvData9482547.csv,Wm Alpha
+csvData9482547.csv,Bust (inches)
+csvData9482547.csv,Waist (inches)
+csvData9482547.csv,Hip (inches)
+csvData5266715.csv,Wm Alpha
+csvData5266715.csv,Bust (inches)
+csvData5266715.csv,Waist (inches)
+csvData5266715.csv,Hip (inches)
+csvData1786628__8.csv,Opp
+csvData1786628__8.csv,Date
+csvData1786628__8.csv,Age
+csvData1786628__8.csv,Tm
+csvData15473618.csv,Wm Alpha
+csvData15473618.csv,Bust (inches)
+csvData15473618.csv,Waist (inches)
+csvData15473618.csv,Hip (inches)
+csvData23741868.csv,Wm Alpha
+csvData23741868.csv,Bust (inches)
+csvData23741868.csv,Waist (inches)
+csvData23741868.csv,Hip (inches)
+csvData13224693.csv,Wm Alpha
+csvData13224693.csv,Bust (inches)
+csvData13224693.csv,Waist (inches)
+csvData13224693.csv,Hip (inches)
+csvData9385219__3.csv,Date
+csvData2309935.csv,Player
+csvData7824564.csv,Players
+csvData7824564.csv,FG
+csvData7824564.csv,3pt
+csvData7824564.csv,FT
+csvData11170774.csv,Wm Alpha
+csvData11170774.csv,Bust (inches)
+csvData11170774.csv,Waist (inches)
+csvData11170774.csv,Hip (inches)
+csvData17479705.csv,Wm Alpha
+csvData17479705.csv,Bust (inches)
+csvData17479705.csv,Waist (inches)
+csvData17479705.csv,Hip (inches)
+csvData27750762.csv,Wm Alpha
+csvData27750762.csv,Bust (inches)
+csvData27750762.csv,Waist (inches)
+csvData27750762.csv,Hip (inches)
+csvData2653078.csv,Season
+csvData2653078.csv,School
+csvData2761087__4.csv,Team
+csvData29292829.csv,Wm Alpha
+csvData29292829.csv,Bust (inches)
+csvData29292829.csv,Waist (inches)
+csvData29292829.csv,Hip (inches)
+csvData1492260.csv,Season
+csvData1492260.csv,School
+csvData10354220.csv,Wm Alpha
+csvData10354220.csv,Bust (inches)
