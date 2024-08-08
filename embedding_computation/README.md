@@ -75,6 +75,8 @@ Include the number of rows to select from the table.
 |handle_null_column_names| place empty string "" when the column name is Null|
 |column_names|placing ```make_headers_null``` nullifies all the column names|
 
+#### Reproducing results: 
+Follow the configurations specified [here](experiments.md) for the embedding computations step. 
 #### References: 
 Thanks to the work cited below
 `````
