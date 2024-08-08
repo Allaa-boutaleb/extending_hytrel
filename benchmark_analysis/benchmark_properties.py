@@ -254,8 +254,7 @@ def main():
     parser.add_argument('stat_type', choices=['union_benchmarks', 'join_benchmarks','query_columns','query_table'], help='Type of statistic to collect')
     args = parser.parse_args()
     stat_type = args.stat_type
-        # 'query_columns'
-    res_path = f'benchmark_stats/{stat_type}'
+    res_path = f'benchmark_stats/{stat_type}' ## path to save the results
     os.makedirs(res_path,exist_ok=True)
     time = datetime.timestamp(datetime.now())
     file_name = f'{stat_type}_{time}.csv'
@@ -264,17 +263,14 @@ def main():
     print(stat_type)
     if 'benchmarks' in stat_type:
         if stat_type=='union_benchmarks':
+            ### place the paths for the directories here
             directories = ['pylon/data/pylon_benchmark/source','starmie/data/table-union-search-benchmark/small/benchmark','starmie/data/table-union-search-benchmark/large/benchmark','starmie/data/santos/datalake']
-            # directories = ['pylon/data/pylon_benchmark/source']
             benchmark_names = ['pylon','tus_small','tus_large','santos']
-            # benchmark_names = ['pylon']
         elif stat_type=='join_benchmarks':
+            ### place the paths for the directories here
             directories=['nextiajd/testbedS/datasets','nextiajd/testbedM/datasets','lakebench/datalake/webtable/data_ssd/webtable/small_var1','lakebench/datalake/webtable/data_ssd/webtable/small_var2']
             benchmark_names=['nextiajd_small','nextiajd_medium','webtable_sampled_var1','webtable_sampled_var2']
         summary_df = benchmarks_stats(directories,benchmark_names)
-        #### draw some figs
-        ### bar plot
-        # Bar Plot of Counts of File Count Across Benchmarks
         plt.figure(figsize=(12, 8))
         sns.barplot(data=summary_df, x='benchmarks', y='ttl_files')
         plt.title('Counts of File Count Across Benchmarks')
@@ -295,19 +291,18 @@ def main():
         ####
     elif 'query' in stat_type:
         if stat_type=='query_columns':
+            ### place the path of the dictionaries and the directories here
             dictionaries = ['nextiajd/testbedS/join_dict_testbedS_warpgate.pkl','nextiajd/testbedS/join_dict_testbedS_warpgate_non-numerical_test.pkl','nextiajd/testbedS/join_dict_testbedS_10_non-numerical.pkl','nextiajd/testbedM/join_dict_testbedM_wrapgate.pkl','lakebench/join_dict_webtable_small.pkl','lakebench/join_dict_webtables_small_var2.pkl']
             directories = ['nextiajd/testbedS/datasets','nextiajd/testbedS/datasets','nextiajd/testbedS/datasets','nextiajd/testbedM/datasets','lakebench/datalake/webtable/data_ssd/webtable/small_var1','lakebench/datalake/webtable/data_ssd/webtable/small_var2']
             benchmark_names=['nextiajd_small','nextiajd_small_var2','nextiajd_small_var3','nextiajd_medium','webtable_small_var1','webtable_small_var2']
             summary_df = query_columns_stats(benchmark_names,dictionaries,directories)
         elif stat_type =='query_table':
+            ### place the path of the dictionaries and the directories here
             dictionaries = ['starmie/data/santos/santosUnionBenchmark.pickle','starmie/data/table-union-search-benchmark/small/sampled/tusLabeledtusUnionBenchmark','starmie/data/table-union-search-benchmark/large/sampled/tusLabeledtusLargeUnionBenchmark','pylon/data/pylon_benchmark/all_ground_truth_sans_recall.pkl']
             directories = ['starmie/data/santos/datalake','starmie/data/table-union-search-benchmark/small/benchmark','starmie/data/table-union-search-benchmark/large/benchmark','pylon/data/pylon_benchmark/source']
             benchmark_names=['santos','tus_small','tus_large','pylon']
             summary_df = query_tables_stats(benchmark_names,dictionaries,directories)
-            #### draw some figs
         
-        ### bar plot
-        # Bar Plot of Counts of File Count Across Benchmarks
         plt.figure(figsize=(12, 8))
         sns.barplot(data=summary_df, x='benchmarks', y='ttl_queries')
         plt.title('Counts of Total Queries Across Benchmarks')

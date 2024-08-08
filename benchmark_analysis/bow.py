@@ -14,14 +14,6 @@ from tqdm import tqdm
 from nltk.corpus import stopwords
 
 def determine_delimiter(filepath):
-#     encoding = detect_encoding(filepath)
-#     print(f"Detected encoding: {encoding}")
-
-#     # List of encodings to try if the detected encoding fails
-#     encodings_to_try = [encoding, 'utf-8', 'latin1', 'ISO-8859-1', 'cp1252']
-    
-#     for enc in encodings_to_try:
-#         try:
         with open(filepath, 'r') as file:
             first_line = file.readline()
             if ';' in first_line:
@@ -91,12 +83,12 @@ def main():
     parser.add_argument('stat_type', choices=['union_benchmarks', 'join_benchmarks','query_columns','query_table'], help='Type of statistic to collect')
     args = parser.parse_args()
     stat_type = args.stat_type
-
-    # Path to the directory containing CSV files
     if stat_type == 'union_benchmarks':
+        ### place the directories and benchmark names here
         directories = ['pylon/data/pylon_benchmark/source','starmie/data/table-union-search-benchmark/small/benchmark','starmie/data/table-union-search-benchmark/large/benchmark','starmie/data/santos/datalake']
         benchmark_names = ['pylon','tus_small','tus_large','santos']
     elif stat_type == 'join_benchmarks':
+        ### place the directories and benchmark names here
         directories=['nextiajd/testbedS/datasets','nextiajd/testbedM/datasets','lakebench/datalake/webtable/data_ssd/webtable/small_var1','lakebench/datalake/webtable/data_ssd/webtable/small_var2']
         benchmark_names=['nextiajd_small','nextiajd_medium','webtable_sampled_var1','webtable_sampled_var2']
     result_path = 'bow_results'
