@@ -16,7 +16,8 @@ In the configs.common.py, provide the below parameters prior to running the scri
 You can use the provided common.py file as reference. 
 
 Below is an explaination of each field for reference: 
-``````
+
+``````python
 #!/usr/bin/env python
 global_params = {
     "hytrel_model" : ### path for the hytrel pretrained model 
@@ -29,7 +30,7 @@ input = {
 }
 computation = {
     "table_process": ### type of table process (list below)
-    "column_names": ### handling of column names 
+    "column_names": ### when placing [make_headers_null] all column names are nullified 
     "nrows": ### integer value number of rows to sample. default is set to 30 
     "pandas_sample": ### using pandas sampling [False, True]
     "pandas_rate_sample": ### using pandas sampling [False, True]
@@ -67,6 +68,12 @@ Select one by setting the field to True.
 #### Number of rows: 
 Default is set to 30. <br>
 Include the number of rows to select from the table.  
+
+#### Table augmentation: 
+| Abbreviation | Description| 
+|:------------:|:----------:|
+|handle_null_column_names| place empty string "" when the column name is Null|
+|column_names|placing ```make_headers_null``` nullifies all the column names|
 
 #### References: 
 Thanks to the work cited below
