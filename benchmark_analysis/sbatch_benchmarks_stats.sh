@@ -12,5 +12,5 @@ module purge                        # Environment cleanup
 module load python/anaconda3        # Loading of anaconda3 module
 eval "$(conda shell.bash hook)"     # Shell initialization to use conda
 conda activate sudowoodo_env                # Activation your python environment
-python benchmark_properties.py join_benchmarks                    # Startup of jupyter
+python benchmark_properties.py join_benchmarks                    
 
