@@ -1,5 +1,5 @@
 ## Embedding Computation module 
-Module to compute embeddings using HyTrel pre-trained model. 
+Module to compute embeddings using HyTrel pre-trained model. We make use of pre-trained HyTrel model that is provided by the [original authors](https://github.com/awslabs/hypergraph-tabular-lm) to encode tabular data with the purpose of extending and evaluating HyTrel for data discovery tasks. 
 ### Steps:
 1. Adjust configuration in configs.common.py
 2. Execute compute_embedding.py 
@@ -36,3 +36,19 @@ output = {
     "auxiliary": ### path to save the auxiliary data generated (if save_auxiliary is set to True)
 }
 ``````
+
+#### References: 
+Thanks to the work cited below
+`````
+@inproceedings{NEURIPS2023_66178bea,
+ author = {Chen, Pei and Sarkar, Soumajyoti and Lausen, Leonard and Srinivasan, Balasubramaniam and Zha, Sheng and Huang, Ruihong and Karypis, George},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {A. Oh and T. Neumann and A. Globerson and K. Saenko and M. Hardt and S. Levine},
+ pages = {32173--32193},
+ publisher = {Curran Associates, Inc.},
+ title = {HyTrel: Hypergraph-enhanced  Tabular Data Representation Learning},
+ url = {https://proceedings.neurips.cc/paper_files/paper/2023/file/66178beae8f12fcd48699de95acc1152-Paper-Conference.pdf},
+ volume = {36},
+ year = {2023}
+}
+`````
