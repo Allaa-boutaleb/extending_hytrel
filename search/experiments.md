@@ -56,6 +56,9 @@ input = {
 }
 ....
 ```
+## Evaluation 
+Evaluating the results is simple. Once you have the list of candidates saved in the specified path, you can adjust the input parameters in [evaluation configuration](configs/evaluation_configs.py). <br>
+The module allows to compare multiple candidate lists by reading it out from an array. Ensure that you label the path to the results and the comparasion label are ordered in the same manner. 
 
 
 

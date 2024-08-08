@@ -11,7 +11,7 @@ input = {
 
 benchmarks = {
     'union': ['santos','tus','tusLarge','pylon'],
-    'join':['nextiajd_s','nextiajd_m','webtables'] ##adjust 
+    'join':['nextiajd_s','nextiajd_m','webtables_small','webtables_small_var2'] ##adjust 
 }
 k = {
     'santos': 10,
