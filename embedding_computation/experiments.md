@@ -485,6 +485,215 @@ computation = {
     "handle_null_column_names": True
 }
 ```
+### Joinable table search 
+#### A. Intial Evaluation 
+For the below benchmarks, we compute embeddings with the following configurations. 
+Benchmark   |Task    |   
+|:---------------:|:------------:|
+NextiaJD testbedS | Join |
+NextiaJD testbedM | Join |
+Lakebench: Webtables 1st variation | Join |
+Lakebench: Webtables 2nd variation | Join |
 
+Place the following computation configuration in ```configs.common.py```: 
 
+```python
+### 0 
+computation = {
+    "table_process": None,
+    "column_names": None,
+    "nrows": 30,
+    "pandas_sample": False,
+    "pandas_rate_sample": False,
+    "logs": '[place the desired logs location]',
+    "log_file_name": '[place the name of the log file]',
+    "save_auxiliary": False,
+    "handle_null_column_names": False
+}
+```
 
+##### NextiaJD 
+
+```python
+### 1 
+computation = {
+    "table_process": None,
+    "column_names": 'make_headers_null',
+    "nrows": 30,
+    "pandas_sample": False,
+    "pandas_rate_sample": False,
+    "logs": '[place the desired logs location]',
+    "log_file_name": '[place the name of the log file]',
+    "save_auxiliary": False,
+    "handle_null_column_names": False
+}
+```
+
+<hr>
+
+```python
+### 2 
+computation = {
+    "table_process": 'prioritize_non_null_rows',
+    "column_names": 'make_headers_null',
+    "nrows": 30,
+    "pandas_sample": False,
+    "pandas_rate_sample": False,
+    "logs": '[place the desired logs location]',
+    "log_file_name": '[place the name of the log file]',
+    "save_auxiliary": False,
+    "handle_null_column_names": False
+}
+```
+
+<hr>
+
+```python
+### 3 
+computation = {
+    "table_process": 'prioritize_non_null_rows',
+    "column_names": 'make_headers_null',
+    "nrows": 50,
+    "pandas_sample": False,
+    "pandas_rate_sample": False,
+    "logs": '[place the desired logs location]',
+    "log_file_name": '[place the name of the log file]',
+    "save_auxiliary": False,
+    "handle_null_column_names": False
+}
+```
+
+<hr>
+
+```python
+### 4 
+computation = {
+    "table_process": 'prioritize_non_null_rows',
+    "column_names": 'make_headers_null',
+    "nrows": 100,
+    "pandas_sample": False,
+    "pandas_rate_sample": False,
+    "logs": '[place the desired logs location]',
+    "log_file_name": '[place the name of the log file]',
+    "save_auxiliary": False,
+    "handle_null_column_names": False
+}
+```
+
+<hr>
+
+```python
+### 5 
+computation = {
+    "table_process": None,
+    "column_names": 'make_headers_null',
+    "nrows": 50,
+    "pandas_sample": True,
+    "pandas_rate_sample": False,
+    "logs": '[place the desired logs location]',
+    "log_file_name": '[place the name of the log file]',
+    "save_auxiliary": False,
+    "handle_null_column_names": False
+}
+```
+
+<hr>
+
+##### Lakebench: Webtable 
+
+```python
+### 1 
+computation = {
+    "table_process": 'prioritize_non_null_rows,
+    "column_names": None,
+    "nrows": 30,
+    "pandas_sample": False,
+    "pandas_rate_sample": False,
+    "logs": '[place the desired logs location]',
+    "log_file_name": '[place the name of the log file]',
+    "save_auxiliary": False,
+    "handle_null_column_names": False
+}
+```
+<hr>
+
+The below configuration was ran on 2nd variation only: 
+
+```python
+### 2 
+computation = {
+    "table_process": None,
+    "column_names": 'make_headers_null',
+    "nrows": 30,
+    "pandas_sample": False,
+    "pandas_rate_sample": False,
+    "logs": '[place the desired logs location]',
+    "log_file_name": '[place the name of the log file]',
+    "save_auxiliary": False,
+    "handle_null_column_names": False
+}
+```
+<hr>
+
+```python
+### 3 
+computation = {
+    "table_process": 'prioritize_non_null_rows',
+    "column_names": 'make_headers_null',
+    "nrows": 50,
+    "pandas_sample": False,
+    "pandas_rate_sample": False,
+    "logs": '[place the desired logs location]',
+    "log_file_name": '[place the name of the log file]',
+    "save_auxiliary": False,
+    "handle_null_column_names": False
+}
+```
+<hr>
+
+```python
+### 4 
+computation = {
+    "table_process": 'prioritize_non_null_rows',
+    "column_names": None,
+    "nrows": 50,
+    "pandas_sample": False,
+    "pandas_rate_sample": False,
+    "logs": '[place the desired logs location]',
+    "log_file_name": '[place the name of the log file]',
+    "save_auxiliary": False,
+    "handle_null_column_names": False
+}
+```
+<hr>
+
+```python
+### 5 
+computation = {
+    "table_process": 'prioritize_non_null_rows',
+    "column_names": None,
+    "nrows": 100,
+    "pandas_sample": False,
+    "pandas_rate_sample": False,
+    "logs": '[place the desired logs location]',
+    "log_file_name": '[place the name of the log file]',
+    "save_auxiliary": False,
+    "handle_null_column_names": False
+}
+```
+<hr>
+
+```python
+### 6 
+computation = {
+    "table_process": 'prioritize_non_null_rows',
+    "column_names": None,
+    "nrows": 1000,
+    "pandas_sample": False,
+    "pandas_rate_sample": False,
+    "logs": '[place the desired logs location]',
+    "log_file_name": '[place the name of the log file]',
+    "save_auxiliary": False,
+    "handle_null_column_names": False
+}
+```
