@@ -1,5 +1,5 @@
 # Extending hypergraph-enhance TaLM for data discovry tasks 
-![pipeline](pipeline_illustration.png)
+![pipeline](pipeline_illustration.pdf)
 ## Modules 
 [Embedding Computation](embedding_computation/) <br>
 [Column Clustering](clustering/y)<br>
