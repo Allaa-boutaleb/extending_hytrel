@@ -17,45 +17,18 @@ def build_index(vectors):
     index.add(vectors)
     return index
 
-def build_index_pq(vectors):
-    num_cent_ids = 8
-    nlist = 200
-    cent_bits = 8
-    vec_dim = vectors.shape[1]
-    coarse_quantizer = faiss.IndexHNSWFlat(vec_dim, 32)
-    # quantizer = faiss.IndexFlatL2(vec_dim)
-    # index = faiss.IndexIVFPQ(quantizer, vec_dim, nlist, num_cent_ids, cent_bits)
-    index = faiss.IndexIVFPQ(coarse_quantizer, vec_dim, nlist, m, nbits)
-    print('='*10, 'Training index', '='*10)
-    index.train(vectors)
-    print('='*10, 'Adding vectors', '='*10)
-    index.add(vectors)
-    return index
-
 def joinable_dataset_search(query_columns_hytrel, datalake_columns_hytrel,k):
     num_datalake_cols= len(datalake_columns_hytrel)
     print('num_datalake_columns: ', num_datalake_cols)
     dataset_col = []
     vectors = []
-    for subfolder in datalake_columns_hytrel:
-        print(f'adding vector {subfolder}')
-        with open(subfolder, 'rb') as f:
-            datalake_columns_hytrel = pickle.load(f)
-        for pair, tensor in itertools.islice(datalake_columns_hytrel,0, None):
-            # vectors.append(tensor)
-            # vectors = np.append(vectors,np.array(tensor),axis=0)
-            vectors.append(np.array(tensor))
-            dataset_col.append(pair) 
+    for pair, tensor in itertools.islice(datalake_columns_hytrel,0, None):
+        vectors.append(tensor)
+        dataset_col.append(pair) 
     start_build = time.time()
-    # vectors = np.array(vectors)
-    print('stack vectors')
-    vectors = np.vstack(vectors)
-    if search_configs.input['method'] == 'faiss_quantizer':
-        print('build index using faiss quantizer')
-        index = build_index_pq(vectors)
-    else: 
-        print('build regular index using faiss')
-        index = build_index(vectors)
+    vectors = np.array(vectors)
+    print('build regular index using faiss')
+    index = build_index(vectors)
     index = build_index(vectors)
     end_build = time.time()
     build_duration = end_build - start_build
@@ -99,21 +72,11 @@ def main():
     # encoder = 'hytrel'
     # global benchmark
     # benchmark = 'lakebench'
-    if search_configs.input['embedding_source_distributed']:
-        print('============ loading vectors from multiple directories ============ \n')
-        datalake_columns_hytrel = []
-        for subfolder in search_configs.multiple_vector_dir['index']:
-            datalake_columns = os.path.join(search_configs.input['embedding_source'], subfolder, search_configs.multiple_vector_dir['subfolder'],search_configs.multiple_vector_dir['file_name'])
-            datalake_columns_hytrel.append(datalake_columns)
-            # with open(datalake_columns, 'rb') as f:
-            #     datalake_columns_hytrel.extend(pickle.load(f))
-        print('============ loading vectors done ============ \n')
-    else:
-        print('============ loading vectors from 1 direcory ============ \n')
-        datalake_columns = search_configs.input['embedding_source']
-        with open(datalake_columns, 'rb') as f:
-            datalake_columns_hytrel = pickle.load(f)
-        print('============ loading vectors done ============ \n')
+    print('============ loading vectors from 1 direcory ============ \n')
+    datalake_columns = search_configs.input['embedding_source']
+    with open(datalake_columns, 'rb') as f:
+        datalake_columns_hytrel = pickle.load(f)
+    print('============ loading vectors done ============ \n')
 
     query_columns = search_configs.input['embedding_query_source']
     global benchmark
