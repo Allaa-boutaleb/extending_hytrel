@@ -10,6 +10,7 @@ import itertools
 import logging
 import sys
 import traceback
+import tqdm
 
 def build_index(vectors):
     faiss.normalize_L2(vectors)
@@ -53,7 +54,7 @@ def joinable_dataset_search(query_columns_hytrel, datalake_columns_hytrel,k):
     distances = {}
     query_duration = 0
     print(f'number of queries: {len(query_columns_hytrel)}')
-    for pair, query_vec in query_columns_hytrel:
+    for pair, query_vec in tqdm(query_columns_hytrel):
         query_vector = query_vec.reshape(1, -1)
         faiss.normalize_L2(query_vector)
         start_q = time.time()
