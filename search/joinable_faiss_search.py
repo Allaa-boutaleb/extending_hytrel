@@ -67,8 +67,8 @@ def main():
     if search_configs.input['embedding_source_distributed']:
         print('============ loading vectors from multiple directories ============ \n')
         datalake_columns_hytrel = []
-        for datalake_columns in search_configs.multiple_vector_dir['index']:
-            datalake_columns = os.path.join(search_configs.input['embedding_source'], search_configs.multiple_vector_dir['subfolder'], search_configs.multiple_vector_dir['subfolder'],search_configs.multiple_vector_dir['file_name'])
+        for subfolder in search_configs.multiple_vector_dir['index']:
+            datalake_columns = os.path.join(search_configs.input['embedding_source'], subfolder, search_configs.multiple_vector_dir['subfolder'],search_configs.multiple_vector_dir['file_name'])
             with open(datalake_columns, 'rb') as f:
                 datalake_columns_hytrel.extend(pickle.load(f))
         print('============ loading vectors done ============ \n')
