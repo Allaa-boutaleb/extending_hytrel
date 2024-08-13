@@ -35,7 +35,7 @@ def joinable_dataset_search(query_columns_hytrel, datalake_columns_hytrel,k):
     print('num_datalake_columns: ', num_datalake_cols)
     dataset_col = []
     vectors = []
-    for pair, tensor in itertools.islice(datalake_columns_hytrel,0, None):
+    for pair, tensor in datalake_columns_hytrel:
         vectors.append(tensor)
         dataset_col.append(pair) 
     start_build = time.time()
