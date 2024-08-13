@@ -18,6 +18,13 @@ def build_index(vectors):
     index.add(vectors)
     return index
 
+def build_index_hnsw(vectors):
+    faiss.normalize_L2(vectors)
+    M=32
+    index = faiss.IndexHNSWFlat(vectors.shape[1], M)
+    index.add(vectors)
+    return index
+
 def build_index_pq(vectors):
     num_cent_ids = 8
     nlist = 200
@@ -44,9 +51,13 @@ def joinable_dataset_search(query_columns_hytrel, datalake_columns_hytrel,k):
     if search_configs.input['method'] == 'faiss_quantizer':
         print('build index using faiss quantizer')
         index = build_index_pq(vectors)
-    else: 
+    elif search_configs.input['method'] == 'faiss': 
         print('build regular index using faiss')
         index = build_index(vectors)
+    elif search_configs.input['method'] == 'faiss_hnsw':
+        print('build regular index using faiss')
+        index = build_index(vectors)
+
     index = build_index(vectors)
     end_build = time.time()
     build_duration = end_build - start_build

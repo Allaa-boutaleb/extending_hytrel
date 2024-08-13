@@ -7,7 +7,7 @@ input = {
     'embedding_source_distributed': True, 
     "embedding_query_source" : '/home/almutawa/inference/inference/lakebench/webtable/001/vectors/hytrel_query_columns_0.pkl',
     "downstream_task": "join", ## this dictates the format of the embeddings saved 
-    "method": 'faiss_quantizer'
+    "method": 'faiss_hnsw' ## faiss_hnsw or faiss_flat
 }
 multiple_vector_dir = { ## incase of distributed processing of the embeddings 
     'index':['001','002','003','004','005','006'],
