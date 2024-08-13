@@ -44,7 +44,7 @@ def joinable_dataset_search(query_columns_hytrel, datalake_columns_hytrel,k):
             vectors.append(tensor)
             dataset_col.append(pair) 
     start_build = time.time()
-    vectors = np.array(vectors)
+    # vectors = np.array(vectors)
     if search_configs.input['method'] == 'faiss_quantizer':
         index = build_index_pq(vectors)
     else: 
