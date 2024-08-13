@@ -7,6 +7,9 @@ import time
 import memory_profiler
 import configs.search_configs as search_configs
 import itertools
+import logging
+import sys
+import traceback
 
 def build_index(vectors):
     faiss.normalize_L2(vectors)
@@ -34,10 +37,14 @@ def joinable_dataset_search(query_columns_hytrel, datalake_columns_hytrel,k):
     print('num_datalake_columns: ', num_datalake_cols)
     dataset_col = []
     vectors = []
-    for pair, tensor in itertools.islice(datalake_columns_hytrel,0, None):
-        vectors.append(tensor)
-        dataset_col.append(pair) 
-
+    try:
+        for pair, tensor in itertools.islice(datalake_columns_hytrel,0, None):
+            vectors.append(tensor)
+            dataset_col.append(pair) 
+    except Exception as e:
+        logging.error(f"Exception occurred: {e}")
+        logging.error(traceback.format_exc())
+        sys.exit(1)
     start_build = time.time()
     vectors = np.array(vectors)
     if search_configs.input['method'] == 'faiss_quantizer':
