@@ -129,9 +129,9 @@ def main():
         print(f'index build time: {build_duration} seconds')
         print(f'index build time: {query_duration} seconds')
         print('ttl time: ', build_duration + query_duration)
-        res_dir = search_configs.output['path']
+        res_dir = os.path.join(search_configs.output['path'],subfolder)
         os.makedirs(res_dir, exist_ok=True)
-        candidates_pkl = os.path.join(res_dir,subfolder,search_configs.output['candidates'])
+        candidates_pkl = os.path.join(res_dir,search_configs.output['candidates'])
         with open(candidates_pkl, 'wb') as f:
             pickle.dump(res, f)
 
