@@ -96,12 +96,10 @@ def main():
     with open(query_columns, 'rb') as f:
         query_columns_hytrel = pickle.load(f)
     print('============ loading vectors from multiple directories ============ \n')
-    datalake_columns_hytrel = []
     for subfolder in search_configs.multiple_vector_dir['index']:
         datalake_columns = os.path.join(search_configs.input['embedding_source'], subfolder, search_configs.multiple_vector_dir['subfolder'],search_configs.multiple_vector_dir['file_name'])
-        datalake_columns_hytrel.append(datalake_columns)
         with open(datalake_columns, 'rb') as f:
-            datalake_columns_hytrel.extend(pickle.load(f))
+            datalake_columns_hytrel = pickle.load(f)
         print('============ loading vectors done ============ \n')
 
 
