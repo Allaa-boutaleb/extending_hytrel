@@ -29,7 +29,7 @@ k = {
     'pylon': 10,
     'testbedS': 10,
     'testbedM': 10,
-    'webtables': 20
+    'lakebench': 20
 
 }
 
