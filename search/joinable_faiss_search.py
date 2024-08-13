@@ -18,17 +18,17 @@ def build_index(vectors):
     return index
 
 def build_index_pq(vectors):
-    # Number of centroid IDs
     num_cent_ids = 8
     nlist = 200
-    # Number of bits in each centroid
     cent_bits = 8
     vec_dim = vectors.shape[1]
-    quantizer = faiss.IndexFlatL2(vec_dim)
-    index = faiss.IndexIVFPQ(quantizer, vec_dim, nlist, num_cent_ids, cent_bits)
-    # Training index
+    coarse_quantizer = faiss.IndexHNSWFlat(vec_dim, 32)
+    # quantizer = faiss.IndexFlatL2(vec_dim)
+    # index = faiss.IndexIVFPQ(quantizer, vec_dim, nlist, num_cent_ids, cent_bits)
+    index = faiss.IndexIVFPQ(coarse_quantizer, vec_dim, nlist, m, nbits)
+    print('='*10, 'Training index', '='*10)
     index.train(vectors)
-    # Adding sentence embeddings
+    print('='*10, 'Adding vectors', '='*10)
     index.add(vectors)
     return index
 
@@ -48,8 +48,10 @@ def joinable_dataset_search(query_columns_hytrel, datalake_columns_hytrel,k):
     start_build = time.time()
     # vectors = np.array(vectors)
     if search_configs.input['method'] == 'faiss_quantizer':
+        print('build index using faiss quantizer')
         index = build_index_pq(vectors)
     else: 
+        print('build regular index using faiss')
         index = build_index(vectors)
     index = build_index(vectors)
     end_build = time.time()
