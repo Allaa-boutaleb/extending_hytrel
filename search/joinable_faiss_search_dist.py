@@ -50,6 +50,7 @@ def joinable_dataset_search(query_columns_hytrel, datalake_columns_hytrel,k):
     end_build = time.time()
     build_duration = end_build - start_build
     res = {}
+    distances = {}
     query_duration = 0
     print(f'number of queries: {len(query_columns_hytrel)}')
     for pair, query_vec in query_columns_hytrel:
@@ -61,7 +62,8 @@ def joinable_dataset_search(query_columns_hytrel, datalake_columns_hytrel,k):
         query_duration += end_q - start_q
         if pair not in res:
             if benchmark == 'lakebench':
-                res[pair] = [(dataset_col[i],distances[0][i]) for i in indices[0]]
+                candidates = [dataset_col[i] for i in indices[0]]
+                res[pair]= list(zip(candidates,[distances[0]]))
             elif benchmark in ('testbedS', 'testbedM'): 
                 res[pair] = [dataset_col[i] for i in indices[0] if pair != dataset_col[i] and pair[0] != dataset_col[i][0]][:10]
     return res, build_duration, query_duration
