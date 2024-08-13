@@ -37,14 +37,12 @@ def joinable_dataset_search(query_columns_hytrel, datalake_columns_hytrel,k):
     print('num_datalake_columns: ', num_datalake_cols)
     dataset_col = []
     vectors = []
-    try:
+    for subfolder in datalake_columns_hytrel:
+        with open(subfolder, 'rb') as f:
+            datalake_columns_hytrel = pickle.load(f)
         for pair, tensor in itertools.islice(datalake_columns_hytrel,0, None):
             vectors.append(tensor)
             dataset_col.append(pair) 
-    except Exception as e:
-        logging.error(f"Exception occurred: {e}")
-        logging.error(traceback.format_exc())
-        sys.exit(1)
     start_build = time.time()
     vectors = np.array(vectors)
     if search_configs.input['method'] == 'faiss_quantizer':
@@ -99,8 +97,9 @@ def main():
         datalake_columns_hytrel = []
         for subfolder in search_configs.multiple_vector_dir['index']:
             datalake_columns = os.path.join(search_configs.input['embedding_source'], subfolder, search_configs.multiple_vector_dir['subfolder'],search_configs.multiple_vector_dir['file_name'])
-            with open(datalake_columns, 'rb') as f:
-                datalake_columns_hytrel.extend(pickle.load(f))
+            datalake_columns_hytrel.append(datalake_columns)
+            # with open(datalake_columns, 'rb') as f:
+            #     datalake_columns_hytrel.extend(pickle.load(f))
         print('============ loading vectors done ============ \n')
     else:
         print('============ loading vectors from 1 direcory ============ \n')
