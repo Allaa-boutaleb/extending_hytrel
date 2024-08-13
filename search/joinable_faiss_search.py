@@ -6,6 +6,7 @@ import numpy as np
 import time
 import memory_profiler
 import configs.search_configs as search_configs
+import itertools
 
 def build_index(vectors):
     faiss.normalize_L2(vectors)
@@ -33,7 +34,7 @@ def joinable_dataset_search(query_columns_hytrel, datalake_columns_hytrel,k):
     print('num_datalake_columns: ', num_datalake_cols)
     dataset_col = []
     vectors = []
-    for pair, tensor in datalake_columns_hytrel:
+    for pair, tensor in itertools.islice(datalake_columns_hytrel,0, None):
         vectors.append(tensor)
         dataset_col.append(pair) 
 
