@@ -64,7 +64,21 @@ def main():
     # encoder = 'hytrel'
     # global benchmark
     # benchmark = 'lakebench'
-    datalake_columns = search_configs.input['embedding_source']
+    if search_configs.input['embedding_source_distributed']:
+        print('============ loading vectors from multiple directories ============ \n')
+        datalake_columns_hytrel = []
+        for datalake_columns in search_configs.multiple_vector_dir['index']:
+            datalake_columns = os.path.join(search_configs.input['embedding_source'], search_configs.multiple_vector_dir['subfolder'], search_configs.multiple_vector_dir['subfolder'],search_configs.multiple_vector_dir['file_name'])
+            with open(datalake_columns, 'rb') as f:
+                datalake_columns_hytrel.extend(pickle.load(f))
+        print('============ loading vectors done ============ \n')
+    else:
+        print('============ loading vectors from 1 direcory ============ \n')
+        datalake_columns = search_configs.input['embedding_source']
+        with open(datalake_columns, 'rb') as f:
+            datalake_columns_hytrel = pickle.load(f)
+        print('============ loading vectors done ============ \n')
+
     query_columns = search_configs.input['embedding_query_source']
     global benchmark
     benchmark = search_configs.input['datalake']
@@ -74,9 +88,6 @@ def main():
     candidates_pkl = os.path.join(res_dir,search_configs.output['candidates'])
     with open(query_columns, 'rb') as f:
         query_columns_hytrel = pickle.load(f)
-
-    with open(datalake_columns, 'rb') as f:
-        datalake_columns_hytrel = pickle.load(f)
 
 
     print(f'using query vectors from {query_columns}\n')
