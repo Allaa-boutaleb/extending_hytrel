@@ -10,7 +10,7 @@ import itertools
 import logging
 import sys
 import traceback
-import tqdm
+from tqdm import tqdm
 
 def build_index(vectors):
     faiss.normalize_L2(vectors)
@@ -55,7 +55,7 @@ def joinable_dataset_search(query_columns_hytrel, datalake_columns_hytrel,k):
         print('build regular index using faiss')
         index = build_index(vectors)
     elif search_configs.input['method'] == 'faiss_hnsw':
-        print('build regular index using faiss')
+        print('build regular index using hnsw faiss')
         index = build_index(vectors)
 
     index = build_index(vectors)
