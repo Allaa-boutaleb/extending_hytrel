@@ -7,6 +7,26 @@ import time
 import memory_profiler
 import configs.search_configs as search_configs
 
+def build_index(vectors):
+    faiss.normalize_L2(vectors)
+    index = faiss.IndexFlatIP(vectors.shape[1])  # Ensure dimension matches the aggregation method
+    index.add(vectors)
+    return index
+
+def build_index_pq(vectors):
+    # Number of centroid IDs
+    num_cent_ids = 8
+    nlist = 200
+    # Number of bits in each centroid
+    cent_bits = 8
+    vec_dim = vectors.shape[1]
+    quantizer = faiss.IndexFlatL2(vec_dim)
+    index = faiss.IndexIVFPQ(quantizer, vec_dim, nlist, num_cent_ids, cent_bits)
+    # Training index
+    index.train(vectors)
+    # Adding sentence embeddings
+    index.add(vectors)
+    return index
 
 def joinable_dataset_search(query_columns_hytrel, datalake_columns_hytrel,k):
     num_datalake_cols= len(datalake_columns_hytrel)
@@ -19,9 +39,11 @@ def joinable_dataset_search(query_columns_hytrel, datalake_columns_hytrel,k):
 
     start_build = time.time()
     vectors = np.array(vectors)
-    faiss.normalize_L2(vectors)
-    index = faiss.IndexFlatIP(vectors.shape[1])  # Ensure dimension matches the aggregation method
-    index.add(vectors)
+    if search_configs.input['method'] == 'faiss_quantizer':
+        index = build_index_pq(vectors)
+    else: 
+        index = build_index(vectors)
+    index = build_index(vectors)
     end_build = time.time()
     build_duration = end_build - start_build
     res = {}

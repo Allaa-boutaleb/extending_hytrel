@@ -1,13 +1,13 @@
 #!/usr/bin/env python
 
 input = {
-    "datalake": "webtables",
+    "datalake": "lakebench",
     "datalake_source": '/home/almutawa/lakebench/webtable',
     "embedding_source" : '/home/almutawa/inference/inference/lakebench/webtable',
     'embedding_source_distributed': True, 
     "embedding_query_source" : '/home/almutawa/inference/inference/lakebench/webtable/001/vectors/hytrel_query_columns_0.pkl',
     "downstream_task": "join", ## this dictates the format of the embeddings saved 
-    "method": 'faiss'
+    "method": 'faiss_quantizer'
 }
 multiple_vector_dir = { ## incase of distributed processing of the embeddings 
     'index':['001','002','003','004','005','006'],
@@ -34,6 +34,6 @@ k = {
 }
 
 output = {
-    'path': '/home/almutawa/inference/search/lakebench/webtable/full',
+    'path': '/home/almutawa/inference/search/lakebench/webtable/001',
     'candidates': 'candidates_0.pkl'
 }
