@@ -39,6 +39,7 @@ def joinable_dataset_search(query_columns_hytrel, datalake_columns_hytrel,k):
     # vectors = []
     vectors = np.array([])
     for subfolder in datalake_columns_hytrel:
+        print(f'adding vector {subfolder}')
         with open(subfolder, 'rb') as f:
             datalake_columns_hytrel = pickle.load(f)
         for pair, tensor in itertools.islice(datalake_columns_hytrel,0, None):
