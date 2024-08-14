@@ -1,6 +1,6 @@
 ## Search module 
 
-Module tp run search task. Below table shows the script to execute per search task. 
+Module to run search task. Below table shows the script to execute per search task. 
 
 | Search task | Script | 
 |----------|----------|
@@ -60,7 +60,19 @@ output = {
 `````
 
 ## Evaluation module 
+Evaluation module helps in running the evaluation metrics used on the results. 
+
+#### General
 Adjust the parameters of the search in configs.evaluation_configs.py 
+
+- input: benchmark, candidates, comparsion 
+- output: path
+
+`````
+if you are evaluating nextiajd_s benchmark, you need to specify the query_set --> [set1,set2, set3]
+`````
+##### Filtering evaluation
+ - input: type has to be set to 'filtering'. 
 `````
 #!/usr/bin/env python
 input = {
@@ -103,15 +115,6 @@ output = {
 }
 
 `````
-#### General
-- input: benchmark, candidates, comparsion 
-- output: path
-
-`````
-if you are evaluating nextiajd_s benchmark, you need to specify the query_set --> [set1,set2, set3]
-`````
-##### Filtering evaluation
- - input: type has to be set to 'filtering'. 
 
 
 
