@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 input = {
-    "benchmark": "webtable",
+    "benchmark": "webtables",
     "query_set": "",
     "candidates": ['/home/almutawa/inference/search/lakebench/webtable/candidates_0.pkll'],
     "table_search_task": "join", 
