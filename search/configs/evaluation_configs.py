@@ -37,5 +37,5 @@ gt_paths = {'santos':'/home/almutawa/starmie/data/santos/santosUnionBenchmark.pi
 }
 
 output = {
-    'path': '/Users/alaaalmutawa/Documents/Thesis/hytrel/hypergraph-tabular-lm/inference/inference/lakebench/webtable/evaluation',
+    'path': '/home/almutawa/inference/search/lakebench/webtable/evaluation',
 }
