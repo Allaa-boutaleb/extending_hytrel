@@ -2,7 +2,7 @@
 input = {
     "benchmark": "webtables",
     "query_set": "",
-    "candidates": ['/home/almutawa/inference/search/lakebench/webtable/candidates_0.pkll'],
+    "candidates": ['/home/almutawa/inference/search/lakebench/webtable/candidates_0.pkl'],
     "table_search_task": "join", 
     "search_method": 'faiss',
     "type": "search",
