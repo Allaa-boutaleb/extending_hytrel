@@ -697,3 +697,34 @@ computation = {
     "handle_null_column_names": False
 }
 ```
+### Column order invariance 
+Compute vector embeddings on santos benchmark with [column premutations](/benchmarks/union/santos/)
+<br>The tables in this reposiory have been randomly premuted. 
+```python
+computation = {
+    "table_process": None,
+    "column_names": None,
+    "nrows": 30,
+    "pandas_sample": False,
+    "pandas_rate_sample": False,
+    "logs": '[place the desired logs location]',
+    "log_file_name": '[place the name of the log file]',
+    "save_auxiliary": False,
+    "handle_null_column_names": False
+}
+```
+
+### Column name independece 
+```python
+computation = {
+    "table_process": None,
+    "column_names": 'make_headers_null',
+    "nrows": 30,
+    "pandas_sample": False,
+    "pandas_rate_sample": False,
+    "logs": '[place the desired logs location]',
+    "log_file_name": '[place the name of the log file]',
+    "save_auxiliary": False,
+    "handle_null_column_names": False
+}
+```
