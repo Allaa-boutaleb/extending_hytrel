@@ -72,6 +72,7 @@ def main():
     query_columns = search_configs.input['embedding_query_source']
     benchmark = search_configs.input['datalake']
     k = search_configs.k[benchmark]
+    index_type = search_configs.input['method']
     res_dir = search_configs.output['path']
     os.makedirs(res_dir, exist_ok=True)
     candidates_pkl = os.path.join(res_dir,search_configs.output['candidates'])
@@ -83,7 +84,7 @@ def main():
     print(f'using datalake vectors from {datalake_columns}\n')
     print(f'============ search started ============\n')
     if benchmark == 'lakebench':
-        res, build_duration, query_duration = jts.joinable_dataset_search(query_columns_hytrel, datalake_columns_hytrel,k,benchmark)
+        res, build_duration, query_duration = jts.joinable_dataset_search(query_columns_hytrel, datalake_columns_hytrel,k,benchmark,index_type)
     else:
         retieve_more_than_k = 1000 ##just for nextiajd 
         res, build_duration, query_duration = jts.joinable_dataset_search(query_columns_hytrel, datalake_columns_hytrel,retieve_more_than_k,benchmark)

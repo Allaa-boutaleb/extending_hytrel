@@ -8,7 +8,14 @@ def build_index(vectors):
     index.add(vectors)
     return index
 
-def joinable_dataset_search(query_columns_hytrel, datalake_columns_hytrel,k,benchmark='nextiajd'):
+def build_index_hnsw(vectors):
+    faiss.normalize_L2(vectors)
+    M=32
+    index = faiss.IndexHNSWFlat(vectors.shape[1], M)
+    index.add(vectors)
+    return index
+
+def joinable_dataset_search(query_columns_hytrel, datalake_columns_hytrel,k,benchmark='nextiajd',index_type='flat'):
     num_datalake_cols= len(datalake_columns_hytrel)
     print('num_datalake_columns: ', num_datalake_cols)
     dataset_col = []
@@ -18,9 +25,12 @@ def joinable_dataset_search(query_columns_hytrel, datalake_columns_hytrel,k,benc
         dataset_col.append(pair) 
     start_build = time.time()
     vectors = np.array(vectors)
-    print('build regular index using faiss')
-    index = build_index(vectors)
-    index = build_index(vectors)
+    if index_type == 'flat':
+        print('build regular index using faiss')
+        index = build_index(vectors)
+    elif index_type == 'hnsw':
+        print('build hnsw index using faiss')
+        index = build_index_hnsw(vectors)
     end_build = time.time()
     build_duration = end_build - start_build
     res = {}
