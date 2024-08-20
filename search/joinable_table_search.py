@@ -10,8 +10,10 @@ def build_index(vectors):
 
 def build_index_hnsw(vectors):
     faiss.normalize_L2(vectors)
-    M=32
+    M=30 ## similar to lakebench described in the paper 
+    ef_construction = 100 ## similar to lakebench ## according to faiss documentation higher is slower to construct but more accurate
     index = faiss.IndexHNSWFlat(vectors.shape[1], M)
+    index.hnsw.efConstruction = ef_construction
     index.add(vectors)
     return index
 
@@ -31,6 +33,7 @@ def joinable_dataset_search(query_columns_hytrel, datalake_columns_hytrel,k,benc
     elif index_type == 'hnsw':
         print('build hnsw index using faiss')
         index = build_index_hnsw(vectors)
+        index.hnsw.efSearch = 10 ## similar to lakebench
     end_build = time.time()
     build_duration = end_build - start_build
     res = {}
