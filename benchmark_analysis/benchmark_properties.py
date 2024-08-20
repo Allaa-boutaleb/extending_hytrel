@@ -292,9 +292,12 @@ def main():
     elif 'query' in stat_type:
         if stat_type=='query_columns':
             ### place the path of the dictionaries and the directories here
-            dictionaries = ['nextiajd/testbedS/join_dict_testbedS_warpgate.pkl','nextiajd/testbedS/join_dict_testbedS_warpgate_non-numerical_test.pkl','nextiajd/testbedS/join_dict_testbedS_10_non-numerical.pkl','nextiajd/testbedM/join_dict_testbedM_wrapgate.pkl','lakebench/join_dict_webtable_small.pkl','lakebench/join_dict_webtables_small_var2.pkl']
-            directories = ['nextiajd/testbedS/datasets','nextiajd/testbedS/datasets','nextiajd/testbedS/datasets','nextiajd/testbedM/datasets','lakebench/datalake/webtable/data_ssd/webtable/small_var1','lakebench/datalake/webtable/data_ssd/webtable/small_var2']
-            benchmark_names=['nextiajd_small','nextiajd_small_var2','nextiajd_small_var3','nextiajd_medium','webtable_small_var1','webtable_small_var2']
+            # dictionaries = ['nextiajd/testbedS/join_dict_testbedS_warpgate.pkl','nextiajd/testbedS/join_dict_testbedS_warpgate_non-numerical_test.pkl','nextiajd/testbedS/join_dict_testbedS_10_non-numerical.pkl','nextiajd/testbedM/join_dict_testbedM_wrapgate.pkl','lakebench/join_dict_webtable_small.pkl','lakebench/join_dict_webtables_small_var2.pkl']
+            # directories = ['nextiajd/testbedS/datasets','nextiajd/testbedS/datasets','nextiajd/testbedS/datasets','nextiajd/testbedM/datasets','lakebench/datalake/webtable/data_ssd/webtable/small_var1','lakebench/datalake/webtable/data_ssd/webtable/small_var2']
+            # benchmark_names=['nextiajd_small','nextiajd_small_var2','nextiajd_small_var3','nextiajd_medium','webtable_small_var1','webtable_small_var2']
+            dictionaries = ['/home/almutawa/inference/inference/lakebench/webtable/join_dict_final.pkl']
+            directories = ['/home/almutawa/lakebench/webtable/data_ssd/webtable/large/split_1']
+            benchmark_names=['lakebench']
             summary_df = query_columns_stats(benchmark_names,dictionaries,directories)
         elif stat_type =='query_table':
             ### place the path of the dictionaries and the directories here
