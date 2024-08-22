@@ -25,6 +25,7 @@ Citation of each benchmark is provided in README.md of the folder dedicated to t
 |testbedM |Join|[dictionary](benchmarks/join/nextiajd/testbedM/join_dict_testbedM_warpgate.pkl)|10|
 |Webtable var1|Join|[dictionary](benchmarks/join/lakebench/webtables/small/join_dict_webtable_small.pkl)|20|
 |Webtable var2|Join|[dictionary](benchmarks/join/lakebench/webtables/small_var2/join_dict_webtables_small_var2.pkl)|20|
+|Webtable|Join|[dictionary](benchmarks/join/lakebench/webtables/join_dict_final.pkl)|20|
 ### Experiment configurations 
 |Module| Experiment configurations|
 |-------|------|
