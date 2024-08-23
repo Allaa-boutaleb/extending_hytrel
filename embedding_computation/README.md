@@ -56,6 +56,7 @@ Default is set to None.
 | row             | sort\_by\_tfidf\_dropna                                                            | drop null values and then sort table rows based on tfidf  |
 | column-cell     | value\_based\_sort                                                                 \_column        | sort column cells independently based on value while propritizing non-null cells   |
 | column-cell     | sort\_col\_indepedent                                                              \_tfidf\_dropna | sort columns cell values independently based on the cell value tfidf score         |
+|column-cell| sample\_columns\_distinct | for each column, contain distinct values only ensuring they are pushed to the top | 
 
 #### Pandas sampling: 
 Default is set to False. <br>
