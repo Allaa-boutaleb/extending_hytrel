@@ -1,4 +1,4 @@
-# Extending hypergraph-enhance TaLM for data discovry tasks 
+# Extending hypergraph-enhance TaLM for Table Discovry tasks 
 This software is the result of the final year Master's internship/project conducted By Alaa Almutawa at the LIP6 Database research team and funded by Sorbonne Université.. 
 ![pipeline](pipeline_final_final.png)
 ## Modules 
