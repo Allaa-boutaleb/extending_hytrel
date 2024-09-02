@@ -1,5 +1,5 @@
 # Extending hypergraph-enhance TaLM for data discovry tasks 
-This research/project is apart of Final year Masters Internship conducted and funded by the host institution: LIP6 at Sorbonne Universite apart of the Database team. 
+This software is the result of the final year Master's internship/project conducted By Alaa Almutawa at the LIP6 Database research team and funded by Sorbonne Université.. 
 ![pipeline](pipeline_final_final.png)
 ## Modules 
 |Module| Usage| 
