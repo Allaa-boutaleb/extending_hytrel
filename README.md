@@ -1,5 +1,6 @@
 # Extending hypergraph-enhance TaLM for data discovry tasks 
-![pipeline](pipeline_illustration.svg)
+This research/project is apart of Final year Masters Internship conducted and funded by the host institution: LIP6 at Sorbonne Universite apart of the Database team. 
+![pipeline](pipeline_final_final.png)
 ## Modules 
 |Module| Usage| 
 |-------|------|
@@ -18,8 +19,8 @@ Citation of each benchmark is provided in README.md of the folder dedicated to t
 |Benchmark| Type| Groundtruth| K|
 |-------|------|------|------|
 |SANTOS|Union|[dictionary](benchmarks/union/santos/santosUnionBenchmark.pickle)|10|
-|TUS small|Union|[dictionary](benchmarks/union/TUS/small/tusLabeledtusUnionBenchmark)|60|
-|TUS large|Union|[dictionary](benchmarks/union/TUS/large/tusLabeledtusLargeUnionBenchmark)|60|
+|TUS small|Union|[dictionary](benchmarks/union/TUS/small/sampled/tusLabeledtusUnionBenchmark)|60|
+|TUS large|Union|[dictionary](benchmarks/union/TUS/large/sampled/tusLabeledtusLargeUnionBenchmark)|60|
 |Pylon|Union|[dictionary](benchmarks/union/pylon/all_ground_truth_sans_recall.pkl)|10|
 |testbedS|Join|[set1](benchmarks/join/nextiajd/testbedS/set1/join_dict_testbedS_set1.pkl),[set2](benchmarks/join/nextiajd/testbedS/set2/join_dict_testbedS_set2.pkl),[set3](benchmarks/join/nextiajd/testbedS/set3/join_dict_testbedS_set3.pkl)|10|
 |testbedM |Join|[dictionary](benchmarks/join/nextiajd/testbedM/join_dict_testbedM_warpgate.pkl)|10|
