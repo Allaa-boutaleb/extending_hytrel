@@ -1,5 +1,5 @@
 Modules required to load the pre-trained model. 
-The puprose: is to be able to build and load the pre-trained model. 
+The puprose: is to be able to build and load the pre-trained model. <br>
 Modules in this folder are from [HyTrel](https://github.com/awslabs/hypergraph-tabular-lm ) github repository. 
 
 #### References: 
