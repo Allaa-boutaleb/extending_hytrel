@@ -1,0 +1,3 @@
+conda install -c conda-forge faiss-gpu
+conda install -c conda-forge libstdcxx-ng=12
+pip install pandas datasketch
