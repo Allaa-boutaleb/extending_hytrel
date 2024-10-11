@@ -47,3 +47,31 @@
 2024-10-11 12:14:45.611 | INFO     | __main__:main:416 - Number of rows: 30
 2024-10-11 12:14:45.611 | INFO     | __main__:main:417 - Column names: None
 2024-10-11 12:14:45.611 | INFO     | __main__:main:419 - Processing /Users/allaa/Desktop/PHD/HyTrel/extending_hytrel/data/santos/query
+2024-10-11 13:42:07.788 | INFO     | __main__:main:412 - Script configurations:
+2024-10-11 13:42:07.788 | INFO     | __main__:main:413 - Input: /Users/allaa/Desktop/PHD/HyTrel/extending_hytrel/data/santos/query
+2024-10-11 13:42:07.788 | INFO     | __main__:main:414 - Vector output: /Users/allaa/Desktop/PHD/HyTrel/extending_hytrel/inference/santos/vectors
+2024-10-11 13:42:07.789 | INFO     | __main__:main:415 - Table process: None
+2024-10-11 13:42:07.789 | INFO     | __main__:main:416 - Number of rows: 30
+2024-10-11 13:42:07.789 | INFO     | __main__:main:417 - Column names: None
+2024-10-11 13:42:07.789 | INFO     | __main__:main:419 - Processing /Users/allaa/Desktop/PHD/HyTrel/extending_hytrel/data/santos/query
+2024-10-11 13:43:34.270 | INFO     | __main__:main:432 - Script configurations:
+2024-10-11 13:43:34.270 | INFO     | __main__:main:433 - Input: /Users/allaa/Desktop/PHD/HyTrel/extending_hytrel/data/santos/query
+2024-10-11 13:43:34.270 | INFO     | __main__:main:434 - Vector output: /Users/allaa/Desktop/PHD/HyTrel/extending_hytrel/inference/santos/vectors
+2024-10-11 13:43:34.270 | INFO     | __main__:main:435 - Table process: None
+2024-10-11 13:43:34.270 | INFO     | __main__:main:436 - Number of rows: 30
+2024-10-11 13:43:34.270 | INFO     | __main__:main:437 - Column names: None
+2024-10-11 13:43:34.270 | INFO     | __main__:main:439 - Processing /Users/allaa/Desktop/PHD/HyTrel/extending_hytrel/data/santos/query
+2024-10-11 13:48:21.006 | INFO     | __main__:main:412 - Script configurations:
+2024-10-11 13:48:21.007 | INFO     | __main__:main:413 - Input: /Users/allaa/Desktop/PHD/HyTrel/extending_hytrel/data/santos/query
+2024-10-11 13:48:21.007 | INFO     | __main__:main:414 - Vector output: /Users/allaa/Desktop/PHD/HyTrel/extending_hytrel/inference/santos/vectors
+2024-10-11 13:48:21.007 | INFO     | __main__:main:415 - Table process: None
+2024-10-11 13:48:21.007 | INFO     | __main__:main:416 - Number of rows: 30
+2024-10-11 13:48:21.007 | INFO     | __main__:main:417 - Column names: None
+2024-10-11 13:48:21.010 | INFO     | __main__:main:419 - Processing /Users/allaa/Desktop/PHD/HyTrel/extending_hytrel/data/santos/query
+2024-10-11 13:51:49.929 | INFO     | __main__:main:416 - Script configurations:
+2024-10-11 13:51:49.930 | INFO     | __main__:main:417 - Input: /Users/allaa/Desktop/PHD/HyTrel/extending_hytrel/data/santos/query
+2024-10-11 13:51:49.930 | INFO     | __main__:main:418 - Vector output: /Users/allaa/Desktop/PHD/HyTrel/extending_hytrel/inference/santos/vectors
+2024-10-11 13:51:49.930 | INFO     | __main__:main:419 - Table process: None
+2024-10-11 13:51:49.930 | INFO     | __main__:main:420 - Number of rows: 30
+2024-10-11 13:51:49.930 | INFO     | __main__:main:421 - Column names: None
+2024-10-11 13:51:49.930 | INFO     | __main__:main:423 - Processing /Users/allaa/Desktop/PHD/HyTrel/extending_hytrel/data/santos/query

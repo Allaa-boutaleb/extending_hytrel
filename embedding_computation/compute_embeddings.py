@@ -43,13 +43,17 @@ from utils.table_preprocess import make_headers_null, determine_delimiter
 
 def load_model(ckpt: str, model: torch.nn.Module) -> None:
     """
-    Load the pre-trained model weights.
+    Load the pre-trained model weights on CPU.
 
     Args:
         ckpt (str): Path to the checkpoint file.
         model (torch.nn.Module): The model to load the weights into.
     """
-    state_dict = torch.load(ckpt)
+    # if cuda is not available, load model to cpu
+    if not torch.cuda.is_available():
+        state_dict = torch.load(ckpt, map_location=torch.device('cpu'))
+    else:
+        state_dict = torch.load(ckpt)
     new_state_dict = OrderedDict()
     for k, v in state_dict['module'].items():
         if 'model' in k:
