@@ -1,6 +1,4 @@
 import math
-from typing import Optional, Union, Callable
-
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -11,68 +9,88 @@ from torch.nn import Parameter
 from torch_geometric.nn.conv import MessagePassing
 from torch_geometric.utils import softmax
 from torch_scatter import scatter
-from torch_geometric.typing import Adj, OptTensor, SparseTensor
+from torch_geometric.typing import Adj,  OptTensor, SparseTensor
 
-def get_activation(act: Optional[Union[str, Callable]], inplace: bool = False) -> Callable:
-    """
-    Get the activation function based on the provided name or callable.
 
-    Args:
-        act (Optional[Union[str, Callable]]): Name of the activation function or a callable.
-        inplace (bool): Whether to perform inplace activation. Defaults to False.
 
-    Returns:
-        Callable: The activation function.
 
-    Raises:
-        NotImplementedError: If the requested activation function is not supported.
-    """
-    if act is None:
-        return lambda x: x
 
-    if isinstance(act, str):
-        if act == 'leaky':
-            return nn.LeakyReLU(0.1, inplace=inplace)
-        if act == 'identity':
-            return nn.Identity()
-        if act == 'elu':
-            return nn.ELU(inplace=inplace)
-        if act == 'gelu':
-            return nn.GELU()
-        if act == 'relu':
-            return nn.ReLU()
-        if act == 'sigmoid':
-            return nn.Sigmoid()
-        if act == 'tanh':
-            return nn.Tanh()
-        if act in {'softrelu', 'softplus'}:
-            return nn.Softplus()
-        if act == 'softsign':
-            return nn.Softsign()
-        raise NotImplementedError(f'act="{act}" is not supported. '
-                                  'Try to include it if you can find that in '
-                                  'https://pytorch.org/docs/stable/nn.html')
+def get_activation(act, inplace=False):
+  """
 
-    return act
+  Parameters
+  ----------
+  act
+      Name of the activation
+  inplace
+      Whether to perform inplace activation
+
+  Returns
+  -------
+  activation_layer
+      The activation
+  """
+  if act is None:
+    return lambda x: x
+
+  if isinstance(act, str):
+    if act == 'leaky':
+      # TODO(sxjscience) Add regex matching here to parse `leaky(0.1)`
+      return nn.LeakyReLU(0.1, inplace=inplace)
+    if act == 'identity':
+      return nn.Identity()
+    if act == 'elu':
+      return nn.ELU(inplace=inplace)
+    if act == 'gelu':
+      return nn.GELU()
+    if act == 'relu':
+      return nn.ReLU()
+    if act == 'sigmoid':
+      return nn.Sigmoid()
+    if act == 'tanh':
+      return nn.Tanh()
+    if act in {'softrelu', 'softplus'}:
+      return nn.Softplus()
+    if act == 'softsign':
+      return nn.Softsign()
+    raise NotImplementedError('act="{}" is not supported. '
+                              'Try to include it if you can find that in '
+                              'https://pytorch.org/docs/stable/nn.html'.format(act))
+
+  return act
+
+
+
 
 class PositionwiseFFN(nn.Module):
-    """
-    The Position-wise FFN layer used in Transformer-like architectures.
+    """The Position-wise FFN layer used in Transformer-like architectures
 
     If pre_norm is True:
         norm(data) -> fc1 -> act -> act_dropout -> fc2 -> dropout -> res(+data)
     Else:
         data -> fc1 -> act -> act_dropout -> fc2 -> dropout -> norm(res(+data))
-
-    If gated projection is used:
-        fc1_1 * act(fc1_2(data)) is used to map the data.
+    Also, if we use gated projection. We will use
+        fc1_1 * act(fc1_2(data)) to map the data
     """
-    def __init__(self, config):
+    def __init__(self,  config):
         """
-        Initialize the PositionwiseFFN layer.
-
-        Args:
-            config: Configuration object containing model parameters.
+        Parameters
+        ----------
+        units
+        hidden_size
+        activation_dropout
+        dropout
+        activation
+        normalization
+            layer_norm or no_norm
+        layer_norm_eps
+        pre_norm
+            Pre-layer normalization as proposed in the paper:
+            "[ACL2018] The Best of Both Worlds: Combining Recent Advances in
+             Neural Machine Translation"
+            This will stabilize the training of Transformers.
+            You may also refer to
+            "[Arxiv2020] Understanding the Difficulty of Training Transformers"
         """
         super().__init__()
         self.config = config
@@ -87,27 +105,29 @@ class PositionwiseFFN(nn.Module):
         self.activation = get_activation(self.config.hidden_act)
         self.ffn_2 = nn.Linear(in_features=self.config.intermediate_size, out_features=self.config.hidden_size,
                                bias=True)
-        self.layer_norm = nn.LayerNorm(eps=self.config.layer_norm_eps,
-                                       normalized_shape=self.config.hidden_size)
+        self.layer_norm =  nn.LayerNorm(eps=self.config.layer_norm_eps,
+                                   normalized_shape=self.config.hidden_size)
         self.init_weights()
 
     def init_weights(self):
-        """Initialize the weights of the linear layers."""
         for module in self.children():
             if isinstance(module, nn.Linear):
                 nn.init.xavier_uniform_(module.weight)
                 if module.bias is not None:
                     nn.init.zeros_(module.bias)
 
-    def forward(self, data: Tensor) -> Tensor:
+    def forward(self, data):
         """
-        Forward pass of the PositionwiseFFN layer.
 
-        Args:
-            data (Tensor): Input tensor of shape (B, seq_length, C_in).
+        Parameters
+        ----------
+        data :
+            Shape (B, seq_length, C_in)
 
-        Returns:
-            Tensor: Output tensor of shape (B, seq_length, C_out).
+        Returns
+        -------
+        out :
+            Shape (B, seq_length, C_out)
         """
         residual = data
         if self.config.pre_norm:
@@ -124,43 +144,31 @@ class PositionwiseFFN(nn.Module):
             out = self.layer_norm(out)
         return out
 
-def glorot(tensor: Optional[Tensor]):
-    """
-    Initialize the given tensor using Glorot initialization.
 
-    Args:
-        tensor (Optional[Tensor]): The tensor to be initialized.
-    """
+
+
+# Method for initialization
+def glorot(tensor):
     if tensor is not None:
         stdv = math.sqrt(6.0 / (tensor.size(-2) + tensor.size(-1)))
         tensor.data.uniform_(-stdv, stdv)
 
-def zeros(tensor: Optional[Tensor]):
-    """
-    Initialize the given tensor with zeros.
 
-    Args:
-        tensor (Optional[Tensor]): The tensor to be initialized.
-    """
+def zeros(tensor):
     if tensor is not None:
         tensor.data.fill_(0)
 
+
 class AllSetTrans(MessagePassing):
     """
-    AllSetTrans layer for graph attention.
-
-    This layer implements a variation of the graph attention mechanism
-    similar to the one used in the original PMA (Pooling by Multihead Attention).
+        AllSetTrans part:
+        Note that in original PMA, we need to compute the inner product of the seed and neighbor nodes.
+        i.e. e_ij = a(Wh_i,Wh_j), where a should be the inner product, h_i is the seed and h_j are neightbor nodes.
+        In GAT, a(x,y) = a^T[x||y]. We use the same logic.
     """
-    def __init__(self, config, negative_slope: float = 0.2, **kwargs):
-        """
-        Initialize the AllSetTrans layer.
 
-        Args:
-            config: Configuration object containing model parameters.
-            negative_slope (float): LeakyReLU angle of the negative slope. Defaults to 0.2.
-            **kwargs: Additional keyword arguments for the MessagePassing base class.
-        """
+    def __init__(self, config, negative_slope=0.2, **kwargs):
+
         super(AllSetTrans, self).__init__(node_dim=0, **kwargs)
 
         self.in_channels = config.hidden_size
@@ -177,6 +185,7 @@ class AllSetTrans(MessagePassing):
         self.att_r = Parameter(torch.Tensor(1, self.heads, self.hidden))  # Seed vector
         self.rFF = PositionwiseFFN(config)
 
+
         self.ln0 = nn.LayerNorm(self.heads * self.hidden)
         self.ln1 = nn.LayerNorm(self.heads * self.hidden)
 
@@ -185,29 +194,20 @@ class AllSetTrans(MessagePassing):
         self.reset_parameters()
 
     def reset_parameters(self):
-        """Reset the parameters of the layer."""
         glorot(self.lin_K.weight)
         glorot(self.lin_V.weight)
         self.ln0.reset_parameters()
         self.ln1.reset_parameters()
         nn.init.xavier_uniform_(self.att_r)
 
-    def forward(self, x: Tensor, edge_index: Adj, 
-                return_attention_weights: Optional[bool] = None) -> Union[Tensor, Tuple[Tensor, Tuple[Tensor, Tensor]]]:
+
+    def forward(self, x, edge_index: Adj, return_attention_weights=None):
         """
-        Forward pass of the AllSetTrans layer.
-
         Args:
-            x (Tensor): Input node features.
-            edge_index (Adj): Graph connectivity in COO format.
-            return_attention_weights (Optional[bool]): If set to True, returns the attention weights
-                                                       for each edge. Defaults to None.
-
-        Returns:
-            Union[Tensor, Tuple[Tensor, Tuple[Tensor, Tensor]]]: 
-                - If return_attention_weights is False, returns the output tensor.
-                - If return_attention_weights is True, returns a tuple containing the output tensor
-                  and a tuple of (edge_index, attention_weights).
+            return_attention_weights (bool, optional): If set to :obj:`True`,
+                will additionally return the tuple
+                :obj:`(edge_index, attention_weights)`, holding the computed
+                attention weights for each edge. (default: :obj:`None`)
         """
         H, C = self.heads, self.hidden
         alpha_r: OptTensor = None
@@ -223,9 +223,9 @@ class AllSetTrans(MessagePassing):
         alpha = self._alpha
         self._alpha = None
         out += self.att_r  # Seed + Multihead
-        # concat heads then LayerNorm
+        # concat heads then LayerNorm.
         out = self.ln0(out.view(-1, self.heads * self.hidden))
-        # rFF and skip connection
+        # rFF and skip connection.
         out = self.ln1(out + F.relu(self.rFF(out)))
 
         if isinstance(return_attention_weights, bool):
@@ -237,51 +237,33 @@ class AllSetTrans(MessagePassing):
         else:
             return out
 
-    def message(self, x_j: Tensor, alpha_j: Tensor,
-                index: Tensor, ptr: OptTensor,
-                size_i: Optional[int]) -> Tensor:
-        """
-        Compute the message passed from nodes to edges.
-
-        Args:
-            x_j (Tensor): Source node features.
-            alpha_j (Tensor): Source node attention coefficients.
-            index (Tensor): Target node indices.
-            ptr (OptTensor): If given, the ptr vector
-            size_i (Optional[int]): Size of target nodes.
-
-        Returns:
-            Tensor: The message passed from nodes to edges.
-        """
+    def message(self, x_j, alpha_j,
+                index, ptr,):
+        
         alpha = alpha_j
         alpha = F.leaky_relu(alpha, self.negative_slope)
-        alpha = softmax(alpha, index, ptr, size_i)
+        alpha = softmax(alpha, index, ptr, index.max() + 1)
         self._alpha = alpha
         alpha = F.dropout(alpha, p=self.dropout, training=self.training)
 
         return x_j * alpha.unsqueeze(-1)
 
-    def aggregate(self, inputs: Tensor, index: Tensor,
-                  ptr: Optional[Tensor] = None,
-                  dim_size: Optional[int] = None) -> Tensor:
-        """
-        Aggregates messages from neighbors.
+    def aggregate(self, inputs, index, aggr=None):
+        r"""Aggregates messages from neighbors as
+        :math:`\square_{j \in \mathcal{N}(i)}`.
 
-        Args:
-            inputs (Tensor): Transformed messages.
-            index (Tensor): Indices of target nodes.
-            ptr (Optional[Tensor]): If given, the ptr vector. Defaults to None.
-            dim_size (Optional[int]): Size of the output tensor. Defaults to None.
+        Takes in the output of message computation as first argument and any
+        argument which was initially passed to :meth:`propagate`.
 
-        Returns:
-            Tensor: The aggregated messages.
+        By default, this function will delegate its call to scatter functions
+        that support "add", "mean" and "max" operations as specified in
+        :meth:`__init__` by the :obj:`aggr` argument.
         """
-        if ptr is not None:
-            ptr = expand_left(ptr, dim=self.node_dim, dims=inputs.dim())
-            return segment_csr(inputs, ptr, reduce=self.aggr)
-        else:
-            return scatter(inputs, index, dim=self.node_dim, dim_size=dim_size,
-                           reduce=self.aggr)
+        if aggr is None:
+            aggr = self.aggr
+        return scatter(inputs, index, dim=self.node_dim, reduce=aggr)
 
     def __repr__(self):
-        return '{}({}, {}, heads={})'.format(s
+        return '{}({}, {}, heads={})'.format(self.__class__.__name__,
+                                             self.in_channels,
+                                             self.out_channels, self.heads)

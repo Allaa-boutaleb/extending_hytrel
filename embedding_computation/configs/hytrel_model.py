@@ -101,6 +101,40 @@ class OptimizerConfig:
         )
         return optimizer
 
+# def get_model() -> Tuple[Encoder, AutoTokenizer]:
+#     """
+#     Initialize and return the HyTrel model and tokenizer.
+
+#     Returns:
+#         Tuple[Encoder, AutoTokenizer]: The initialized model and tokenizer.
+#     """
+#     parser = HfArgumentParser((DataArguments, OptimizerConfig))
+#     parser = pl.Trainer.add_argparse_args(parser)
+
+#     data_args, optimizer_cfg, trainer_args = parser.parse_args_into_dataclasses()
+
+#     logger.info(f"Data arguments: {data_args}")
+#     logger.info(f"Optimizer configuration: {optimizer_cfg}")
+#     logger.info(f"Trainer arguments: {trainer_args}")
+
+#     # Set up tokenizer and model config
+#     tokenizer = AutoTokenizer.from_pretrained(data_args.tokenizer_config_type)
+#     new_tokens = ['[TAB]', '[HEAD]', '[CELL]', '[ROW]', "scinotexp"]
+#     tokenizer.add_tokens(new_tokens)
+#     logger.info(f"New tokens added: {new_tokens}")
+
+#     model_config = AutoConfig.from_pretrained(data_args.tokenizer_config_type)
+#     model_config.update({
+#         'vocab_size': len(tokenizer),
+#         "pre_norm": False,
+#         "activation_dropout": 0.1,
+#         "gated_proj": False
+#     })
+#     logger.info(f"Model config: {model_config}")
+
+#     encoder_model = Encoder(model_config)
+#     return encoder_model, tokenizer
+
 def get_model() -> Tuple[Encoder, AutoTokenizer]:
     """
     Initialize and return the HyTrel model and tokenizer.
@@ -109,13 +143,12 @@ def get_model() -> Tuple[Encoder, AutoTokenizer]:
         Tuple[Encoder, AutoTokenizer]: The initialized model and tokenizer.
     """
     parser = HfArgumentParser((DataArguments, OptimizerConfig))
-    parser = pl.Trainer.add_argparse_args(parser)
 
-    data_args, optimizer_cfg, trainer_args = parser.parse_args_into_dataclasses()
+    # Parse arguments into data arguments and optimizer configuration
+    data_args, optimizer_cfg = parser.parse_args_into_dataclasses()
 
     logger.info(f"Data arguments: {data_args}")
     logger.info(f"Optimizer configuration: {optimizer_cfg}")
-    logger.info(f"Trainer arguments: {trainer_args}")
 
     # Set up tokenizer and model config
     tokenizer = AutoTokenizer.from_pretrained(data_args.tokenizer_config_type)

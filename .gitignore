@@ -78,3 +78,6 @@ venv.bak/
 
 # Rope project settings
 .ropeproject
+
+# checkpoints
+checkpoints/
