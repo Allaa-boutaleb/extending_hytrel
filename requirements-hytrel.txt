@@ -18,3 +18,5 @@ datasketch==1.6.5
 faiss-cpu==1.9.0
 loguru==0.7.2
 numpy==1.26.4
+matplotlib==3.9.2
+scikit-learn==1.5.2
