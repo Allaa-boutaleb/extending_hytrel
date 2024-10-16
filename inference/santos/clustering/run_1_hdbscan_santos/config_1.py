@@ -13,10 +13,10 @@ input = {
 }
 
 clustering = {
-    "method": "hierarchical",  # Options: "hierarchical" or "hdbscan"
-    "n_clusters_available": True,
+    "method": "hdbscan",  # Options: "hierarchical" or "hdbscan"
+    "n_clusters_available": False,
     "experimental_thresholds": [0.8, 0.6, 0.4, 0.2, 0.195, 0.19, 0.18, 0.1],
-    "n_clusters": 12,
+    "n_clusters": 1000,
     "hierarchical_metric": "cosine",
     "linkage": 'average',
     # HDBSCAN specific parameters
