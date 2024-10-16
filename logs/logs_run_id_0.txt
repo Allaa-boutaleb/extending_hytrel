@@ -75,3 +75,294 @@
 2024-10-11 13:51:49.930 | INFO     | __main__:main:420 - Number of rows: 30
 2024-10-11 13:51:49.930 | INFO     | __main__:main:421 - Column names: None
 2024-10-11 13:51:49.930 | INFO     | __main__:main:423 - Processing /Users/allaa/Desktop/PHD/HyTrel/extending_hytrel/data/santos/query
+2024-10-15 10:19:36.483 | INFO     | __main__:main:416 - Script configurations:
+2024-10-15 10:19:36.483 | INFO     | __main__:main:417 - Input: /home/boutalebm/github-repos/extending_hytrel/data/santos/query
+2024-10-15 10:19:36.483 | INFO     | __main__:main:418 - Vector output: /home/boutalebm/github-repos/extending_hytrel/inference/santos/vectors
+2024-10-15 10:19:36.484 | INFO     | __main__:main:419 - Table process: None
+2024-10-15 10:19:36.484 | INFO     | __main__:main:420 - Number of rows: 30
+2024-10-15 10:19:36.484 | INFO     | __main__:main:421 - Column names: None
+2024-10-15 10:19:36.484 | INFO     | __main__:main:423 - Processing /home/boutalebm/github-repos/extending_hytrel/data/santos/query
+2024-10-15 10:29:16.298 | INFO     | __main__:main:416 - Script configurations:
+2024-10-15 10:29:16.298 | INFO     | __main__:main:417 - Input: /home/boutalebm/github-repos/extending_hytrel/data/santos/query
+2024-10-15 10:29:16.298 | INFO     | __main__:main:418 - Vector output: /home/boutalebm/github-repos/extending_hytrel/inference/santos/vectors
+2024-10-15 10:29:16.298 | INFO     | __main__:main:419 - Table process: None
+2024-10-15 10:29:16.299 | INFO     | __main__:main:420 - Number of rows: 30
+2024-10-15 10:29:16.299 | INFO     | __main__:main:421 - Column names: None
+2024-10-15 10:29:16.299 | INFO     | __main__:main:423 - Processing /home/boutalebm/github-repos/extending_hytrel/data/santos/query
+2024-10-15 10:29:57.794 | INFO     | __main__:main:417 - Script configurations:
+2024-10-15 10:29:57.795 | INFO     | __main__:main:418 - Input: /home/boutalebm/github-repos/extending_hytrel/data/santos/query
+2024-10-15 10:29:57.795 | INFO     | __main__:main:419 - Vector output: /home/boutalebm/github-repos/extending_hytrel/inference/santos/vectors
+2024-10-15 10:29:57.795 | INFO     | __main__:main:420 - Table process: None
+2024-10-15 10:29:57.795 | INFO     | __main__:main:421 - Number of rows: 30
+2024-10-15 10:29:57.795 | INFO     | __main__:main:422 - Column names: None
+2024-10-15 10:29:57.795 | INFO     | __main__:main:424 - Processing /home/boutalebm/github-repos/extending_hytrel/data/santos/query
+2024-10-15 10:31:05 - INFO - script configurations:
+input: /home/boutalebm/github-repos/extending_hytrel/data/santos/query,
+vector output: /home/boutalebm/github-repos/extending_hytrel/inference/santos/vectors, 
+table_process: None,
+nrows 30,
+column_names: None
+2024-10-15 10:31:05 - INFO - data_args: DataArguments(tokenizer_config_type='bert-base-uncased', data_path='../table_graph/data/col_rel/', max_token_length=64, max_row_length=30, max_column_length=20, label_type_num=121, num_workers=8, valid_ratio=0.3)
+
+2024-10-15 10:31:05 - INFO - optimizer_cfg: OptimizerConfig(batch_size=256, base_learning_rate=0.001, weight_decay=0.02, adam_beta1=0.9, adam_beta2=0.98, adam_epsilon=1e-05, lr_scheduler_type='linear', warmup_step_ratio=0.1, seed=42, optimizer='Adam', adam_w_mode=True, save_every_n_epochs=1, save_top_k=1, checkpoint_path='')
+
+2024-10-15 10:31:05 - INFO - trainer_args: Namespace(logger=True, enable_checkpointing=True, default_root_dir=None, gradient_clip_val=None, gradient_clip_algorithm=None, num_nodes=1, num_processes=None, devices=None, gpus=None, auto_select_gpus=False, tpu_cores=None, ipus=None, enable_progress_bar=True, overfit_batches=0.0, track_grad_norm=-1, check_val_every_n_epoch=1, fast_dev_run=False, accumulate_grad_batches=None, max_epochs=None, min_epochs=None, max_steps=-1, min_steps=None, max_time=None, limit_train_batches=None, limit_val_batches=None, limit_test_batches=None, limit_predict_batches=None, val_check_interval=None, log_every_n_steps=50, accelerator=None, strategy=None, sync_batchnorm=False, precision=32, enable_model_summary=True, weights_save_path=None, num_sanity_val_steps=2, resume_from_checkpoint=None, profiler=None, benchmark=None, deterministic=None, reload_dataloaders_every_n_epochs=0, auto_lr_find=False, replace_sampler_ddp=True, detect_anomaly=False, auto_scale_batch_size=False, plugins=None, amp_backend='native', amp_level=None, move_metrics_to_cpu=False, multiple_trainloader_mode='max_size_cycle')
+
+2024-10-15 10:31:05 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-10-15 10:31:05 - DEBUG - https://huggingface.co:443 "HEAD /bert-base-uncased/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-10-15 10:31:05 - INFO - new tokens added: ['[TAB]', '[HEAD]', '[CELL]', '[ROW]', 'scinotexp']
+
+2024-10-15 10:31:05 - DEBUG - https://huggingface.co:443 "HEAD /bert-base-uncased/resolve/main/config.json HTTP/11" 200 0
+2024-10-15 10:31:05 - INFO - model config: BertConfig {
+  "_name_or_path": "bert-base-uncased",
+  "activation_dropout": 0.1,
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "gated_proj": false,
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "pre_norm": false,
+  "transformers_version": "4.45.2",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 30527
+}
+
+
+2024-10-15 10:31:09 - INFO - number of skipped files: 0
+2024-10-15 10:31:09 - INFO - tome to retrieve embeddings from Hytrel of input /home/boutalebm/github-repos/extending_hytrel/data/santos/query: 0.6494958400726318 seconds
+2024-10-15 10:31:09 - INFO - column vectors saved in /home/boutalebm/github-repos/extending_hytrel/inference/santos/vectors/hytrel_query_columns_0.pkl
+2024-10-15 10:35:08 - INFO - script configurations:
+input: /home/boutalebm/github-repos/extending_hytrel/data/santos/query,
+vector output: /home/boutalebm/github-repos/extending_hytrel/inference/santos/vectors, 
+table_process: None,
+nrows 30,
+column_names: None
+2024-10-15 10:35:08 - INFO - data_args: DataArguments(tokenizer_config_type='bert-base-uncased', data_path='../table_graph/data/col_rel/', max_token_length=64, max_row_length=30, max_column_length=20, label_type_num=121, num_workers=8, valid_ratio=0.3)
+
+2024-10-15 10:35:08 - INFO - optimizer_cfg: OptimizerConfig(batch_size=256, base_learning_rate=0.001, weight_decay=0.02, adam_beta1=0.9, adam_beta2=0.98, adam_epsilon=1e-05, lr_scheduler_type='linear', warmup_step_ratio=0.1, seed=42, optimizer='Adam', adam_w_mode=True, save_every_n_epochs=1, save_top_k=1, checkpoint_path='')
+
+2024-10-15 10:35:08 - INFO - trainer_args: Namespace(logger=True, enable_checkpointing=True, default_root_dir=None, gradient_clip_val=None, gradient_clip_algorithm=None, num_nodes=1, num_processes=None, devices=None, gpus=None, auto_select_gpus=False, tpu_cores=None, ipus=None, enable_progress_bar=True, overfit_batches=0.0, track_grad_norm=-1, check_val_every_n_epoch=1, fast_dev_run=False, accumulate_grad_batches=None, max_epochs=None, min_epochs=None, max_steps=-1, min_steps=None, max_time=None, limit_train_batches=None, limit_val_batches=None, limit_test_batches=None, limit_predict_batches=None, val_check_interval=None, log_every_n_steps=50, accelerator=None, strategy=None, sync_batchnorm=False, precision=32, enable_model_summary=True, weights_save_path=None, num_sanity_val_steps=2, resume_from_checkpoint=None, profiler=None, benchmark=None, deterministic=None, reload_dataloaders_every_n_epochs=0, auto_lr_find=False, replace_sampler_ddp=True, detect_anomaly=False, auto_scale_batch_size=False, plugins=None, amp_backend='native', amp_level=None, move_metrics_to_cpu=False, multiple_trainloader_mode='max_size_cycle')
+
+2024-10-15 10:35:08 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-10-15 10:35:08 - DEBUG - https://huggingface.co:443 "HEAD /bert-base-uncased/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-10-15 10:35:08 - INFO - new tokens added: ['[TAB]', '[HEAD]', '[CELL]', '[ROW]', 'scinotexp']
+
+2024-10-15 10:35:08 - DEBUG - https://huggingface.co:443 "HEAD /bert-base-uncased/resolve/main/config.json HTTP/11" 200 0
+2024-10-15 10:35:08 - INFO - model config: BertConfig {
+  "_name_or_path": "bert-base-uncased",
+  "activation_dropout": 0.1,
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "gated_proj": false,
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "pre_norm": false,
+  "transformers_version": "4.45.2",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 30527
+}
+
+
+2024-10-15 15:41:46.257 | INFO     | __main__:main:416 - Script configurations:
+2024-10-15 15:41:46.257 | INFO     | __main__:main:417 - Input: /home/boutalebm/github-repos/extending_hytrel/data/santos/query
+2024-10-15 15:41:46.257 | INFO     | __main__:main:418 - Vector output: /home/boutalebm/github-repos/extending_hytrel/inference/santos/vectors
+2024-10-15 15:41:46.257 | INFO     | __main__:main:419 - Table process: None
+2024-10-15 15:41:46.257 | INFO     | __main__:main:420 - Number of rows: 30
+2024-10-15 15:41:46.258 | INFO     | __main__:main:421 - Column names: None
+2024-10-15 15:41:46.258 | INFO     | __main__:main:423 - Processing /home/boutalebm/github-repos/extending_hytrel/data/santos/query
+2024-10-15 15:45:17.914 | INFO     | __main__:main:417 - Script configurations:
+2024-10-15 15:45:17.914 | INFO     | __main__:main:418 - Input: /home/boutalebm/github-repos/extending_hytrel/data/santos/query
+2024-10-15 15:45:17.914 | INFO     | __main__:main:419 - Vector output: /home/boutalebm/github-repos/extending_hytrel/inference/santos/vectors
+2024-10-15 15:45:17.915 | INFO     | __main__:main:420 - Table process: None
+2024-10-15 15:45:17.915 | INFO     | __main__:main:421 - Number of rows: 30
+2024-10-15 15:45:17.915 | INFO     | __main__:main:422 - Column names: None
+2024-10-15 15:45:17.915 | INFO     | __main__:main:424 - Processing /home/boutalebm/github-repos/extending_hytrel/data/santos/query
+2024-10-15 15:45:21.579 | INFO     | __main__:process_directory:272 - Processing directory: /home/boutalebm/github-repos/extending_hytrel/data/santos/query
+2024-10-15 15:45:43.492 | INFO     | __main__:main:418 - Script configurations:
+2024-10-15 15:45:43.493 | INFO     | __main__:main:419 - Input: /home/boutalebm/github-repos/extending_hytrel/data/santos/query
+2024-10-15 15:45:43.493 | INFO     | __main__:main:420 - Vector output: /home/boutalebm/github-repos/extending_hytrel/inference/santos/vectors
+2024-10-15 15:45:43.493 | INFO     | __main__:main:421 - Table process: None
+2024-10-15 15:45:43.493 | INFO     | __main__:main:422 - Number of rows: 30
+2024-10-15 15:45:43.493 | INFO     | __main__:main:423 - Column names: None
+2024-10-15 15:45:43.493 | INFO     | __main__:main:425 - Processing /home/boutalebm/github-repos/extending_hytrel/data/santos/query
+2024-10-15 15:45:47.142 | INFO     | __main__:process_directory:273 - Processing directory: /home/boutalebm/github-repos/extending_hytrel/data/santos/query
+2024-10-15 15:45:47.145 | INFO     | __main__:process_directory:281 - Processing: /home/boutalebm/github-repos/extending_hytrel/data/santos/query/albums.csv
+2024-10-15 15:45:47.575 | INFO     | __main__:process_directory:332 - Saving embeddings in union format
+2024-10-15 15:45:47.575 | INFO     | __main__:process_directory:281 - Processing: /home/boutalebm/github-repos/extending_hytrel/data/santos/query/new_york_city_restaurant_inspection_results.csv
+2024-10-15 15:45:47.969 | INFO     | __main__:process_directory:332 - Saving embeddings in union format
+2024-10-15 15:45:47.972 | INFO     | __main__:process_directory:343 - Number of processed files: 2
+2024-10-15 15:45:48.007 | INFO     | __main__:process_directory:348 - Processing completed for /home/boutalebm/github-repos/extending_hytrel/data/santos/query
+2024-10-15 15:45:48.008 | INFO     | __main__:process_directory:349 - Total time to retrieve embeddings: 0.65 seconds
+2024-10-15 15:45:48.008 | INFO     | __main__:process_directory:350 - Number of skipped files: 0
+2024-10-15 15:45:48.009 | INFO     | __main__:process_directory:351 - Column vectors saved in /home/boutalebm/github-repos/extending_hytrel/inference/santos/vectors/hytrel_query_columns_0.pkl
+2024-10-15 15:45:48.030 | INFO     | __main__:main:427 - Processing completed for /home/boutalebm/github-repos/extending_hytrel/data/santos/query
+2024-10-15 15:45:48.030 | INFO     | __main__:main:428 - Output saved in /home/boutalebm/github-repos/extending_hytrel/inference/santos/vectors
+2024-10-15 15:46:34.243 | INFO     | __main__:main:418 - Script configurations:
+2024-10-15 15:46:34.243 | INFO     | __main__:main:419 - Input: /home/boutalebm/github-repos/extending_hytrel/data/santos/query
+2024-10-15 15:46:34.243 | INFO     | __main__:main:420 - Vector output: /home/boutalebm/github-repos/extending_hytrel/inference/santos/vectors
+2024-10-15 15:46:34.243 | INFO     | __main__:main:421 - Table process: None
+2024-10-15 15:46:34.243 | INFO     | __main__:main:422 - Number of rows: 30
+2024-10-15 15:46:34.244 | INFO     | __main__:main:423 - Column names: None
+2024-10-15 15:46:34.244 | INFO     | __main__:main:425 - Processing /home/boutalebm/github-repos/extending_hytrel/data/santos/query
+2024-10-15 15:46:37.787 | INFO     | __main__:process_directory:273 - Processing directory: /home/boutalebm/github-repos/extending_hytrel/data/santos/query
+2024-10-15 15:46:37.788 | INFO     | __main__:process_directory:281 - Processing: /home/boutalebm/github-repos/extending_hytrel/data/santos/query/albums.csv
+2024-10-15 15:46:38.072 | INFO     | __main__:process_directory:332 - Saving embeddings in union format
+2024-10-15 15:46:38.073 | INFO     | __main__:process_directory:281 - Processing: /home/boutalebm/github-repos/extending_hytrel/data/santos/query/new_york_city_restaurant_inspection_results.csv
+2024-10-15 15:46:38.447 | INFO     | __main__:process_directory:332 - Saving embeddings in union format
+2024-10-15 15:46:38.449 | INFO     | __main__:process_directory:343 - Number of processed files: 2
+2024-10-15 15:46:38.451 | INFO     | __main__:process_directory:348 - Processing completed for /home/boutalebm/github-repos/extending_hytrel/data/santos/query
+2024-10-15 15:46:38.451 | INFO     | __main__:process_directory:349 - Total time to retrieve embeddings: 0.49 seconds
+2024-10-15 15:46:38.451 | INFO     | __main__:process_directory:350 - Number of skipped files: 0
+2024-10-15 15:46:38.451 | INFO     | __main__:process_directory:351 - Column vectors saved in /home/boutalebm/github-repos/extending_hytrel/inference/santos/vectors/hytrel_query_columns_0.pkl
+2024-10-15 15:46:38.466 | INFO     | __main__:main:427 - Processing completed for /home/boutalebm/github-repos/extending_hytrel/data/santos/query
+2024-10-15 15:46:38.467 | INFO     | __main__:main:428 - Output saved in /home/boutalebm/github-repos/extending_hytrel/inference/santos/vectors
+2024-10-15 15:47:10.102 | INFO     | __main__:main:418 - Script configurations:
+2024-10-15 15:47:10.102 | INFO     | __main__:main:419 - Input: /home/boutalebm/github-repos/extending_hytrel/data/santos/query
+2024-10-15 15:47:10.103 | INFO     | __main__:main:420 - Vector output: /home/boutalebm/github-repos/extending_hytrel/inference/santos/vectors
+2024-10-15 15:47:10.103 | INFO     | __main__:main:421 - Table process: None
+2024-10-15 15:47:10.103 | INFO     | __main__:main:422 - Number of rows: 30
+2024-10-15 15:47:10.103 | INFO     | __main__:main:423 - Column names: None
+2024-10-15 15:47:10.103 | INFO     | __main__:main:425 - Processing /home/boutalebm/github-repos/extending_hytrel/data/santos/query
+2024-10-15 15:47:13.656 | INFO     | __main__:process_directory:273 - Processing directory: /home/boutalebm/github-repos/extending_hytrel/data/santos/query
+2024-10-15 15:47:13.658 | INFO     | __main__:process_directory:281 - Processing: /home/boutalebm/github-repos/extending_hytrel/data/santos/query/albums.csv
+2024-10-15 15:47:13.980 | INFO     | __main__:process_directory:332 - Saving embeddings in union format
+2024-10-15 15:47:13.981 | INFO     | __main__:process_directory:281 - Processing: /home/boutalebm/github-repos/extending_hytrel/data/santos/query/new_york_city_restaurant_inspection_results.csv
+2024-10-15 15:47:14.358 | INFO     | __main__:process_directory:332 - Saving embeddings in union format
+2024-10-15 15:47:14.360 | INFO     | __main__:process_directory:343 - Number of processed files: 2
+2024-10-15 15:47:14.362 | INFO     | __main__:process_directory:348 - Processing completed for /home/boutalebm/github-repos/extending_hytrel/data/santos/query
+2024-10-15 15:47:14.362 | INFO     | __main__:process_directory:349 - Total time to retrieve embeddings: 0.53 seconds
+2024-10-15 15:47:14.362 | INFO     | __main__:process_directory:350 - Number of skipped files: 0
+2024-10-15 15:47:14.362 | INFO     | __main__:process_directory:351 - Column vectors saved in /home/boutalebm/github-repos/extending_hytrel/inference/santos/vectors/hytrel_query_columns_0.pkl
+2024-10-15 15:47:14.378 | SUCCESS  | __main__:main:427 - Processing completed for /home/boutalebm/github-repos/extending_hytrel/data/santos/query
+2024-10-15 15:47:14.378 | SUCCESS  | __main__:main:428 - Output saved in /home/boutalebm/github-repos/extending_hytrel/inference/santos/vectors
+2024-10-16 10:05:23.715 | INFO     | __main__:main:418 - Script configurations:
+2024-10-16 10:05:23.715 | INFO     | __main__:main:419 - Input: /home/boutalebm/github-repos/extending_hytrel/data/santos/query
+2024-10-16 10:05:23.715 | INFO     | __main__:main:420 - Vector output: /home/boutalebm/github-repos/extending_hytrel/inference/santos/vectors
+2024-10-16 10:05:23.715 | INFO     | __main__:main:421 - Table process: None
+2024-10-16 10:05:23.715 | INFO     | __main__:main:422 - Number of rows: 30
+2024-10-16 10:05:23.715 | INFO     | __main__:main:423 - Column names: None
+2024-10-16 10:05:23.715 | INFO     | __main__:main:425 - Processing /home/boutalebm/github-repos/extending_hytrel/data/santos/query
+2024-10-16 10:07:31.683 | INFO     | __main__:main:418 - Script configurations:
+2024-10-16 10:07:31.683 | INFO     | __main__:main:419 - Input: /home/boutalebm/github-repos/extending_hytrel/data/santos/query
+2024-10-16 10:07:31.683 | INFO     | __main__:main:420 - Vector output: /home/boutalebm/github-repos/extending_hytrel/inference/santos/vectors
+2024-10-16 10:07:31.684 | INFO     | __main__:main:421 - Table process: None
+2024-10-16 10:07:31.684 | INFO     | __main__:main:422 - Number of rows: 30
+2024-10-16 10:07:31.684 | INFO     | __main__:main:423 - Column names: None
+2024-10-16 10:07:31.684 | INFO     | __main__:main:425 - Processing /home/boutalebm/github-repos/extending_hytrel/data/santos/query
+2024-10-16 10:07:36.655 | INFO     | __main__:process_directory:273 - Processing directory: /home/boutalebm/github-repos/extending_hytrel/data/santos/query
+2024-10-16 10:07:36.658 | INFO     | __main__:process_directory:281 - Processing: /home/boutalebm/github-repos/extending_hytrel/data/santos/query/albums.csv
+2024-10-16 10:07:37.431 | INFO     | __main__:process_directory:332 - Saving embeddings in union format
+2024-10-16 10:07:37.432 | INFO     | __main__:process_directory:281 - Processing: /home/boutalebm/github-repos/extending_hytrel/data/santos/query/new_york_city_restaurant_inspection_results.csv
+2024-10-16 10:07:38.327 | INFO     | __main__:process_directory:332 - Saving embeddings in union format
+2024-10-16 10:07:38.328 | INFO     | __main__:process_directory:343 - Number of processed files: 2
+2024-10-16 10:07:38.352 | INFO     | __main__:process_directory:348 - Processing completed for /home/boutalebm/github-repos/extending_hytrel/data/santos/query
+2024-10-16 10:07:38.352 | INFO     | __main__:process_directory:349 - Total time to retrieve embeddings: 1.53 seconds
+2024-10-16 10:07:38.352 | INFO     | __main__:process_directory:350 - Number of skipped files: 0
+2024-10-16 10:07:38.352 | INFO     | __main__:process_directory:351 - Column vectors saved in /home/boutalebm/github-repos/extending_hytrel/inference/santos/vectors/hytrel_query_columns_0.pkl
+2024-10-16 10:07:38.369 | SUCCESS  | __main__:main:427 - Processing completed for /home/boutalebm/github-repos/extending_hytrel/data/santos/query
+2024-10-16 10:07:38.369 | SUCCESS  | __main__:main:428 - Output saved in /home/boutalebm/github-repos/extending_hytrel/inference/santos/vectors
+2024-10-16 10:07:55.854 | INFO     | __main__:main:418 - Script configurations:
+2024-10-16 10:07:55.854 | INFO     | __main__:main:419 - Input: /home/boutalebm/github-repos/extending_hytrel/data/santos/datalake
+2024-10-16 10:07:55.854 | INFO     | __main__:main:420 - Vector output: /home/boutalebm/github-repos/extending_hytrel/inference/santos/vectors
+2024-10-16 10:07:55.854 | INFO     | __main__:main:421 - Table process: None
+2024-10-16 10:07:55.854 | INFO     | __main__:main:422 - Number of rows: 30
+2024-10-16 10:07:55.854 | INFO     | __main__:main:423 - Column names: None
+2024-10-16 10:07:55.854 | INFO     | __main__:main:425 - Processing /home/boutalebm/github-repos/extending_hytrel/data/santos/datalake
+2024-10-16 10:07:58.977 | INFO     | __main__:process_directory:273 - Processing directory: /home/boutalebm/github-repos/extending_hytrel/data/santos/datalake
+2024-10-16 10:07:58.980 | INFO     | __main__:process_directory:281 - Processing: /home/boutalebm/github-repos/extending_hytrel/data/santos/datalake/albums_0.csv
+2024-10-16 10:07:59.415 | INFO     | __main__:process_directory:332 - Saving embeddings in union format
+2024-10-16 10:07:59.416 | INFO     | __main__:process_directory:281 - Processing: /home/boutalebm/github-repos/extending_hytrel/data/santos/datalake/albums_1.csv
+2024-10-16 10:07:59.745 | INFO     | __main__:process_directory:332 - Saving embeddings in union format
+2024-10-16 10:07:59.746 | INFO     | __main__:process_directory:281 - Processing: /home/boutalebm/github-repos/extending_hytrel/data/santos/datalake/albums_2.csv
+2024-10-16 10:08:00.071 | INFO     | __main__:process_directory:332 - Saving embeddings in union format
+2024-10-16 10:08:00.071 | INFO     | __main__:process_directory:281 - Processing: /home/boutalebm/github-repos/extending_hytrel/data/santos/datalake/albums_3.csv
+2024-10-16 10:08:00.398 | INFO     | __main__:process_directory:332 - Saving embeddings in union format
+2024-10-16 10:08:00.398 | INFO     | __main__:process_directory:281 - Processing: /home/boutalebm/github-repos/extending_hytrel/data/santos/datalake/albums_4.csv
+2024-10-16 10:08:00.726 | INFO     | __main__:process_directory:332 - Saving embeddings in union format
+2024-10-16 10:08:00.727 | INFO     | __main__:process_directory:281 - Processing: /home/boutalebm/github-repos/extending_hytrel/data/santos/datalake/new_york_city_restaurant_inspection_results_11.csv
+2024-10-16 10:08:01.612 | INFO     | __main__:process_directory:332 - Saving embeddings in union format
+2024-10-16 10:08:01.614 | INFO     | __main__:process_directory:281 - Processing: /home/boutalebm/github-repos/extending_hytrel/data/santos/datalake/new_york_city_restaurant_inspection_results_12.csv
+2024-10-16 10:08:02.443 | INFO     | __main__:process_directory:332 - Saving embeddings in union format
+2024-10-16 10:08:02.444 | INFO     | __main__:process_directory:281 - Processing: /home/boutalebm/github-repos/extending_hytrel/data/santos/datalake/new_york_city_restaurant_inspection_results_13.csv
+2024-10-16 10:08:03.270 | INFO     | __main__:process_directory:332 - Saving embeddings in union format
+2024-10-16 10:08:03.271 | INFO     | __main__:process_directory:281 - Processing: /home/boutalebm/github-repos/extending_hytrel/data/santos/datalake/new_york_city_restaurant_inspection_results_14.csv
+2024-10-16 10:08:04.100 | INFO     | __main__:process_directory:332 - Saving embeddings in union format
+2024-10-16 10:08:04.100 | INFO     | __main__:process_directory:281 - Processing: /home/boutalebm/github-repos/extending_hytrel/data/santos/datalake/new_york_city_restaurant_inspection_results_15.csv
+2024-10-16 10:08:04.928 | INFO     | __main__:process_directory:332 - Saving embeddings in union format
+2024-10-16 10:08:04.929 | INFO     | __main__:process_directory:343 - Number of processed files: 10
+2024-10-16 10:08:04.966 | INFO     | __main__:process_directory:348 - Processing completed for /home/boutalebm/github-repos/extending_hytrel/data/santos/datalake
+2024-10-16 10:08:04.966 | INFO     | __main__:process_directory:349 - Total time to retrieve embeddings: 5.77 seconds
+2024-10-16 10:08:04.966 | INFO     | __main__:process_directory:350 - Number of skipped files: 0
+2024-10-16 10:08:04.966 | INFO     | __main__:process_directory:351 - Column vectors saved in /home/boutalebm/github-repos/extending_hytrel/inference/santos/vectors/hytrel_datalake_columns_0.pkl
+2024-10-16 10:08:04.981 | SUCCESS  | __main__:main:427 - Processing completed for /home/boutalebm/github-repos/extending_hytrel/data/santos/datalake
+2024-10-16 10:08:04.981 | SUCCESS  | __main__:main:428 - Output saved in /home/boutalebm/github-repos/extending_hytrel/inference/santos/vectors
+2024-10-16 10:08:57.635 | INFO     | __main__:main:418 - Script configurations:
+2024-10-16 10:08:57.635 | INFO     | __main__:main:419 - Input: /home/boutalebm/github-repos/extending_hytrel/data/santos/datalake
+2024-10-16 10:08:57.635 | INFO     | __main__:main:420 - Vector output: /home/boutalebm/github-repos/extending_hytrel/inference/santos/vectors
+2024-10-16 10:08:57.635 | INFO     | __main__:main:421 - Table process: None
+2024-10-16 10:08:57.635 | INFO     | __main__:main:422 - Number of rows: 30
+2024-10-16 10:08:57.635 | INFO     | __main__:main:423 - Column names: None
+2024-10-16 10:08:57.636 | INFO     | __main__:main:425 - Processing /home/boutalebm/github-repos/extending_hytrel/data/santos/datalake
+2024-10-16 10:09:00.780 | INFO     | __main__:process_directory:273 - Processing directory: /home/boutalebm/github-repos/extending_hytrel/data/santos/datalake
+2024-10-16 10:09:01.219 | INFO     | __main__:process_directory:332 - Saving embeddings in union format
+2024-10-16 10:09:01.544 | INFO     | __main__:process_directory:332 - Saving embeddings in union format
+2024-10-16 10:09:01.870 | INFO     | __main__:process_directory:332 - Saving embeddings in union format
+2024-10-16 10:09:02.198 | INFO     | __main__:process_directory:332 - Saving embeddings in union format
+2024-10-16 10:09:02.523 | INFO     | __main__:process_directory:332 - Saving embeddings in union format
+2024-10-16 10:09:03.409 | INFO     | __main__:process_directory:332 - Saving embeddings in union format
+2024-10-16 10:09:04.240 | INFO     | __main__:process_directory:332 - Saving embeddings in union format
+2024-10-16 10:09:05.069 | INFO     | __main__:process_directory:332 - Saving embeddings in union format
+2024-10-16 10:09:05.901 | INFO     | __main__:process_directory:332 - Saving embeddings in union format
+2024-10-16 10:09:06.730 | INFO     | __main__:process_directory:332 - Saving embeddings in union format
+2024-10-16 10:09:06.731 | INFO     | __main__:process_directory:343 - Number of processed files: 10
+2024-10-16 10:09:06.733 | INFO     | __main__:process_directory:348 - Processing completed for /home/boutalebm/github-repos/extending_hytrel/data/santos/datalake
+2024-10-16 10:09:06.733 | INFO     | __main__:process_directory:349 - Total time to retrieve embeddings: 5.78 seconds
+2024-10-16 10:09:06.733 | INFO     | __main__:process_directory:350 - Number of skipped files: 0
+2024-10-16 10:09:06.733 | INFO     | __main__:process_directory:351 - Column vectors saved in /home/boutalebm/github-repos/extending_hytrel/inference/santos/vectors/hytrel_datalake_columns_0.pkl
+2024-10-16 10:09:06.747 | SUCCESS  | __main__:main:427 - Processing completed for /home/boutalebm/github-repos/extending_hytrel/data/santos/datalake
+2024-10-16 10:09:06.747 | SUCCESS  | __main__:main:428 - Output saved in /home/boutalebm/github-repos/extending_hytrel/inference/santos/vectors
+2024-10-16 10:09:37.187 | INFO     | __main__:main:418 - Script configurations:
+2024-10-16 10:09:37.187 | INFO     | __main__:main:419 - Input: /home/boutalebm/github-repos/extending_hytrel/data/santos/datalake
+2024-10-16 10:09:37.187 | INFO     | __main__:main:420 - Vector output: /home/boutalebm/github-repos/extending_hytrel/inference/santos/vectors
+2024-10-16 10:09:37.188 | INFO     | __main__:main:421 - Table process: None
+2024-10-16 10:09:37.188 | INFO     | __main__:main:422 - Number of rows: 30
+2024-10-16 10:09:37.188 | INFO     | __main__:main:423 - Column names: None
+2024-10-16 10:09:37.188 | INFO     | __main__:main:425 - Processing /home/boutalebm/github-repos/extending_hytrel/data/santos/datalake
+2024-10-16 10:09:40.356 | INFO     | __main__:process_directory:273 - Processing directory: /home/boutalebm/github-repos/extending_hytrel/data/santos/datalake
+2024-10-16 10:09:46.288 | INFO     | __main__:process_directory:343 - Number of processed files: 10
+2024-10-16 10:09:46.290 | INFO     | __main__:process_directory:348 - Processing completed for /home/boutalebm/github-repos/extending_hytrel/data/santos/datalake
+2024-10-16 10:09:46.290 | INFO     | __main__:process_directory:349 - Total time to retrieve embeddings: 5.76 seconds
+2024-10-16 10:09:46.290 | INFO     | __main__:process_directory:350 - Number of skipped files: 0
+2024-10-16 10:09:46.290 | INFO     | __main__:process_directory:351 - Column vectors saved in /home/boutalebm/github-repos/extending_hytrel/inference/santos/vectors/hytrel_datalake_columns_0.pkl
+2024-10-16 10:09:46.304 | SUCCESS  | __main__:main:427 - Processing completed for /home/boutalebm/github-repos/extending_hytrel/data/santos/datalake
+2024-10-16 10:09:46.304 | SUCCESS  | __main__:main:428 - Output saved in /home/boutalebm/github-repos/extending_hytrel/inference/santos/vectors

@@ -13,6 +13,7 @@ import sys
 import re
 import json
 from loguru import logger
+import os 
 import os.path as osp
 from typing import List, Tuple, Dict, Any
 import csv
@@ -31,6 +32,7 @@ from torch_geometric.loader import DataLoader
 
 import configs.common as common_configs
 import configs.hytrel_model as hytrel_model
+from configs.hytrel_model import OptimizerConfig
 from hytrel_modules.data import BipartiteData
 from utils.table_sample import (
     rows_remove_nulls, row_shuffle, rows_remove_nulls_max,
@@ -276,13 +278,13 @@ def process_directory(ckpt: str, input_path: str, output_path: str, table_proces
     for filename in tqdm(os.listdir(input_path)):
         if filename.lower().endswith('.csv'):
             file_path = osp.join(input_path, filename)
-            logger.info(f'Processing: {file_path}')
+            # logger.info(f'Processing: {file_path}')
 
             try:
                 df = pd.read_csv(file_path)
             except pd.errors.ParserError:
                 delimiter = determine_delimiter(file_path)
-                logger.info(f'Delimiter: {delimiter}')
+                # logger.info(f'Delimiter: {delimiter}')
                 try:
                     df = pd.read_csv(file_path, delimiter=delimiter)
                 except UnicodeDecodeError:
@@ -327,10 +329,10 @@ def process_directory(ckpt: str, input_path: str, output_path: str, table_proces
                 cl_features_file = extract_columns(embeddings, len(headers))
 
                 if task == 'union':
-                    logger.info('Saving embeddings in union format')
+                    # logger.info('Saving embeddings in union format')
                     data_embeds.append((filename, np.array(cl_features_file)))
                 elif task == 'join':
-                    logger.info('Saving embeddings in join format')
+                    # logger.info('Saving embeddings in join format')
                     for idx, column_name in enumerate(df_org.columns):
                         data_embeds.append(((filename, column_name), np.array(cl_features_file[idx])))
             else:
@@ -422,8 +424,8 @@ def main():
 
     logger.info(f"Processing {input_path}")
     process_directory(ckpt, input_path, output_path, table_process, input_type, nrows, column_names)
-    logger.info(f"Processing completed for {input_path}")
-    logger.info(f"Output saved in {output_path}")
+    logger.success(f"Processing completed for {input_path}")
+    logger.success(f"Output saved in {output_path}")
 
 if __name__ == '__main__':
     main()
