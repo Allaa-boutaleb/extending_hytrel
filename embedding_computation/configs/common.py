@@ -23,8 +23,8 @@ global_params: Dict[str, Any] = {
 }
 
 input: Dict[str, str] = {
-    "source": str(BASE_DIR / "data" / "santos" / "datalake"),
-    "type": "datalake"
+    "source": str(BASE_DIR / "data" / "santos" / "query"),
+    "type": "query"
 }
 
 computation: Dict[str, Any] = {

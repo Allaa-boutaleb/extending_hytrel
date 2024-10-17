@@ -11,6 +11,8 @@ from sklearn.cluster import AgglomerativeClustering
 from scipy.cluster.hierarchy import dendrogram, fcluster
 import hdbscan
 from loguru import logger
+from sklearn.impute import SimpleImputer
+
 
 import configs.column_clustering as column_clustering_configs
 
@@ -139,6 +141,11 @@ def save_config(config, output_path: str, run_id: int):
 def perform_hierarchical_clustering(flattened_array: np.ndarray, df_clustering: pd.DataFrame, output_path: str, file_name: str):
     logger.info("Performing hierarchical clustering")
     
+    # Preprocess: Remove rows with NaN values
+    valid_indices = ~np.isnan(flattened_array).any(axis=1)
+    flattened_array_clean = flattened_array[valid_indices]
+    df_clustering_clean = df_clustering[valid_indices].reset_index(drop=True)
+    
     if column_clustering_configs.clustering['n_clusters_available']:
         n_clusters = column_clustering_configs.clustering['n_clusters']
         metric = column_clustering_configs.clustering['hierarchical_metric']
@@ -146,11 +153,11 @@ def perform_hierarchical_clustering(flattened_array: np.ndarray, df_clustering: 
         
         start_time = time.time()
         model = AgglomerativeClustering(n_clusters=n_clusters, metric=metric, linkage=linkage)
-        cluster_labels = model.fit_predict(flattened_array)
+        cluster_labels = model.fit_predict(flattened_array_clean)
         end_time = time.time()
         
-        df_clustering['cluster'] = cluster_labels
-        df_clustering.to_pickle(file_name)
+        df_clustering_clean['cluster'] = cluster_labels
+        df_clustering_clean.to_pickle(file_name)
         
         logger.success(f"Clustering completed and saved to {file_name}")
         logger.info(f"Execution time: {end_time - start_time:.2f} seconds")
