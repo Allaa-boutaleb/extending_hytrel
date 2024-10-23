@@ -12,7 +12,7 @@ from scipy.cluster.hierarchy import dendrogram, fcluster
 import hdbscan
 from loguru import logger
 from sklearn.impute import SimpleImputer
-
+from sklearn.metrics import pairwise_distances
 
 import configs.column_clustering as column_clustering_configs
 
@@ -200,23 +200,47 @@ def perform_hierarchical_clustering(flattened_array: np.ndarray, df_clustering: 
         logger.success(f"Clustering results saved to {file_name}")
         logger.info(f"Execution time: {end_time - start_time:.2f} seconds")
 
+
 def perform_hdbscan_clustering(flattened_array: np.ndarray, df_clustering: pd.DataFrame, output_path: str, file_name: str):
     logger.info("Performing HDBSCAN clustering")
     
+    # Preprocess: Remove rows with NaN values
+    valid_indices = ~np.isnan(flattened_array).any(axis=1)
+    flattened_array_clean = flattened_array[valid_indices]
+    df_clustering_clean = df_clustering[valid_indices].reset_index(drop=True)
+    
+    logger.info(f"Removed {np.sum(~valid_indices)} rows containing NaN values")
+    
     min_cluster_size = column_clustering_configs.clustering['min_cluster_size']
     min_samples = column_clustering_configs.clustering['min_samples']
-    cluster_selection_epsilon = column_clustering_configs.clustering['cluster_selection_epsilon']
     metric = column_clustering_configs.clustering['hdbscan_metric']
 
     start_time = time.time()
-    clusterer = hdbscan.HDBSCAN(min_cluster_size=min_cluster_size, 
-                                min_samples=min_samples,
-                                cluster_selection_epsilon=cluster_selection_epsilon,
-                                metric=metric)
-    cluster_labels = clusterer.fit_predict(flattened_array)
+
+    if metric == 'cosine':
+        logger.info("Computing pairwise cosine distances")
+        distances = pairwise_distances(flattened_array_clean, metric='cosine')
+        clusterer = hdbscan.HDBSCAN(
+            min_cluster_size=min_cluster_size,
+            min_samples=min_samples,
+            metric='precomputed'
+        )
+        cluster_labels = clusterer.fit_predict(distances.astype('float64'))
+    else:
+        clusterer = hdbscan.HDBSCAN(
+            min_cluster_size=min_cluster_size,
+            min_samples=min_samples,
+            metric=metric
+        )
+        cluster_labels = clusterer.fit_predict(flattened_array_clean)
+
     end_time = time.time()
 
-    df_clustering['cluster'] = cluster_labels
+    # Initialize cluster labels for all data points
+    all_cluster_labels = np.full(len(df_clustering), -1)
+    all_cluster_labels[valid_indices] = cluster_labels
+    
+    df_clustering['cluster'] = all_cluster_labels
     df_clustering.to_pickle(file_name)
 
     # Generate and save HDBSCAN plot
@@ -231,9 +255,10 @@ def perform_hdbscan_clustering(flattened_array: np.ndarray, df_clustering: pd.Da
     # Save clustering summary
     n_clusters = len(set(cluster_labels)) - (1 if -1 in cluster_labels else 0)
     summary = {
-        'n_clusters': n_clusters,
-        'n_noise_points': list(cluster_labels).count(-1),
-        'execution_time': end_time - start_time
+        'n_clusters': int(n_clusters),  # Convert to int
+        'n_noise_points': int(np.sum(all_cluster_labels == -1)),  # Count noise points
+        'n_nan_rows': int(np.sum(~valid_indices)),  # Convert to int
+        'execution_time': float(end_time - start_time)  # Convert to float
     }
     summary_path = os.path.join(output_path, 'hdbscan_summary.json')
     with open(summary_path, 'w') as f:
@@ -241,6 +266,7 @@ def perform_hdbscan_clustering(flattened_array: np.ndarray, df_clustering: pd.Da
     
     logger.success(f"HDBSCAN clustering completed and saved to {file_name}")
     logger.info(f"Execution time: {end_time - start_time:.2f} seconds")
+
 
 def main():
     logger.info("Starting column embedding clustering process")

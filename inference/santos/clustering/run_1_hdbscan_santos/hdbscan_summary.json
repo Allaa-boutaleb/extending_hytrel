@@ -1,5 +1,6 @@
 {
-    "n_clusters": 749,
-    "n_noise_points": 525,
-    "execution_time": 37.205288887023926
+    "n_clusters": 562,
+    "n_noise_points": 575,
+    "n_nan_rows": 128,
+    "execution_time": 55.961416482925415
 }

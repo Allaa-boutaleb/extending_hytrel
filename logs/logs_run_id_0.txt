@@ -396,3 +396,25 @@ column_names: None
 2024-10-16 16:39:14.219 | INFO     | __main__:process_directory:351 - Column vectors saved in /home/boutalebm/github-repos/extending_hytrel/inference/santos/vectors/hytrel_query_columns_0.pkl
 2024-10-16 16:39:14.233 | SUCCESS  | __main__:main:427 - Processing completed for /home/boutalebm/github-repos/extending_hytrel/data/santos/query
 2024-10-16 16:39:14.233 | SUCCESS  | __main__:main:428 - Output saved in /home/boutalebm/github-repos/extending_hytrel/inference/santos/vectors
+2024-10-17 14:19:05.678 | INFO     | __main__:main:418 - Script configurations:
+2024-10-17 14:19:05.678 | INFO     | __main__:main:419 - Input: /home/boutalebm/github-repos/extending_hytrel/data/santos/query
+2024-10-17 14:19:05.679 | INFO     | __main__:main:420 - Vector output: /home/boutalebm/github-repos/extending_hytrel/inference/santos/vectors
+2024-10-17 14:19:05.679 | INFO     | __main__:main:421 - Table process: None
+2024-10-17 14:19:05.679 | INFO     | __main__:main:422 - Number of rows: 30
+2024-10-17 14:19:05.679 | INFO     | __main__:main:423 - Column names: None
+2024-10-17 14:19:05.679 | INFO     | __main__:main:425 - Processing /home/boutalebm/github-repos/extending_hytrel/data/santos/query
+2024-10-17 14:22:49.246 | INFO     | __main__:main:418 - Script configurations:
+2024-10-17 14:22:49.247 | INFO     | __main__:main:419 - Input: /home/boutalebm/github-repos/extending_hytrel/data/santos/query
+2024-10-17 14:22:49.247 | INFO     | __main__:main:420 - Vector output: /home/boutalebm/github-repos/extending_hytrel/inference/santos/vectors
+2024-10-17 14:22:49.247 | INFO     | __main__:main:421 - Table process: None
+2024-10-17 14:22:49.247 | INFO     | __main__:main:422 - Number of rows: 30
+2024-10-17 14:22:49.247 | INFO     | __main__:main:423 - Column names: None
+2024-10-17 14:22:49.247 | INFO     | __main__:main:425 - Processing /home/boutalebm/github-repos/extending_hytrel/data/santos/query
+2024-10-17 14:22:52.553 | INFO     | __main__:process_directory:273 - Processing directory: /home/boutalebm/github-repos/extending_hytrel/data/santos/query
+2024-10-17 14:23:45.600 | INFO     | __main__:process_directory:343 - Number of processed files: 50
+2024-10-17 14:23:45.609 | INFO     | __main__:process_directory:348 - Processing completed for /home/boutalebm/github-repos/extending_hytrel/data/santos/query
+2024-10-17 14:23:45.610 | INFO     | __main__:process_directory:349 - Total time to retrieve embeddings: 50.85 seconds
+2024-10-17 14:23:45.610 | INFO     | __main__:process_directory:350 - Number of skipped files: 0
+2024-10-17 14:23:45.610 | INFO     | __main__:process_directory:351 - Column vectors saved in /home/boutalebm/github-repos/extending_hytrel/inference/santos/vectors/hytrel_query_columns_0.pkl
+2024-10-17 14:23:45.627 | SUCCESS  | __main__:main:427 - Processing completed for /home/boutalebm/github-repos/extending_hytrel/data/santos/query
+2024-10-17 14:23:45.627 | SUCCESS  | __main__:main:428 - Output saved in /home/boutalebm/github-repos/extending_hytrel/inference/santos/vectors

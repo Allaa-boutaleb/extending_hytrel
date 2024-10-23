@@ -7,6 +7,7 @@ import numpy as np
 import time 
 import configs.search_configs as search_configs
 import unionable_table_search as uts
+from loguru import logger 
 
 # def approximate_unionable_dataset_search(query_columns_hytrel, datalake_columns_hytrel,k,compress_method='max'):
 #     compressed_query_vectors = []
@@ -50,6 +51,7 @@ import unionable_table_search as uts
 #             res[query] = [dataset_names[i] for i in indices[0]]
 #     return res, build_duration, query_duration
 
+"""
 def main():
     np.random.seed(42)
     datalake = search_configs.input['datalake']
@@ -75,8 +77,61 @@ def main():
     print(f'execution time - query : {build_duration} seconds')
     print(f'execution time - total : {build_duration + query_duration} seconds')
     print(f'candidates saved in: {candidates_pkl}\n')
+"""
+
+def main():
+    np.random.seed(42)
+    datalake = search_configs.input['datalake']
+    k = search_configs.k[datalake]
+    res_dir = search_configs.output['path']
+    os.makedirs(res_dir, exist_ok=True)
+    candidates_pkl = os.path.join(res_dir, search_configs.output['candidates'])
     
+    # Load data
+    with open(search_configs.input['embedding_query_source'], 'rb') as f:
+        query_columns_hytrel = pickle.load(f)
+    with open(search_configs.input['embedding_source'], 'rb') as f:
+        datalake_columns_hytrel = pickle.load(f)
+
+    start_time = time.time()
+    
+    if search_configs.union_faiss['use_two_step']:
+        logger.info("Using two-step search with initial filtering")
+        res, timing_stats = uts.unionable_table_search_faiss(
+            query_columns_hytrel,
+            datalake_columns_hytrel,
+            k=k,
+            use_two_step=True,
+            initial_filter_k=search_configs.union_faiss['initial_filter_k'],
+            compress_method=search_configs.union_faiss['compress_method']
+        )
+        logger.info(f"Two-step timing stats:")
+        for key, val in timing_stats.items():
+            logger.info(f"  {key}: {val:.2f}s")
+    else:
+        logger.info(f"Using single-step {'aggregation' if search_configs.union_faiss['compress_method'] else 'column-wise'} search")
+        res, timing_stats = uts.unionable_table_search_faiss(
+            query_columns_hytrel,
+            datalake_columns_hytrel,
+            k=k,
+            use_two_step=False,
+            compress_method=search_configs.union_faiss['compress_method']
+        )
+        logger.info(f"Single-step timing stats:")
+        for key, val in timing_stats.items():
+            logger.info(f"  {key}: {val:.2f}s")
+
+    total_time = time.time() - start_time
+    logger.info(f"Total execution time: {total_time:.2f}s")
+
+    # Save results
+    with open(candidates_pkl, 'wb') as f:
+        pickle.dump(res, f)
+    
+
 if __name__ == '__main__':
     main()
+
+
 
 

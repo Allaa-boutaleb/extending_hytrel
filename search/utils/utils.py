@@ -7,6 +7,8 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import os
 import psutil
+from loguru import logger
+from typing import List, Dict
 
 def get_df(filepath):
     delimiter = determine_delimiter(filepath)
@@ -53,179 +55,160 @@ def get_column_type(table,column):
     with open(path) as f:
         data = json.load(f)
         return data[column]['column_type']
-def save_metrics(used_k,precision_array,recall_array,r_precision_array, fbeta_array,recall_at_k,precision_at_k,map_array,record_at_k_all,run_id,directory,step=1):
+
+
+def save_metrics(used_k: List[int], precision_array: List[List[float]], recall_array: List[List[float]],
+                 r_precision_array: List[List[float]], fbeta_array: List[List[float]],
+                 recall_at_k: List[List[float]], precision_at_k: List[List[float]],
+                 map_array: List[List[float]], record_at_k_all: List[Dict[str, Dict[str, float]]],
+                 ap_at_k_all: List[Dict[str, float]], run_id: List[str], directory: str, step: int = 1):
 
     if not os.path.exists(directory):
         os.makedirs(directory)
 
-    # File names for the saved chart and Excel file
-    chart_file_name = "precision_plot.png"
-    chart_file_path = os.path.join(directory, chart_file_name)
-    # Plotting the precision and recall
+    # Precision plot
     plt.figure(figsize=(10, 6))
-
-    for i in range(len(precision_array)):
-        print(i)
-        plt.plot(used_k, precision_array[i], marker='o', label=run_id[i])
-
-    # Adding titles and labels
+    for i, method in enumerate(run_id):
+        plt.plot(used_k, precision_array[i], marker='o', label=method)
     plt.title('Precision at Different k')
     plt.xlabel('k')
     plt.ylabel('P@k')
-    plt.legend(loc=7)
+    plt.legend(loc='best')
     if max(used_k) <= 10:
         plt.xticks(used_k, [int(k) for k in used_k])
     plt.grid(True)
+    plt.savefig(os.path.join(directory, "precision_plot.png"))
+    plt.close()
 
-    # Save the plot
-    plt.savefig(chart_file_path)
-
-    print(f"precision chart saved at {chart_file_path}")
-    chart_file_name = "recall_plot.png"
+    # Recall plot
     plt.figure(figsize=(10, 6))
-    chart_file_path = os.path.join(directory, chart_file_name)
-    for i in range(len(recall_array)):
-        plt.plot(used_k, recall_array[i], marker='^', label=run_id[i])
-    
-    if max(used_k) <= 10:
-        plt.xticks(used_k, [int(k) for k in used_k])
-    # Adding titles and labels
+    for i, method in enumerate(run_id):
+        plt.plot(used_k, recall_array[i], marker='^', label=method)
     plt.title('Recall at Different k')
     plt.xlabel('k')
     plt.ylabel('R@k')
-    plt.legend(loc=7)
-    plt.grid(True)
-
-    # Save the plot
-    plt.savefig(chart_file_path)
-    print(f"recall chart saved at {chart_file_path}")
-
-    ## r-Precision plot
-    chart_file_name = "r_precision_plot.png"
-    plt.figure(figsize=(10, 6))
-    chart_file_path = os.path.join(directory, chart_file_name)
-    for i in range(len(r_precision_array)):
-        plt.plot(used_k, r_precision_array[i], marker='^', label=run_id[i])
+    plt.legend(loc='best')
     if max(used_k) <= 10:
         plt.xticks(used_k, [int(k) for k in used_k])
-    # Adding titles and labels
+    plt.grid(True)
+    plt.savefig(os.path.join(directory, "recall_plot.png"))
+    plt.close()
+
+    # R-Precision plot
+    plt.figure(figsize=(10, 6))
+    for i, method in enumerate(run_id):
+        plt.plot(used_k, r_precision_array[i], marker='^', label=method)
     plt.title('R-Precision at Different k')
     plt.xlabel('k')
     plt.ylabel('R-Precision@k')
-    plt.legend(loc=7)
-    plt.grid(True)
-    plt.savefig(chart_file_path)
-    print(f"r-precision chart saved at {chart_file_path}")
-    ##fbeta plot
-    chart_file_name = "fbeta_plot.png"
-    plt.figure(figsize=(10, 6))
-    chart_file_path = os.path.join(directory, chart_file_name)
-    for i in range(len(fbeta_array)):
-        plt.plot(used_k, fbeta_array[i], marker='^', label=run_id[i])
+    plt.legend(loc='best')
     if max(used_k) <= 10:
         plt.xticks(used_k, [int(k) for k in used_k])
-    # Adding titles and labels
-    plt.title('fbeta at Different k')
-    plt.xlabel('k')
-    plt.ylabel('fbeta@k')
-    plt.legend(loc=7)
     plt.grid(True)
-    plt.savefig(chart_file_path)
-    print(f"fbeta chart saved at {chart_file_path}")
-    ## add distribution of precision and recall
-    # Plot the recall distribution
-    for i in range(len(run_id)):
-        chart_file_name = f"recall_distribution_at_k_plot_{run_id[i]}.png"
+    plt.savefig(os.path.join(directory, "r_precision_plot.png"))
+    plt.close()
+
+    # F-beta plot
+    plt.figure(figsize=(10, 6))
+    for i, method in enumerate(run_id):
+        plt.plot(used_k, fbeta_array[i], marker='^', label=method)
+    plt.title('F-beta at Different k')
+    plt.xlabel('k')
+    plt.ylabel('F-beta@k')
+    plt.legend(loc='best')
+    if max(used_k) <= 10:
+        plt.xticks(used_k, [int(k) for k in used_k])
+    plt.grid(True)
+    plt.savefig(os.path.join(directory, "fbeta_plot.png"))
+    plt.close()
+
+    # Recall and Precision distribution plots
+    for i, method in enumerate(run_id):
         plt.figure(figsize=(10, 6))
-        chart_file_path = os.path.join(directory, chart_file_name)
-        plt.hist(recall_at_k[i], bins=10,edgecolor='black', linewidth=1.2)
+        plt.hist(recall_at_k[i], bins=10, edgecolor='black', linewidth=1.2)
         plt.xlabel('Recall')
         plt.ylabel('Frequency')
-        plt.title('Recall Distribution')
-        plt.savefig(chart_file_path)    
-    # Plot the precision distribution
-    for i in range(len(run_id)):
-        chart_file_name = f"precision_distribution_at_k_plot{run_id[i]}.png"
+        plt.title(f'Recall Distribution - {method}')
+        plt.savefig(os.path.join(directory, f"recall_distribution_at_k_plot_{method}.png"))
+        plt.close()
+
         plt.figure(figsize=(10, 6))
-        chart_file_path = os.path.join(directory, chart_file_name)
-        plt.hist(precision_at_k[i], bins=10,edgecolor='black', linewidth=1.2)
+        plt.hist(precision_at_k[i], bins=10, edgecolor='black', linewidth=1.2)
         plt.xlabel('Precision')
         plt.ylabel('Frequency')
-        plt.title('Precision Distribution')
-        plt.savefig(chart_file_path)
-    ### plot MAP 
-    chart_file_name = "map_plot_all.png"
+        plt.title(f'Precision Distribution - {method}')
+        plt.savefig(os.path.join(directory, f"precision_distribution_at_k_plot_{method}.png"))
+        plt.close()
+
+    # MAP plot
     plt.figure(figsize=(10, 6))
-    chart_file_path = os.path.join(directory, chart_file_name)
-    for i in range(len(run_id)):
-        plt.plot(used_k, map_array[i], marker='o', label=run_id[i])
-    if max(used_k) <= 10:
-        plt.xticks(used_k, [int(k) for k in used_k])
-    # Adding titles and labels
+    for i, method in enumerate(run_id):
+        plt.plot(used_k, map_array[i], marker='o', label=method)
     plt.title('MAP at Different k')
     plt.xlabel('k')
     plt.ylabel('MAP@k')
-    plt.legend(loc=7)
+    plt.legend(loc='best')
+    if max(used_k) <= 10:
+        plt.xticks(used_k, [int(k) for k in used_k])
     plt.grid(True)
-    plt.savefig(chart_file_path)
-    ## plot map indiviually
-    for i in range(len(run_id)):
-        chart_file_name = f"map_plot_{run_id[i]}.png"
+    plt.savefig(os.path.join(directory, "map_plot_all.png"))
+    plt.close()
+
+    # Individual MAP plots
+    for i, method in enumerate(run_id):
         plt.figure(figsize=(10, 6))
-        chart_file_path = os.path.join(directory, chart_file_name)
-        plt.plot(used_k, map_array[i], marker='o', label=run_id[i])
-        if max(used_k) <= 10:
-            plt.xticks(used_k, [int(k) for k in used_k])
-        # Adding titles and labels
-        plt.title('MAP at Different k')
+        plt.plot(used_k, map_array[i], marker='o', label=method)
+        plt.title(f'MAP at Different k - {method}')
         plt.xlabel('k')
         plt.ylabel('MAP@k')
-        plt.legend(loc=7)
+        plt.legend(loc='best')
+        if max(used_k) <= 10:
+            plt.xticks(used_k, [int(k) for k in used_k])
         plt.grid(True)
-        plt.savefig(chart_file_path)
-    for i in range(len(run_id)):
-        excel_file_name = f"precision_recall_summary_{run_id[i]}.xlsx"
-        excel_file_path = os.path.join(directory, excel_file_name)
-        # Creating a DataFrame for the summary table
-        data = {
+        plt.savefig(os.path.join(directory, f"map_plot_{method}.png"))
+        plt.close()
+
+    # Save summary Excel files
+    for i, method in enumerate(run_id):
+        summary_data = {
             'k': used_k,
             'Precision': precision_array[i],
             'Recall': recall_array[i],
             'r-Precision': r_precision_array[i],
-            'fbeta': fbeta_array[i],
-            'map': map_array[i]
+            'F-beta': fbeta_array[i],
+            'MAP': map_array[i]
         }
-        
-        
-        df = pd.DataFrame(data)
+        df_summary = pd.DataFrame(summary_data)
+        df_summary.to_excel(os.path.join(directory, f"precision_recall_summary_{method}.xlsx"), index=False)
 
-        # Save the DataFrame to an Excel file
-        df.to_excel(excel_file_path, index=False)
-
-    print(f"Excel sheet saved at {excel_file_path}")
-    ### save the records of precision and recall at k for each query for later analysis 
-    for i in range(len(run_id)):
-        excel_file_name = f"queries_at_k_summary_{run_id[i]}.xlsx"
-        excel_file_path = os.path.join(directory, excel_file_name)
-        # Creating a DataFrame for the summary table
+    # Save query-wise metrics
+    for i, method in enumerate(run_id):
         queries = []
-        precision = []
-        recall = []
+        precision_dict = {k: [] for k in used_k}
+        recall_dict = {k: [] for k in used_k}
+        ap_dict = {k: [] for k in used_k}
+        
         for q in record_at_k_all[i].keys():
             queries.append(q)
-            precision.append(record_at_k_all[i][q]['precision'])
-            recall.append(record_at_k_all[i][q]['recall'])
-        data = {
-            'queries': queries,
-            'Precision': precision,
-            'Recall': recall
-        }
-        df = pd.DataFrame(data)
+            for k in used_k:
+                precision_dict[k].append(record_at_k_all[i][q][k]['precision'])
+                recall_dict[k].append(record_at_k_all[i][q][k]['recall'])
+                ap_dict[k].append(ap_at_k_all[i][q][k])
 
-        # Save the DataFrame to an Excel file
-        df.to_excel(excel_file_path, index=False)
+        query_data = {'Query': queries}
+        for k in used_k:
+            query_data[f'P@{k}'] = precision_dict[k]
+        for k in used_k:    
+            query_data[f'R@{k}'] = recall_dict[k]
+        for k in used_k:
+            query_data[f'AP@{k}'] = ap_dict[k]
+        
+        df_query = pd.DataFrame(query_data)
+        df_query.to_excel(os.path.join(directory, f"queries_at_k_summary_{method}.xlsx"), index=False)
+
+    print(f"All metrics and plots saved in {directory}")
+    logger.warning(f"used_k: {used_k}")
 
 def get_memory_usage():
     process = psutil.Process(os.getpid())
     return process.memory_info().rss / (1024 ** 2)  # in MB
-        

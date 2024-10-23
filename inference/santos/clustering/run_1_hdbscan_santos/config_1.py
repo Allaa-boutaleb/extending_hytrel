@@ -16,13 +16,12 @@ clustering = {
     "method": "hdbscan",  # Options: "hierarchical" or "hdbscan"
     "n_clusters_available": True,
     "experimental_thresholds": [0.8, 0.6, 0.4, 0.2, 0.195, 0.19, 0.18, 0.1],
-    "n_clusters": 12,
+    "n_clusters": 749,
     "hierarchical_metric": "cosine",
     "linkage": 'average',
     # HDBSCAN specific parameters
-    "min_cluster_size": 2,
+    "min_cluster_size": 5,
     "min_samples": 2,
-    "cluster_selection_epsilon": 0.1,
     "hdbscan_metric": "euclidean",
 
 }

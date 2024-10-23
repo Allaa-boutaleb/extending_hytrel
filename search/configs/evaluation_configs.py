@@ -8,11 +8,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent.parent
 input = {
     "benchmark": "santos",
     "query_set": "",
-    "candidates": [str(BASE_DIR / "inference" / "santos" / "search" / "candidates_hierarchical_default.pkl")],
+    "candidates": [str(BASE_DIR / "inference" / "santos" / "search" / "candidates_faiss_efficient_initialfilter_100_max.pkl")],
     "table_search_task": "union", 
-    "search_method": 'clustering_based',
+    "search_method": 'faiss_based',
     "type": "search",
-    "comparsion": ['Clustering based (HIERARCHICAL) - 749 Clusters']
+    "comparsion": ['FAISS - Efficient | initial filter = 100 | agg = max'],
 }
 
 benchmarks = {
@@ -49,5 +49,5 @@ gt_paths = {
 }
 
 output = {
-    'path': str(BASE_DIR / "inference" / "santos" / "search" / "evaluation" / "clustering_based" / "hierarchical"),
+    'path': str(BASE_DIR / "inference" / "santos" / "search" / "evaluation" / "faiss" / "hybrid (max aggregation - initial filter 100)"),
 }
