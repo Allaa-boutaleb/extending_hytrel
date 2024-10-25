@@ -418,3 +418,34 @@ column_names: None
 2024-10-17 14:23:45.610 | INFO     | __main__:process_directory:351 - Column vectors saved in /home/boutalebm/github-repos/extending_hytrel/inference/santos/vectors/hytrel_query_columns_0.pkl
 2024-10-17 14:23:45.627 | SUCCESS  | __main__:main:427 - Processing completed for /home/boutalebm/github-repos/extending_hytrel/data/santos/query
 2024-10-17 14:23:45.627 | SUCCESS  | __main__:main:428 - Output saved in /home/boutalebm/github-repos/extending_hytrel/inference/santos/vectors
+2024-10-25 13:06:32.313 | INFO     | __main__:main:418 - Script configurations:
+2024-10-25 13:06:32.313 | INFO     | __main__:main:419 - Input: /home/boutalebm/github-repos/extending_hytrel/data/ugen_v2/query
+2024-10-25 13:06:32.313 | INFO     | __main__:main:420 - Vector output: /home/boutalebm/github-repos/extending_hytrel/inference/ugen_v2/vectors
+2024-10-25 13:06:32.313 | INFO     | __main__:main:421 - Table process: None
+2024-10-25 13:06:32.314 | INFO     | __main__:main:422 - Number of rows: 30
+2024-10-25 13:06:32.314 | INFO     | __main__:main:423 - Column names: None
+2024-10-25 13:06:32.314 | INFO     | __main__:main:425 - Processing /home/boutalebm/github-repos/extending_hytrel/data/ugen_v2/query
+2024-10-25 13:06:37.690 | INFO     | __main__:process_directory:273 - Processing directory: /home/boutalebm/github-repos/extending_hytrel/data/ugen_v2/query
+2024-10-25 13:06:56.175 | INFO     | __main__:process_directory:343 - Number of processed files: 50
+2024-10-25 13:06:56.184 | INFO     | __main__:process_directory:348 - Processing completed for /home/boutalebm/github-repos/extending_hytrel/data/ugen_v2/query
+2024-10-25 13:06:56.184 | INFO     | __main__:process_directory:349 - Total time to retrieve embeddings: 16.30 seconds
+2024-10-25 13:06:56.184 | INFO     | __main__:process_directory:350 - Number of skipped files: 0
+2024-10-25 13:06:56.184 | INFO     | __main__:process_directory:351 - Column vectors saved in /home/boutalebm/github-repos/extending_hytrel/inference/ugen_v2/vectors/hytrel_query_columns_0.pkl
+2024-10-25 13:06:56.198 | SUCCESS  | __main__:main:427 - Processing completed for /home/boutalebm/github-repos/extending_hytrel/data/ugen_v2/query
+2024-10-25 13:06:56.198 | SUCCESS  | __main__:main:428 - Output saved in /home/boutalebm/github-repos/extending_hytrel/inference/ugen_v2/vectors
+2024-10-25 13:07:32.323 | INFO     | __main__:main:418 - Script configurations:
+2024-10-25 13:07:32.324 | INFO     | __main__:main:419 - Input: /home/boutalebm/github-repos/extending_hytrel/data/ugen_v2/datalake
+2024-10-25 13:07:32.324 | INFO     | __main__:main:420 - Vector output: /home/boutalebm/github-repos/extending_hytrel/inference/ugen_v2/vectors
+2024-10-25 13:07:32.324 | INFO     | __main__:main:421 - Table process: None
+2024-10-25 13:07:32.324 | INFO     | __main__:main:422 - Number of rows: 30
+2024-10-25 13:07:32.324 | INFO     | __main__:main:423 - Column names: None
+2024-10-25 13:07:32.324 | INFO     | __main__:main:425 - Processing /home/boutalebm/github-repos/extending_hytrel/data/ugen_v2/datalake
+2024-10-25 13:07:35.764 | INFO     | __main__:process_directory:273 - Processing directory: /home/boutalebm/github-repos/extending_hytrel/data/ugen_v2/datalake
+2024-10-25 13:09:03.044 | INFO     | __main__:process_directory:340 - /home/boutalebm/github-repos/extending_hytrel/data/ugen_v2/datalake/Law_LI4UPAQY.csv is skipped due to having at least 1 null cell in every row
+2024-10-25 13:10:12.297 | INFO     | __main__:process_directory:343 - Number of processed files: 999
+2024-10-25 13:10:12.361 | INFO     | __main__:process_directory:348 - Processing completed for /home/boutalebm/github-repos/extending_hytrel/data/ugen_v2/datalake
+2024-10-25 13:10:12.361 | INFO     | __main__:process_directory:349 - Total time to retrieve embeddings: 140.74 seconds
+2024-10-25 13:10:12.361 | INFO     | __main__:process_directory:350 - Number of skipped files: 1
+2024-10-25 13:10:12.361 | INFO     | __main__:process_directory:351 - Column vectors saved in /home/boutalebm/github-repos/extending_hytrel/inference/ugen_v2/vectors/hytrel_datalake_columns_0.pkl
+2024-10-25 13:10:12.373 | SUCCESS  | __main__:main:427 - Processing completed for /home/boutalebm/github-repos/extending_hytrel/data/ugen_v2/datalake
+2024-10-25 13:10:12.373 | SUCCESS  | __main__:main:428 - Output saved in /home/boutalebm/github-repos/extending_hytrel/inference/ugen_v2/vectors

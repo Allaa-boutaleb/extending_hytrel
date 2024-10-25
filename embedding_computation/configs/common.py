@@ -16,6 +16,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent.parent
 def get_env_or_default(key: str, default: str) -> str:
     return os.environ.get(key, default)
 
+
+
+DATA_FOLDER = "ugen_v2" # "santos", "ugen_v1"
+TYPE = "datalake" # "query", "datalake"
+
+
+
 global_params: Dict[str, Any] = {
     "hytrel_model": str(BASE_DIR / "checkpoints" / "contrast" / "epoch=4-step=32690.ckpt" / "checkpoint" / "mp_rank_00_model_states.pt"),
     "downstream_task": get_env_or_default("DOWNSTREAM_TASK", "union"),
@@ -23,8 +30,8 @@ global_params: Dict[str, Any] = {
 }
 
 input: Dict[str, str] = {
-    "source": str(BASE_DIR / "data" / "santos" / "query"),
-    "type": "query"
+    "source": str(BASE_DIR / "data" / DATA_FOLDER / TYPE),
+    "type": TYPE
 }
 
 computation: Dict[str, Any] = {
@@ -40,6 +47,6 @@ computation: Dict[str, Any] = {
 }
 
 output: Dict[str, str] = {
-    "vectors": str(BASE_DIR / "inference" / "santos" / "vectors"),
-    "auxiliary": str(BASE_DIR / "inference" / "santos" / "auxiliary")
+    "vectors": str(BASE_DIR / "inference" / DATA_FOLDER / "vectors"),
+    "auxiliary": str(BASE_DIR / "inference" / DATA_FOLDER / "auxiliary")
 }

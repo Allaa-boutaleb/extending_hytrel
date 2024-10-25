@@ -5,10 +5,12 @@ import os
 # Get the base directory of the project
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
+DATALAKE = "ugen_v2" # "santos", "ugen_v1", "ugen_v2" 
+
 input = {
-    "datalake": "santos",
-    "datalake_source": str(BASE_DIR / "data" / "santos" / "datalake"),
-    "embedding_source": str(BASE_DIR / "inference" / "santos" / "vectors" / "hytrel_datalake_columns_0.pkl"),
+    "datalake": DATALAKE,
+    "datalake_source": str(BASE_DIR / "data" / DATALAKE / "datalake"),
+    "embedding_source": str(BASE_DIR / "inference" / DATALAKE / "vectors" / "hytrel_datalake_columns_0.pkl"),
     "downstream_task": "union",
 }
 
@@ -20,12 +22,12 @@ clustering = {
     "hierarchical_metric": "cosine",
     "linkage": 'average',
     # HDBSCAN specific parameters
-    "min_cluster_size": 2,
-    "min_samples": 2,
+    "min_cluster_size": 5,
+    "min_samples": 5,
     "hdbscan_metric": "cosine",
 
 }
 
 output = {
-    'result': str(BASE_DIR / "inference" / "santos" / "clustering"),
+    'result': str(BASE_DIR / "inference" / DATALAKE / "clustering"),
 }
