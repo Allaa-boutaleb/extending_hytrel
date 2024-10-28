@@ -44,35 +44,36 @@ def plot_dendrogram(model: AgglomerativeClustering, **kwargs: Any) -> np.ndarray
     dendrogram(linkage_matrix, **kwargs)
     return linkage_matrix
 
-def get_mapping(path: str, offset: Dict[str, Dict[str, int]]) -> pd.DataFrame:
+def get_mapping(embedding_path: str, offset: Dict[str, Dict[str, int]]) -> pd.DataFrame:
     """
-    Create a mapping DataFrame from the given path and offset information.
-
-    Args:
-        path (str): Path to the directory containing CSV files.
-        offset (Dict[str, Dict[str, int]]): Offset information for each dataset.
-
-    Returns:
-        pd.DataFrame: A DataFrame containing the mapping information.
-    """
-    columns = ['index', 'dataset', 'column_index', 'column_name', 'column_name_lower']
-    df_map = pd.DataFrame(columns=columns)
-
-    for i in offset:
-        df_temp = pd.read_csv(f'{path}/{i}')
-        columns = df_temp.columns.tolist()
-        data = [
-            {
-                'index': offset[i]['index'],
-                'dataset': i,
-                'column_index': int(j),
-                'column_name': columns[j],
-                'column_name_lower': columns[j].lower()
-            }
-            for j in range(offset[i]['length'])
-        ]
-        df_map = pd.concat([df_map, pd.DataFrame(data)], ignore_index=True)
+    Create mapping DataFrame based on embeddings structure.
     
+    Args:
+        embedding_path (str): Path to embeddings file
+        offset (Dict[str, Dict[str, int]]): Offset information from embeddings
+    
+    Returns:
+        pd.DataFrame: Mapping DataFrame with proper structure
+    """
+    # Load embeddings to get structure
+    with open(embedding_path, 'rb') as f:
+        embeddingfile = pickle.load(f)
+    
+    # Create mapping data
+    mapping_data = []
+    for table_name, embedding in embeddingfile:
+        num_columns = embedding.shape[0]
+        for col_idx in range(num_columns):
+            mapping_data.append({
+                'index': offset[table_name]['index'],
+                'dataset': table_name,
+                'column_index': col_idx,
+                'column_name': f'col_{col_idx}',  # You can modify this if you have actual column names
+                'column_name_lower': f'col_{col_idx}'.lower()
+            })
+    
+    df_map = pd.DataFrame(mapping_data)
+    logger.info(f"Created mapping with {len(df_map)} entries")
     return df_map
 
 def get_offset_all_embeddings(embeddingfile: List[Tuple[str, np.ndarray]]) -> Tuple[Dict[str, Dict[str, int]], List[np.ndarray]]:
@@ -95,22 +96,24 @@ def get_offset_all_embeddings(embeddingfile: List[Tuple[str, np.ndarray]]) -> Tu
     return offset, all_embeddings
 
 def get_embeddings(path: str) -> Tuple[Dict[str, Dict[str, int]], List[np.ndarray], np.ndarray]:
-    """
-    Load embeddings from the given path.
-
-    Args:
-        path (str): Path to the pickle file containing embeddings.
-
-    Returns:
-        Tuple[Dict[str, Dict[str, int]], List[np.ndarray], np.ndarray]: 
-        Offset information, list of all embeddings, and flattened array of embeddings.
-    """
+    """Load embeddings and create proper offset information."""
     with open(path, 'rb') as f:
         embeddingfile = pickle.load(f)
     
-    offset, all_embeddings = get_offset_all_embeddings(embeddingfile)
+    offset = {}
+    all_embeddings = []
+    current_index = 0
     
-    flattened_array = np.concatenate(all_embeddings)
+    for table_name, embedding in embeddingfile:
+        num_columns = embedding.shape[0]  # Get number of columns for this table
+        offset[table_name] = {
+            'index': current_index,
+            'length': num_columns
+        }
+        current_index += 1
+        all_embeddings.extend([embedding[i] for i in range(num_columns)])
+    
+    flattened_array = np.array(all_embeddings)
     return offset, all_embeddings, flattened_array
 
 def get_cluster_count(linkage_matrix: np.ndarray, threshold: float) -> int:
@@ -202,6 +205,7 @@ def perform_hierarchical_clustering(flattened_array: np.ndarray, df_clustering: 
 
 
 def perform_hdbscan_clustering(flattened_array: np.ndarray, df_clustering: pd.DataFrame, output_path: str, file_name: str):
+    """Perform HDBSCAN clustering with proper module-based config access."""
     logger.info("Performing HDBSCAN clustering")
     
     # Preprocess: Remove rows with NaN values
@@ -211,9 +215,13 @@ def perform_hdbscan_clustering(flattened_array: np.ndarray, df_clustering: pd.Da
     
     logger.info(f"Removed {np.sum(~valid_indices)} rows containing NaN values")
     
-    min_cluster_size = column_clustering_configs.clustering['min_cluster_size']
-    min_samples = column_clustering_configs.clustering['min_samples']
-    metric = column_clustering_configs.clustering['hdbscan_metric']
+    # Import config module directly
+    from configs import column_clustering
+    
+    # Access config attributes as module attributes
+    min_cluster_size = column_clustering.clustering['min_cluster_size']
+    min_samples = column_clustering.clustering['min_samples']
+    metric = column_clustering.clustering['hdbscan_metric']
 
     start_time = time.time()
 
@@ -255,10 +263,10 @@ def perform_hdbscan_clustering(flattened_array: np.ndarray, df_clustering: pd.Da
     # Save clustering summary
     n_clusters = len(set(cluster_labels)) - (1 if -1 in cluster_labels else 0)
     summary = {
-        'n_clusters': int(n_clusters),  # Convert to int
-        'n_noise_points': int(np.sum(all_cluster_labels == -1)),  # Count noise points
-        'n_nan_rows': int(np.sum(~valid_indices)),  # Convert to int
-        'execution_time': float(end_time - start_time)  # Convert to float
+        'n_clusters': int(n_clusters),
+        'n_noise_points': int(np.sum(all_cluster_labels == -1)),
+        'n_nan_rows': int(np.sum(~valid_indices)),
+        'execution_time': float(end_time - start_time)
     }
     summary_path = os.path.join(output_path, 'hdbscan_summary.json')
     with open(summary_path, 'w') as f:
@@ -294,7 +302,7 @@ def main():
     # Load embeddings and create mapping
     logger.info("Loading embeddings and creating mapping")
     offset, all_embeddings, flattened_array = get_embeddings(embedding_path)
-    df_map = get_mapping(datalake_path, offset)
+    df_map = get_mapping(embedding_path, offset)
     df_clustering = df_map.copy()
 
     try:

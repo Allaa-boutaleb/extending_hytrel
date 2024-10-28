@@ -82,3 +82,4 @@ venv.bak/
 checkpoints/
 data/
 inference/
+benchmarks/
